@@ -334,7 +334,7 @@ def labels_for(c):
     hands = c[HANDS]
     if hands >= 4 and c[ALLIN_PRE] >= 0.5 * hands and c[ALLIN_PRE] >= 3:
         out.add("SHOVER")
-    if hands >= 10 and c[VPIP] <= 0.02 * hands and c[FTO] >= 4:
+    if hands >= 6 and c[VPIP] <= 0.02 * hands and c[FTO] >= 3:
         out.add("FOLDBOT")
     vp = rate(c[VPIP], hands, 0.25)
     if hands >= 15 and vp <= 0.14:
@@ -724,6 +724,9 @@ def preflop(state, rec, labels, live, n_opp, my_total, lam, rnd):
             if eq1 >= thr and can_raise:
                 return choose(state, "raise", can_raise.max_amount)
             return choose(state, "fold")
+        behind = [s for s in live if s != me and s not in acted and seats[s].status == "active"]
+        if behind and can_raise and all("FOLDBOT" in labels.get(s, ()) for s in behind):
+            return choose(state, "raise", can_raise.min_amount)  # everyone left folds to any raise
         width = min(K["steal_cap"], OPEN_W[pos] * steal_mult * K["open_mult"])
         if my_bb <= 5.5:
             if pos in ("btn", "sb", "co") or p <= 0.45:
