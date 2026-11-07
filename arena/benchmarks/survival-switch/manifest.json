@@ -1,0 +1,12 @@
+{
+  "agent_sha256": "da078c6e7117daa922affbad3f4df7d9886cdab42be2a62f22da54f16fbe91e8",
+  "archive_sha256": "335cc58ae188a573b6bfab14aa8683e67c5d2d6e144957791cdd9581cc706227",
+  "parent_sha256": "c33ce35230d3febfe0ec0ee6dd857e0db4f8ff840c1c559c71fe8c9ed7ede95b",
+  "shared_dependencies": {
+    "arena/archetypes.py": "e8ac2da18333370343751aba5a55d008d5a5c6b703ad6a004c636716a3bea347",
+    "bots/nc_v5/agent.py": "4af5c98ecc179a8532981fb0c45a2425fa331b247d4e92ec51736b2148db9765",
+    "kit/sdk/engine/src/poker_engine/table.py": "ac7ba6035c8d0438768736cf47cbc6b994e9894028e5c2fabcf8b3228ab4226b",
+    "kit/sdk/engine/src/poker_engine/scoring.py": "015ca07cb504cdbcf70a6fbb5370a4c36253b280ea153cdbf1f9978606c70b84",
+    "kit/sdk/engine/src/poker_engine/variants/flop_discard_reveal.py": "308a2fa00f59af1b1111f775e32a7ae2013b2b913463fe135f48bfa3a2dc193a"
+  }
+}
