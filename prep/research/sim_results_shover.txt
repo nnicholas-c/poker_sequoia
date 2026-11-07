@@ -1,0 +1,150 @@
+lineup=adapt1_50 payouts=flat tables=1200 time=10s
+tables reaching the cap: 42.8%  survivors at cap: {2: 201, 3: 191, 4: 94, 5: 23, 6: 5}
+hands per table: median 161, p10 105, p90 200
+bot        pts/table  +-95%  1st%  cap% 6-8th%  places(1st..8th, 0=survived to cap)
+shove          16.88   1.12  41.9   0.2   57.5  1:42 2:0 4:0 5:0 6:0 7:1 8:56 0:0
+tag            11.94   0.25   1.7  16.6   31.9  1:2 2:9 3:11 4:14 5:15 6:16 7:16 8:0 0:17
+adapt50        11.46   0.77   5.2  24.9   50.7  1:5 2:3 3:5 4:6 5:5 6:5 7:3 8:42 0:25
+
+lineup=adapt7_50 payouts=flat tables=1200 time=9s
+tables reaching the cap: 47.2%  survivors at cap: {2: 322, 3: 176, 4: 59, 5: 9}
+hands per table: median 179, p10 15, p90 200
+bot        pts/table  +-95%  1st%  cap% 6-8th%  places(1st..8th, 0=survived to cap)
+adapt50        13.28   0.27   6.6  17.3   34.2  1:7 2:7 3:11 4:12 5:12 6:12 7:11 8:11 0:17
+shove           7.03   0.64   6.7   0.0   60.2  1:7 2:6 3:5 4:10 5:13 6:19 7:21 8:20
+
+lineup=adapt1_55 payouts=flat tables=1200 time=10s
+tables reaching the cap: 47.8%  survivors at cap: {2: 220, 3: 223, 4: 97, 5: 27, 6: 6}
+hands per table: median 183, p10 107, p90 200
+bot        pts/table  +-95%  1st%  cap% 6-8th%  places(1st..8th, 0=survived to cap)
+shove          14.81   1.09  36.8   0.2   62.7  1:37 2:0 3:0 4:0 5:0 6:0 7:2 8:61 0:0
+adapt55        12.48   0.77   5.0  28.4   45.9  1:5 2:3 3:5 4:7 5:6 6:6 7:3 8:37 0:28
+tag            12.12   0.25   1.8  18.4   31.8  1:2 2:8 3:11 4:14 5:15 6:16 7:16 8:0 0:18
+
+lineup=adapt7_55 payouts=flat tables=1200 time=9s
+tables reaching the cap: 55.8%  survivors at cap: {2: 354, 3: 221, 4: 77, 5: 16, 6: 2}
+hands per table: median 200, p10 40, p90 200
+bot        pts/table  +-95%  1st%  cap% 6-8th%  places(1st..8th, 0=survived to cap)
+adapt55        13.60   0.27   5.6  21.1   32.4  1:6 2:6 3:10 4:12 5:13 6:12 7:11 8:10 0:21
+shove           4.77   0.56   4.8   0.0   73.0  1:5 2:3 3:4 4:6 5:9 6:15 7:25 8:34
+
+lineup=adapt1_60 payouts=flat tables=1200 time=10s
+tables reaching the cap: 47.7%  survivors at cap: {2: 223, 3: 193, 4: 111, 5: 37, 6: 8}
+hands per table: median 184, p10 106, p90 200
+bot        pts/table  +-95%  1st%  cap% 6-8th%  places(1st..8th, 0=survived to cap)
+shove          14.02   1.08  34.9   0.1   64.8  1:35 3:0 4:0 5:0 6:1 7:2 8:62 0:0
+adapt60        13.58   0.79   5.8  30.1   42.1  1:6 2:4 3:4 4:6 5:7 6:4 7:3 8:34 0:30
+tag            12.07   0.25   1.9  18.6   32.1  1:2 2:8 3:11 4:13 5:15 6:16 7:16 8:1 0:19
+
+lineup=adapt7_60 payouts=flat tables=1200 time=11s
+tables reaching the cap: 63.2%  survivors at cap: {2: 379, 3: 256, 4: 96, 5: 27, 6: 1}
+hands per table: median 200, p10 97, p90 200
+bot        pts/table  +-95%  1st%  cap% 6-8th%  places(1st..8th, 0=survived to cap)
+adapt60        13.90   0.27   4.9  24.4   30.9  1:5 2:5 3:9 4:12 5:13 6:12 7:12 8:7 0:24
+shove           2.67   0.42   2.2   0.0   83.7  1:2 2:2 3:2 4:4 5:6 6:12 7:20 8:52
+
+lineup=adapt1_65 payouts=flat tables=1200 time=10s
+tables reaching the cap: 52.0%  survivors at cap: {2: 210, 3: 227, 4: 138, 5: 40, 6: 9}
+hands per table: median 200, p10 109, p90 200
+bot        pts/table  +-95%  1st%  cap% 6-8th%  places(1st..8th, 0=survived to cap)
+adapt65        15.11   0.77   5.7  35.1   35.3  1:6 2:4 3:6 4:7 5:6 6:5 7:4 8:26 0:35
+shove          13.67   1.07  33.5   0.3   64.7  1:34 2:0 3:0 4:0 5:1 6:2 7:4 8:59 0:0
+tag            11.87   0.25   1.5  20.6   33.2  1:1 2:7 3:10 4:13 5:15 6:15 7:15 8:2 0:21
+
+lineup=adapt7_65 payouts=flat tables=1200 time=12s
+tables reaching the cap: 71.3%  survivors at cap: {2: 384, 3: 287, 4: 147, 5: 32, 6: 6}
+hands per table: median 200, p10 124, p90 200
+bot        pts/table  +-95%  1st%  cap% 6-8th%  places(1st..8th, 0=survived to cap)
+adapt65        14.08   0.26   3.9  28.7   29.8  1:4 2:4 3:9 4:12 5:13 6:13 7:12 8:5 0:29
+shove           1.44   0.33   1.6   0.0   91.2  1:2 2:1 3:1 4:2 5:4 6:7 7:19 8:65
+
+lineup=adapt1_70 payouts=flat tables=1200 time=10s
+tables reaching the cap: 40.4%  survivors at cap: {2: 164, 3: 160, 4: 109, 5: 45, 6: 6, 7: 1}
+hands per table: median 163, p10 112, p90 200
+bot        pts/table  +-95%  1st%  cap% 6-8th%  places(1st..8th, 0=survived to cap)
+shove          19.10   1.11  45.6   0.8   49.7  1:46 2:1 3:0 4:1 5:2 6:2 7:4 8:43 0:1
+adapt70        16.76   0.72   6.8  26.5   25.4  1:7 2:15 3:10 4:8 5:8 6:5 7:5 8:16 0:26
+tag            10.69   0.24   1.2  16.5   37.4  1:1 2:7 3:10 4:13 5:14 6:15 7:15 8:7 0:16
+
+lineup=adapt7_70 payouts=flat tables=1200 time=12s
+tables reaching the cap: 75.9%  survivors at cap: {2: 368, 3: 318, 4: 167, 5: 52, 6: 6}
+hands per table: median 200, p10 140, p90 200
+bot        pts/table  +-95%  1st%  cap% 6-8th%  places(1st..8th, 0=survived to cap)
+adapt70        14.11   0.26   3.1  31.6   29.2  1:3 2:3 3:8 4:12 5:13 6:13 7:12 8:4 0:32
+shove           1.22   0.35   2.2   0.0   94.8  1:2 2:0 3:0 4:0 5:2 6:6 7:15 8:74
+
+lineup=adapt1_50 payouts=topheavy tables=1200 time=9s
+tables reaching the cap: 42.8%  survivors at cap: {2: 201, 3: 191, 4: 94, 5: 23, 6: 5}
+hands per table: median 161, p10 105, p90 200
+bot        pts/table  +-95%  1st%  cap% 6-8th%  places(1st..8th, 0=survived to cap)
+shove          25.26   1.67  41.9   0.2   57.5  1:42 2:0 4:0 5:0 6:0 7:1 8:56 0:0
+adapt50        12.80   1.04   5.2  24.9   50.7  1:5 2:3 3:5 4:6 5:5 6:5 7:3 8:42 0:25
+tag            10.32   0.33   1.7  16.6   31.9  1:2 2:9 3:11 4:14 5:15 6:16 7:16 8:0 0:17
+
+lineup=adapt7_50 payouts=topheavy tables=1200 time=9s
+tables reaching the cap: 47.2%  survivors at cap: {2: 322, 3: 176, 4: 59, 5: 9}
+hands per table: median 179, p10 15, p90 200
+bot        pts/table  +-95%  1st%  cap% 6-8th%  places(1st..8th, 0=survived to cap)
+adapt50        13.37   0.40   6.6  17.3   34.2  1:7 2:7 3:11 4:12 5:12 6:12 7:11 8:11 0:17
+shove           6.42   0.88   6.7   0.0   60.2  1:7 2:6 3:5 4:10 5:13 6:19 7:21 8:20
+
+lineup=adapt1_55 payouts=topheavy tables=1200 time=9s
+tables reaching the cap: 47.8%  survivors at cap: {2: 220, 3: 223, 4: 97, 5: 27, 6: 6}
+hands per table: median 183, p10 107, p90 200
+bot        pts/table  +-95%  1st%  cap% 6-8th%  places(1st..8th, 0=survived to cap)
+shove          22.16   1.64  36.8   0.2   62.7  1:37 2:0 3:0 4:0 5:0 6:0 7:2 8:61 0:0
+adapt55        13.86   1.05   5.0  28.4   45.9  1:5 2:3 3:5 4:7 5:6 6:6 7:3 8:37 0:28
+tag            10.66   0.34   1.8  18.4   31.8  1:2 2:8 3:11 4:14 5:15 6:16 7:16 8:0 0:18
+
+lineup=adapt7_55 payouts=topheavy tables=1200 time=9s
+tables reaching the cap: 55.8%  survivors at cap: {2: 354, 3: 221, 4: 77, 5: 16, 6: 2}
+hands per table: median 200, p10 40, p90 200
+bot        pts/table  +-95%  1st%  cap% 6-8th%  places(1st..8th, 0=survived to cap)
+adapt55        13.66   0.39   5.6  21.1   32.4  1:6 2:6 3:10 4:12 5:13 6:12 7:11 8:10 0:21
+shove           4.39   0.75   4.8   0.0   73.0  1:5 2:3 3:4 4:6 5:9 6:15 7:25 8:34
+
+lineup=adapt1_60 payouts=topheavy tables=1200 time=10s
+tables reaching the cap: 47.7%  survivors at cap: {2: 223, 3: 193, 4: 111, 5: 37, 6: 8}
+hands per table: median 184, p10 106, p90 200
+bot        pts/table  +-95%  1st%  cap% 6-8th%  places(1st..8th, 0=survived to cap)
+shove          21.00   1.62  34.9   0.1   64.8  1:35 3:0 4:0 5:0 6:1 7:2 8:62 0:0
+adapt60        15.28   1.09   5.8  30.1   42.1  1:6 2:4 3:4 4:6 5:7 6:4 7:3 8:34 0:30
+tag            10.62   0.34   1.9  18.6   32.1  1:2 2:8 3:11 4:13 5:15 6:16 7:16 8:1 0:19
+
+lineup=adapt7_60 payouts=topheavy tables=1200 time=11s
+tables reaching the cap: 63.2%  survivors at cap: {2: 379, 3: 256, 4: 96, 5: 27, 6: 1}
+hands per table: median 200, p10 97, p90 200
+bot        pts/table  +-95%  1st%  cap% 6-8th%  places(1st..8th, 0=survived to cap)
+adapt60        13.97   0.39   4.9  24.4   30.9  1:5 2:5 3:9 4:12 5:13 6:12 7:12 8:7 0:24
+shove           2.24   0.53   2.2   0.0   83.7  1:2 2:2 3:2 4:4 5:6 6:12 7:20 8:52
+
+lineup=adapt1_65 payouts=topheavy tables=1200 time=10s
+tables reaching the cap: 52.0%  survivors at cap: {2: 210, 3: 227, 4: 138, 5: 40, 6: 9}
+hands per table: median 200, p10 109, p90 200
+bot        pts/table  +-95%  1st%  cap% 6-8th%  places(1st..8th, 0=survived to cap)
+shove          20.30   1.60  33.5   0.3   64.7  1:34 2:0 3:0 4:0 5:1 6:2 7:4 8:59 0:0
+adapt65        16.89   1.07   5.7  35.1   35.3  1:6 2:4 3:6 4:7 5:6 6:5 7:4 8:26 0:35
+tag            10.47   0.33   1.5  20.6   33.2  1:1 2:7 3:10 4:13 5:15 6:15 7:15 8:2 0:21
+
+lineup=adapt7_65 payouts=topheavy tables=1200 time=11s
+tables reaching the cap: 71.3%  survivors at cap: {2: 384, 3: 287, 4: 147, 5: 32, 6: 6}
+hands per table: median 200, p10 124, p90 200
+bot        pts/table  +-95%  1st%  cap% 6-8th%  places(1st..8th, 0=survived to cap)
+adapt65        14.10   0.38   3.9  28.7   29.8  1:4 2:4 3:9 4:12 5:13 6:13 7:12 8:5 0:29
+shove           1.28   0.44   1.6   0.0   91.2  1:2 2:1 3:1 4:2 5:4 6:7 7:19 8:65
+
+lineup=adapt1_70 payouts=topheavy tables=1200 time=10s
+tables reaching the cap: 40.4%  survivors at cap: {2: 164, 3: 160, 4: 109, 5: 45, 6: 6, 7: 1}
+hands per table: median 163, p10 112, p90 200
+bot        pts/table  +-95%  1st%  cap% 6-8th%  places(1st..8th, 0=survived to cap)
+shove          28.12   1.68  45.6   0.8   49.7  1:46 2:1 3:0 4:1 5:2 6:2 7:4 8:43 0:1
+adapt70        17.88   1.04   6.8  26.5   25.4  1:7 2:15 3:10 4:8 5:8 6:5 7:5 8:16 0:26
+tag             9.00   0.31   1.2  16.5   37.4  1:1 2:7 3:10 4:13 5:14 6:15 7:15 8:7 0:16
+
+lineup=adapt7_70 payouts=topheavy tables=1200 time=12s
+tables reaching the cap: 75.9%  survivors at cap: {2: 368, 3: 318, 4: 167, 5: 52, 6: 6}
+hands per table: median 200, p10 140, p90 200
+bot        pts/table  +-95%  1st%  cap% 6-8th%  places(1st..8th, 0=survived to cap)
+adapt70        14.08   0.37   3.1  31.6   29.2  1:3 2:3 3:8 4:12 5:13 6:13 7:12 8:4 0:32
+shove           1.47   0.51   2.2   0.0   94.8  1:2 2:0 3:0 4:0 5:2 6:6 7:15 8:74
+

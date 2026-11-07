@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+hand-history/*.jsonl.gz
+!kit/hand-history/sample.jsonl.gz
+*.zip

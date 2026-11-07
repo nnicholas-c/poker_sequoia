@@ -1,0 +1,1787 @@
+{
+  "schema_version": 1,
+  "variant": "flop_discard_reveal",
+  "description": "Synthetic scenario collection with varying table rules, not one configured live round. Complete tables illustrate mechanics, not exhaustive outcomes or event settings.",
+  "indexes": "iteration/table/event_index/hand_index/seat are zero-based; hand is the one-based hand number.",
+  "case_locations": "Each case lists up to three verified examples, not every occurrence; case_counts gives the occurrence count.",
+  "tables": [
+    {
+      "iteration": 0,
+      "table": 0,
+      "name": "choices-and-fallbacks",
+      "seed": "stanford-core-0",
+      "players": 8,
+      "starting_stack": 2000,
+      "hand_cap": 10,
+      "blinds": [
+        [
+          5,
+          10,
+          1
+        ],
+        [
+          10,
+          20,
+          2
+        ],
+        [
+          20,
+          40,
+          3
+        ]
+      ],
+      "hands_per_level": 2,
+      "hands": 10,
+      "your_seat": 1,
+      "your_seat_is_filler": false,
+      "payouts": [
+        58,
+        26,
+        16
+      ]
+    },
+    {
+      "iteration": 1,
+      "table": 0,
+      "name": "side-pots-and-busts",
+      "seed": "sample-hands:0:0",
+      "players": 8,
+      "starting_stack": 2000,
+      "hand_cap": 5,
+      "blinds": [
+        [
+          10,
+          20,
+          0
+        ],
+        [
+          20,
+          40,
+          0
+        ],
+        [
+          30,
+          60,
+          0
+        ],
+        [
+          50,
+          100,
+          0
+        ],
+        [
+          80,
+          160,
+          0
+        ],
+        [
+          125,
+          250,
+          0
+        ],
+        [
+          200,
+          400,
+          0
+        ],
+        [
+          300,
+          600,
+          0
+        ],
+        [
+          500,
+          1000,
+          0
+        ],
+        [
+          800,
+          1600,
+          0
+        ],
+        [
+          1200,
+          2400,
+          0
+        ],
+        [
+          2000,
+          4000,
+          0
+        ]
+      ],
+      "hands_per_level": 20,
+      "hands": 5,
+      "your_seat": 1,
+      "your_seat_is_filler": false,
+      "payouts": [
+        50,
+        30,
+        20
+      ]
+    },
+    {
+      "iteration": 1,
+      "table": 1,
+      "name": "filler-seat",
+      "seed": "sample-hands:0:1",
+      "players": 8,
+      "starting_stack": 2000,
+      "hand_cap": 5,
+      "blinds": [
+        [
+          10,
+          20,
+          0
+        ],
+        [
+          20,
+          40,
+          0
+        ],
+        [
+          30,
+          60,
+          0
+        ],
+        [
+          50,
+          100,
+          0
+        ],
+        [
+          80,
+          160,
+          0
+        ],
+        [
+          125,
+          250,
+          0
+        ],
+        [
+          200,
+          400,
+          0
+        ],
+        [
+          300,
+          600,
+          0
+        ],
+        [
+          500,
+          1000,
+          0
+        ],
+        [
+          800,
+          1600,
+          0
+        ],
+        [
+          1200,
+          2400,
+          0
+        ],
+        [
+          2000,
+          4000,
+          0
+        ]
+      ],
+      "hands_per_level": 20,
+      "hands": 5,
+      "your_seat": 7,
+      "your_seat_is_filler": true,
+      "payouts": [
+        50,
+        30,
+        20
+      ]
+    },
+    {
+      "iteration": 2,
+      "table": 0,
+      "name": "flop-and-turn-folds-with-prizes",
+      "seed": "stanford-prizes-0",
+      "players": 2,
+      "starting_stack": 2000,
+      "hand_cap": 2,
+      "blinds": [
+        [
+          10,
+          20,
+          0
+        ],
+        [
+          20,
+          40,
+          0
+        ],
+        [
+          30,
+          60,
+          0
+        ],
+        [
+          50,
+          100,
+          0
+        ],
+        [
+          80,
+          160,
+          0
+        ],
+        [
+          125,
+          250,
+          0
+        ],
+        [
+          200,
+          400,
+          0
+        ],
+        [
+          300,
+          600,
+          0
+        ],
+        [
+          500,
+          1000,
+          0
+        ],
+        [
+          800,
+          1600,
+          0
+        ],
+        [
+          1200,
+          2400,
+          0
+        ],
+        [
+          2000,
+          4000,
+          0
+        ]
+      ],
+      "hands_per_level": 20,
+      "hands": 2,
+      "your_seat": 1,
+      "your_seat_is_filler": false,
+      "payouts": [
+        70,
+        30
+      ]
+    },
+    {
+      "iteration": 3,
+      "table": 1,
+      "name": "preflop-all-in",
+      "seed": "stanford-preflop-all-in",
+      "players": 2,
+      "starting_stack": 2000,
+      "hand_cap": 1,
+      "blinds": [
+        [
+          10,
+          20,
+          0
+        ],
+        [
+          20,
+          40,
+          0
+        ],
+        [
+          30,
+          60,
+          0
+        ],
+        [
+          50,
+          100,
+          0
+        ],
+        [
+          80,
+          160,
+          0
+        ],
+        [
+          125,
+          250,
+          0
+        ],
+        [
+          200,
+          400,
+          0
+        ],
+        [
+          300,
+          600,
+          0
+        ],
+        [
+          500,
+          1000,
+          0
+        ],
+        [
+          800,
+          1600,
+          0
+        ],
+        [
+          1200,
+          2400,
+          0
+        ],
+        [
+          2000,
+          4000,
+          0
+        ]
+      ],
+      "hands_per_level": 20,
+      "hands": 1,
+      "your_seat": 1,
+      "your_seat_is_filler": false,
+      "payouts": [
+        70,
+        30
+      ]
+    },
+    {
+      "iteration": 4,
+      "table": 2,
+      "name": "flop-all-in",
+      "seed": "stanford-flop-all-in",
+      "players": 2,
+      "starting_stack": 2000,
+      "hand_cap": 1,
+      "blinds": [
+        [
+          10,
+          20,
+          0
+        ],
+        [
+          20,
+          40,
+          0
+        ],
+        [
+          30,
+          60,
+          0
+        ],
+        [
+          50,
+          100,
+          0
+        ],
+        [
+          80,
+          160,
+          0
+        ],
+        [
+          125,
+          250,
+          0
+        ],
+        [
+          200,
+          400,
+          0
+        ],
+        [
+          300,
+          600,
+          0
+        ],
+        [
+          500,
+          1000,
+          0
+        ],
+        [
+          800,
+          1600,
+          0
+        ],
+        [
+          1200,
+          2400,
+          0
+        ],
+        [
+          2000,
+          4000,
+          0
+        ]
+      ],
+      "hands_per_level": 20,
+      "hands": 1,
+      "your_seat": 0,
+      "your_seat_is_filler": false,
+      "payouts": [
+        70,
+        30
+      ]
+    },
+    {
+      "iteration": 5,
+      "table": 3,
+      "name": "turn-all-in",
+      "seed": "stanford-turn-all-in",
+      "players": 2,
+      "starting_stack": 2000,
+      "hand_cap": 1,
+      "blinds": [
+        [
+          10,
+          20,
+          0
+        ],
+        [
+          20,
+          40,
+          0
+        ],
+        [
+          30,
+          60,
+          0
+        ],
+        [
+          50,
+          100,
+          0
+        ],
+        [
+          80,
+          160,
+          0
+        ],
+        [
+          125,
+          250,
+          0
+        ],
+        [
+          200,
+          400,
+          0
+        ],
+        [
+          300,
+          600,
+          0
+        ],
+        [
+          500,
+          1000,
+          0
+        ],
+        [
+          800,
+          1600,
+          0
+        ],
+        [
+          1200,
+          2400,
+          0
+        ],
+        [
+          2000,
+          4000,
+          0
+        ]
+      ],
+      "hands_per_level": 20,
+      "hands": 1,
+      "your_seat": 1,
+      "your_seat_is_filler": false,
+      "payouts": [
+        70,
+        30
+      ]
+    },
+    {
+      "iteration": 6,
+      "table": 2,
+      "name": "river-all-in",
+      "seed": "stanford-river-all-in",
+      "players": 2,
+      "starting_stack": 2000,
+      "hand_cap": 1,
+      "blinds": [
+        [
+          10,
+          20,
+          0
+        ],
+        [
+          20,
+          40,
+          0
+        ],
+        [
+          30,
+          60,
+          0
+        ],
+        [
+          50,
+          100,
+          0
+        ],
+        [
+          80,
+          160,
+          0
+        ],
+        [
+          125,
+          250,
+          0
+        ],
+        [
+          200,
+          400,
+          0
+        ],
+        [
+          300,
+          600,
+          0
+        ],
+        [
+          500,
+          1000,
+          0
+        ],
+        [
+          800,
+          1600,
+          0
+        ],
+        [
+          1200,
+          2400,
+          0
+        ],
+        [
+          2000,
+          4000,
+          0
+        ]
+      ],
+      "hands_per_level": 20,
+      "hands": 1,
+      "your_seat": 0,
+      "your_seat_is_filler": false,
+      "payouts": [
+        70,
+        30
+      ]
+    },
+    {
+      "iteration": 7,
+      "table": 1,
+      "name": "short-blind-and-one-survivor",
+      "seed": "stanford-short-blinds",
+      "players": 2,
+      "starting_stack": 15,
+      "hand_cap": 3,
+      "blinds": [
+        [
+          10,
+          20,
+          0
+        ],
+        [
+          20,
+          40,
+          0
+        ],
+        [
+          30,
+          60,
+          0
+        ],
+        [
+          50,
+          100,
+          0
+        ],
+        [
+          80,
+          160,
+          0
+        ],
+        [
+          125,
+          250,
+          0
+        ],
+        [
+          200,
+          400,
+          0
+        ],
+        [
+          300,
+          600,
+          0
+        ],
+        [
+          500,
+          1000,
+          0
+        ],
+        [
+          800,
+          1600,
+          0
+        ],
+        [
+          1200,
+          2400,
+          0
+        ],
+        [
+          2000,
+          4000,
+          0
+        ]
+      ],
+      "hands_per_level": 20,
+      "hands": 1,
+      "your_seat": 1,
+      "your_seat_is_filler": false,
+      "payouts": [
+        70,
+        30
+      ]
+    }
+  ],
+  "cases": {
+    "varying_payouts": [
+      {
+        "iteration": 0,
+        "table": 0,
+        "payouts": [
+          58,
+          26,
+          16
+        ]
+      },
+      {
+        "iteration": 1,
+        "table": 0,
+        "payouts": [
+          50,
+          30,
+          20
+        ]
+      },
+      {
+        "iteration": 1,
+        "table": 1,
+        "payouts": [
+          50,
+          30,
+          20
+        ]
+      }
+    ],
+    "hand_cap_with_multiple_survivors_and_icm": [
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 10,
+        "hand_index": 9,
+        "field": "equity_after"
+      },
+      {
+        "iteration": 1,
+        "table": 0,
+        "hand": 5,
+        "hand_index": 4,
+        "field": "equity_after"
+      },
+      {
+        "iteration": 1,
+        "table": 1,
+        "hand": 5,
+        "hand_index": 4,
+        "field": "equity_after"
+      }
+    ],
+    "selection_2_0": [
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 1,
+        "hand_index": 0,
+        "event_index": 19,
+        "seat": 4,
+        "scripted_choice": [
+          2,
+          0
+        ]
+      },
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 2,
+        "hand_index": 1,
+        "event_index": 24,
+        "seat": 3,
+        "scripted_choice": [
+          2,
+          0
+        ]
+      },
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 3,
+        "hand_index": 2,
+        "event_index": 21,
+        "seat": 1,
+        "scripted_choice": [
+          2,
+          0
+        ]
+      }
+    ],
+    "selection_2_1": [
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 1,
+        "hand_index": 0,
+        "event_index": 20,
+        "seat": 5,
+        "scripted_choice": [
+          2,
+          1
+        ]
+      },
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 2,
+        "hand_index": 1,
+        "event_index": 25,
+        "seat": 4,
+        "scripted_choice": [
+          2,
+          1
+        ]
+      },
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 3,
+        "hand_index": 2,
+        "event_index": 23,
+        "seat": 3,
+        "scripted_choice": [
+          2,
+          1
+        ]
+      }
+    ],
+    "selection_0_1": [
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 1,
+        "hand_index": 0,
+        "event_index": 21,
+        "seat": 6,
+        "scripted_choice": [
+          0,
+          1
+        ]
+      },
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 1,
+        "hand_index": 0,
+        "event_index": 23,
+        "seat": 0,
+        "scripted_choice": [
+          0,
+          1
+        ]
+      },
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 2,
+        "hand_index": 1,
+        "event_index": 19,
+        "seat": 5,
+        "scripted_choice": [
+          0,
+          1
+        ]
+      }
+    ],
+    "selection_0_2": [
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 1,
+        "hand_index": 0,
+        "event_index": 22,
+        "seat": 7,
+        "scripted_choice": [
+          0,
+          2
+        ]
+      },
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 1,
+        "hand_index": 0,
+        "event_index": 24,
+        "seat": 1,
+        "scripted_choice": [
+          0,
+          2
+        ]
+      },
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 2,
+        "hand_index": 1,
+        "event_index": 20,
+        "seat": 6,
+        "scripted_choice": [
+          0,
+          2
+        ]
+      }
+    ],
+    "own_nondefault_selection": [
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 1,
+        "hand_index": 0,
+        "event_index": 24,
+        "seat": 1,
+        "scripted_choice": [
+          0,
+          2
+        ]
+      },
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 5,
+        "hand_index": 4,
+        "event_index": 20,
+        "seat": 1,
+        "scripted_choice": [
+          2,
+          1
+        ]
+      },
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 6,
+        "hand_index": 5,
+        "event_index": 19,
+        "seat": 1,
+        "scripted_choice": [
+          0,
+          1
+        ]
+      }
+    ],
+    "selection_1_0": [
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 1,
+        "hand_index": 0,
+        "event_index": 25,
+        "seat": 2,
+        "scripted_choice": [
+          1,
+          0
+        ]
+      },
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 2,
+        "hand_index": 1,
+        "event_index": 21,
+        "seat": 7,
+        "scripted_choice": [
+          1,
+          0
+        ]
+      },
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 3,
+        "hand_index": 2,
+        "event_index": 19,
+        "seat": 6,
+        "scripted_choice": [
+          1,
+          0
+        ]
+      }
+    ],
+    "selection_1_2": [
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 1,
+        "hand_index": 0,
+        "event_index": 26,
+        "seat": 3,
+        "scripted_choice": [
+          1,
+          2
+        ]
+      },
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 2,
+        "hand_index": 1,
+        "event_index": 23,
+        "seat": 2,
+        "scripted_choice": [
+          1,
+          2
+        ]
+      },
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 3,
+        "hand_index": 2,
+        "event_index": 20,
+        "seat": 7,
+        "scripted_choice": [
+          1,
+          2
+        ]
+      }
+    ],
+    "own_automatic_check": [
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 1,
+        "hand_index": 0,
+        "event_index": 40,
+        "seat": 1
+      }
+    ],
+    "own_automatic_fold": [
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 2,
+        "hand_index": 1,
+        "event_index": 12,
+        "seat": 1
+      }
+    ],
+    "opponent_automatic_marker_omitted": [
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 3,
+        "hand_index": 2,
+        "event_index": 10,
+        "seat": 0
+      },
+      {
+        "iteration": 1,
+        "table": 0,
+        "hand": 3,
+        "hand_index": 2,
+        "event_index": 4,
+        "seat": 3
+      },
+      {
+        "iteration": 1,
+        "table": 1,
+        "hand": 3,
+        "hand_index": 2,
+        "event_index": 3,
+        "seat": 1
+      }
+    ],
+    "own_automatic_select": [
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 3,
+        "hand_index": 2,
+        "event_index": 21,
+        "seat": 1
+      },
+      {
+        "iteration": 1,
+        "table": 0,
+        "hand": 3,
+        "hand_index": 2,
+        "event_index": 13,
+        "seat": 1
+      },
+      {
+        "iteration": 1,
+        "table": 1,
+        "hand": 3,
+        "hand_index": 2,
+        "event_index": 12,
+        "seat": 7
+      }
+    ],
+    "ante": [
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 1,
+        "hand_index": 0,
+        "event_index": 0,
+        "seat": 4
+      },
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 1,
+        "hand_index": 0,
+        "event_index": 1,
+        "seat": 5
+      },
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 1,
+        "hand_index": 0,
+        "event_index": 2,
+        "seat": 6
+      }
+    ],
+    "board_ends_with_5_cards": [
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 1,
+        "hand_index": 0
+      },
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 2,
+        "hand_index": 1
+      },
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 3,
+        "hand_index": 2
+      }
+    ],
+    "mandatory_showdown_reveals_every_contender": [
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 1,
+        "hand_index": 0
+      },
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 2,
+        "hand_index": 1
+      },
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 3,
+        "hand_index": 2
+      }
+    ],
+    "changing_blinds": [
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 3,
+        "hand_index": 2,
+        "blinds": [
+          10,
+          20,
+          2
+        ]
+      },
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 5,
+        "hand_index": 4,
+        "blinds": [
+          20,
+          40,
+          3
+        ]
+      }
+    ],
+    "reveal_persists_after_fold": [
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 4,
+        "hand_index": 3,
+        "event_index": 37,
+        "seat": 1,
+        "reveal_event_index": 29
+      },
+      {
+        "iteration": 2,
+        "table": 0,
+        "hand": 1,
+        "hand_index": 0,
+        "event_index": 11,
+        "seat": 0,
+        "reveal_event_index": 7
+      },
+      {
+        "iteration": 2,
+        "table": 0,
+        "hand": 2,
+        "hand_index": 1,
+        "event_index": 13,
+        "seat": 0,
+        "reveal_event_index": 8
+      }
+    ],
+    "own_successful_selection_then_fold_with_ambiguous_discard": [
+      {
+        "iteration": 0,
+        "table": 0,
+        "hand": 4,
+        "hand_index": 3,
+        "event_index": 37,
+        "seat": 1,
+        "private_field": "you.cards[3]"
+      }
+    ],
+    "preflop_all_in": [
+      {
+        "iteration": 1,
+        "table": 0,
+        "hand": 4,
+        "hand_index": 3,
+        "event_index": 2,
+        "seat": 2
+      },
+      {
+        "iteration": 1,
+        "table": 0,
+        "hand": 4,
+        "hand_index": 3,
+        "event_index": 4,
+        "seat": 3
+      },
+      {
+        "iteration": 1,
+        "table": 0,
+        "hand": 4,
+        "hand_index": 3,
+        "event_index": 5,
+        "seat": 4
+      }
+    ],
+    "short_all_in_call": [
+      {
+        "iteration": 1,
+        "table": 0,
+        "hand": 4,
+        "hand_index": 3,
+        "event_index": 4,
+        "seat": 3
+      },
+      {
+        "iteration": 1,
+        "table": 0,
+        "hand": 4,
+        "hand_index": 3,
+        "event_index": 5,
+        "seat": 4
+      },
+      {
+        "iteration": 1,
+        "table": 0,
+        "hand": 4,
+        "hand_index": 3,
+        "event_index": 6,
+        "seat": 5
+      }
+    ],
+    "board_ends_with_0_cards": [
+      {
+        "iteration": 1,
+        "table": 0,
+        "hand": 1,
+        "hand_index": 0
+      },
+      {
+        "iteration": 1,
+        "table": 1,
+        "hand": 1,
+        "hand_index": 0
+      }
+    ],
+    "prize_the_shover": [
+      {
+        "iteration": 1,
+        "table": 0,
+        "hand": 4,
+        "hand_index": 3,
+        "event_index": 3,
+        "seat": 2
+      },
+      {
+        "iteration": 1,
+        "table": 1,
+        "hand": 4,
+        "hand_index": 3,
+        "event_index": 3,
+        "seat": 1
+      },
+      {
+        "iteration": 3,
+        "table": 1,
+        "hand": 1,
+        "hand_index": 0,
+        "event_index": 3,
+        "seat": 1
+      }
+    ],
+    "all_in_selection_before_river_show": [
+      {
+        "iteration": 1,
+        "table": 0,
+        "hand": 4,
+        "hand_index": 3,
+        "event_index": 30,
+        "seat": 0,
+        "reveal_event_index": 20
+      },
+      {
+        "iteration": 1,
+        "table": 0,
+        "hand": 4,
+        "hand_index": 3,
+        "event_index": 31,
+        "seat": 1,
+        "reveal_event_index": 21
+      },
+      {
+        "iteration": 1,
+        "table": 0,
+        "hand": 4,
+        "hand_index": 3,
+        "event_index": 32,
+        "seat": 2,
+        "reveal_event_index": 22
+      }
+    ],
+    "side_pots": [
+      {
+        "iteration": 1,
+        "table": 0,
+        "hand": 4,
+        "hand_index": 3,
+        "event_indexes": [
+          38,
+          39
+        ]
+      },
+      {
+        "iteration": 1,
+        "table": 1,
+        "hand": 4,
+        "hand_index": 3,
+        "event_indexes": [
+          47,
+          48
+        ]
+      }
+    ],
+    "implicit_uncalled_refund": [
+      {
+        "iteration": 1,
+        "table": 0,
+        "hand": 4,
+        "hand_index": 3,
+        "seat": 2,
+        "amount": 180,
+        "field": "stacks_after"
+      }
+    ],
+    "bust_followed_by_empty_private_cards": [
+      {
+        "iteration": 1,
+        "table": 0,
+        "hand": 5,
+        "hand_index": 4,
+        "seat": 1,
+        "private_field": "you.cards[4]"
+      },
+      {
+        "iteration": 1,
+        "table": 1,
+        "hand": 5,
+        "hand_index": 4,
+        "seat": 7,
+        "private_field": "you.cards[4]"
+      }
+    ],
+    "busted_seat_slots_without_stack_events": [
+      {
+        "iteration": 1,
+        "table": 0,
+        "hand": 5,
+        "hand_index": 4,
+        "seat": 0,
+        "field": "stacks_after"
+      },
+      {
+        "iteration": 1,
+        "table": 0,
+        "hand": 5,
+        "hand_index": 4,
+        "seat": 1,
+        "field": "stacks_after"
+      },
+      {
+        "iteration": 1,
+        "table": 0,
+        "hand": 5,
+        "hand_index": 4,
+        "seat": 3,
+        "field": "stacks_after"
+      }
+    ],
+    "own_filler_seat": [
+      {
+        "iteration": 1,
+        "table": 1,
+        "seat": 7,
+        "private_field": "you.seat"
+      }
+    ],
+    "split_pot": [
+      {
+        "iteration": 1,
+        "table": 1,
+        "hand": 3,
+        "hand_index": 2,
+        "event_indexes": [
+          55,
+          56
+        ]
+      },
+      {
+        "iteration": 4,
+        "table": 2,
+        "hand": 1,
+        "hand_index": 0,
+        "event_indexes": [
+          16,
+          17
+        ]
+      }
+    ],
+    "heads_up": [
+      {
+        "iteration": 2,
+        "table": 0
+      },
+      {
+        "iteration": 3,
+        "table": 1
+      },
+      {
+        "iteration": 4,
+        "table": 2
+      }
+    ],
+    "zero_own_automatic_actions": [
+      {
+        "iteration": 2,
+        "table": 0,
+        "private_field": "you.automatic"
+      },
+      {
+        "iteration": 3,
+        "table": 1,
+        "private_field": "you.automatic"
+      },
+      {
+        "iteration": 4,
+        "table": 2,
+        "private_field": "you.automatic"
+      }
+    ],
+    "prize_the_empty_bluffer": [
+      {
+        "iteration": 2,
+        "table": 0,
+        "hand": 1,
+        "hand_index": 0,
+        "event_index": 15,
+        "seat": 1
+      },
+      {
+        "iteration": 2,
+        "table": 0,
+        "hand": 2,
+        "hand_index": 1,
+        "event_index": 17,
+        "seat": 1
+      }
+    ],
+    "prize_marker_after_final_stacks": [
+      {
+        "iteration": 2,
+        "table": 0,
+        "hand": 1,
+        "hand_index": 0,
+        "event_index": 15,
+        "seat": 1
+      },
+      {
+        "iteration": 2,
+        "table": 0,
+        "hand": 2,
+        "hand_index": 1,
+        "event_index": 17,
+        "seat": 1
+      }
+    ],
+    "board_ends_with_3_cards": [
+      {
+        "iteration": 2,
+        "table": 0,
+        "hand": 1,
+        "hand_index": 0
+      }
+    ],
+    "board_ends_with_4_cards": [
+      {
+        "iteration": 2,
+        "table": 0,
+        "hand": 2,
+        "hand_index": 1
+      }
+    ],
+    "one_survivor_table_end": [
+      {
+        "iteration": 3,
+        "table": 1,
+        "hand": 1,
+        "hand_index": 0,
+        "field": "stacks_after"
+      },
+      {
+        "iteration": 5,
+        "table": 3,
+        "hand": 1,
+        "hand_index": 0,
+        "field": "stacks_after"
+      },
+      {
+        "iteration": 6,
+        "table": 2,
+        "hand": 1,
+        "hand_index": 0,
+        "field": "stacks_after"
+      }
+    ],
+    "flop_all_in": [
+      {
+        "iteration": 4,
+        "table": 2,
+        "hand": 1,
+        "hand_index": 0,
+        "event_index": 9,
+        "seat": 0
+      },
+      {
+        "iteration": 4,
+        "table": 2,
+        "hand": 1,
+        "hand_index": 0,
+        "event_index": 11,
+        "seat": 1
+      }
+    ],
+    "turn_all_in": [
+      {
+        "iteration": 5,
+        "table": 3,
+        "hand": 1,
+        "hand_index": 0,
+        "event_index": 12,
+        "seat": 1
+      },
+      {
+        "iteration": 5,
+        "table": 3,
+        "hand": 1,
+        "hand_index": 0,
+        "event_index": 14,
+        "seat": 0
+      }
+    ],
+    "river_all_in": [
+      {
+        "iteration": 6,
+        "table": 2,
+        "hand": 1,
+        "hand_index": 0,
+        "event_index": 15,
+        "seat": 0
+      },
+      {
+        "iteration": 6,
+        "table": 2,
+        "hand": 1,
+        "hand_index": 0,
+        "event_index": 17,
+        "seat": 1
+      }
+    ],
+    "short_blind": [
+      {
+        "iteration": 7,
+        "table": 1,
+        "hand": 1,
+        "hand_index": 0,
+        "event_index": 0,
+        "seat": 0,
+        "full_blind": 20
+      }
+    ]
+  },
+  "case_counts": {
+    "varying_payouts": 9,
+    "hand_cap_with_multiple_survivors_and_icm": 5,
+    "selection_2_0": 78,
+    "selection_2_1": 12,
+    "selection_0_1": 14,
+    "selection_0_2": 15,
+    "own_nondefault_selection": 8,
+    "selection_1_0": 12,
+    "selection_1_2": 13,
+    "own_automatic_check": 1,
+    "own_automatic_fold": 1,
+    "opponent_automatic_marker_omitted": 3,
+    "own_automatic_select": 3,
+    "ante": 80,
+    "board_ends_with_5_cards": 23,
+    "mandatory_showdown_reveals_every_contender": 23,
+    "changing_blinds": 2,
+    "reveal_persists_after_fold": 3,
+    "own_successful_selection_then_fold_with_ambiguous_discard": 1,
+    "preflop_all_in": 16,
+    "short_all_in_call": 11,
+    "board_ends_with_0_cards": 2,
+    "prize_the_shover": 6,
+    "all_in_selection_before_river_show": 26,
+    "side_pots": 2,
+    "implicit_uncalled_refund": 1,
+    "bust_followed_by_empty_private_cards": 2,
+    "busted_seat_slots_without_stack_events": 10,
+    "own_filler_seat": 1,
+    "split_pot": 2,
+    "heads_up": 6,
+    "zero_own_automatic_actions": 6,
+    "prize_the_empty_bluffer": 2,
+    "prize_marker_after_final_stacks": 2,
+    "board_ends_with_3_cards": 1,
+    "board_ends_with_4_cards": 1,
+    "one_survivor_table_end": 4,
+    "flop_all_in": 2,
+    "turn_all_in": 2,
+    "river_all_in": 2,
+    "short_blind": 1
+  },
+  "limitations": [
+    "Selection indexes below are scripted fixture expectations, not fields in participant histories.",
+    "Own private_events identify the owner's retained and discarded cards; older downloads without this field can leave them ambiguous after a fold or muck.",
+    "Opponents' original cards and private discards are absent; only reveal/show disclosure events publish their cards.",
+    "Automatic markers identify your fallback actions, not the failure reason; opponents' markers are omitted.",
+    "Uncalled refunds have no event; stack differences, not event cash-flow sums, determine exact chip changes.",
+    "A complete-pair prefix can look complete; the file format has no final table-count marker.",
+    "These tables use different illustrative player counts, blinds, hand caps and payouts, unlike one configured live round.",
+    "Prize markers can follow the final stack events; consume every event in a hand."
+  ],
+  "inventory": {
+    "header_keys": [
+      "entries",
+      "tournament_id",
+      "you"
+    ],
+    "table_keys": [
+      "fillers",
+      "hands",
+      "iteration",
+      "payouts",
+      "seats",
+      "table",
+      "variant"
+    ],
+    "hand_keys": [
+      "blinds",
+      "button",
+      "cards",
+      "equity_after",
+      "equity_before",
+      "events",
+      "hand",
+      "stacks_after",
+      "stacks_before"
+    ],
+    "private_keys": [
+      "automatic",
+      "cards",
+      "iteration",
+      "private_events",
+      "seat",
+      "table"
+    ],
+    "event_kinds": [
+      "ante",
+      "blind",
+      "board",
+      "call",
+      "check",
+      "fold",
+      "prize_the_empty_bluffer",
+      "prize_the_shover",
+      "raise",
+      "reveal",
+      "select",
+      "show",
+      "stack",
+      "win"
+    ],
+    "event_keys_by_kind": {
+      "ante": [
+        "amount",
+        "kind",
+        "seat"
+      ],
+      "blind": [
+        "amount",
+        "kind",
+        "seat"
+      ],
+      "board": [
+        "cards",
+        "kind"
+      ],
+      "call": [
+        "amount",
+        "kind",
+        "seat"
+      ],
+      "check": [
+        "kind",
+        "seat"
+      ],
+      "fold": [
+        "kind",
+        "seat"
+      ],
+      "prize_the_empty_bluffer": [
+        "kind",
+        "seat"
+      ],
+      "prize_the_shover": [
+        "kind",
+        "seat"
+      ],
+      "raise": [
+        "amount",
+        "kind",
+        "seat"
+      ],
+      "reveal": [
+        "cards",
+        "kind",
+        "seat"
+      ],
+      "select": [
+        "kind",
+        "seat"
+      ],
+      "show": [
+        "cards",
+        "kind",
+        "seat"
+      ],
+      "stack": [
+        "amount",
+        "kind",
+        "seat"
+      ],
+      "win": [
+        "amount",
+        "kind",
+        "seat"
+      ]
+    },
+    "tables": 9,
+    "hands": 27,
+    "events_by_kind": {
+      "ante": 80,
+      "blind": 54,
+      "board": 72,
+      "call": 128,
+      "check": 368,
+      "fold": 21,
+      "prize_the_empty_bluffer": 2,
+      "prize_the_shover": 6,
+      "raise": 12,
+      "reveal": 144,
+      "select": 144,
+      "show": 139,
+      "stack": 164,
+      "win": 31
+    }
+  }
+}
