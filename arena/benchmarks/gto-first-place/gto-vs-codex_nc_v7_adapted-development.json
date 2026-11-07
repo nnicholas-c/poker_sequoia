@@ -1,0 +1,2126 @@
+{
+  "bots": [
+    "gto",
+    "codex_nc_v7_adapted"
+  ],
+  "seed": "gto-development-1:gto:codex_nc_v7_adapted",
+  "tables": 64,
+  "mixed": false,
+  "scores": {
+    "gto": {
+      "points": {
+        "tables": 64,
+        "mean": 13.5546875,
+        "approx_95ci": [
+          11.782163720457074,
+          15.327211279542926
+        ]
+      },
+      "first": {
+        "tables": 64,
+        "mean": 0.1484375,
+        "approx_95ci": [
+          0.11811784162415781,
+          0.1787571583758422
+        ]
+      }
+    },
+    "codex_nc_v7_adapted": {
+      "points": {
+        "tables": 64,
+        "mean": 11.4453125,
+        "approx_95ci": [
+          9.672788720457074,
+          13.217836279542926
+        ]
+      },
+      "first": {
+        "tables": 64,
+        "mean": 0.1015625,
+        "approx_95ci": [
+          0.07124284162415781,
+          0.1318821583758422
+        ]
+      }
+    }
+  },
+  "a_minus_b": {
+    "points": {
+      "tables": 64,
+      "mean": 2.109375,
+      "approx_95ci": [
+        -1.4356725590858517,
+        5.654422559085852
+      ]
+    },
+    "first": {
+      "tables": 64,
+      "mean": 0.046875,
+      "approx_95ci": [
+        -0.013764316751684387,
+        0.10751431675168438
+      ]
+    }
+  },
+  "failures": {},
+  "latency_ms": {
+    "gto": {
+      "p99": 0.227834,
+      "max": 15.632583
+    },
+    "codex_nc_v7_adapted": {
+      "p99": 0.20825,
+      "max": 7.216959
+    }
+  },
+  "table_results": [
+    {
+      "seats": [
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        0.0,
+        50.0,
+        20.0,
+        0.0,
+        0.0,
+        0.0,
+        30.0,
+        0.0
+      ],
+      "places": [
+        8,
+        1,
+        3,
+        4,
+        6,
+        7,
+        2,
+        5
+      ]
+    },
+    {
+      "seats": [
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        30.0,
+        20.0,
+        0.0,
+        0.0,
+        0.0,
+        50.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        2,
+        3,
+        8,
+        5,
+        7,
+        1,
+        4,
+        6
+      ]
+    },
+    {
+      "seats": [
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        30.0,
+        50.0,
+        20.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        2,
+        1,
+        3,
+        8,
+        6,
+        7,
+        4,
+        5
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        0.0,
+        0.0,
+        0.0,
+        20.0,
+        30.0,
+        0.0,
+        50.0,
+        0.0
+      ],
+      "places": [
+        6,
+        4,
+        5,
+        3,
+        2,
+        8,
+        1,
+        7
+      ]
+    },
+    {
+      "seats": [
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto"
+      ],
+      "points": [
+        30.0,
+        0.0,
+        0.0,
+        50.0,
+        0.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        2,
+        5,
+        7,
+        1,
+        8,
+        3,
+        4,
+        6
+      ]
+    },
+    {
+      "seats": [
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        0.0,
+        30.0,
+        0.0,
+        20.0,
+        0.0,
+        0.0,
+        0.0,
+        50.0
+      ],
+      "places": [
+        7,
+        2,
+        8,
+        3,
+        4,
+        6,
+        5,
+        1
+      ]
+    },
+    {
+      "seats": [
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto"
+      ],
+      "points": [
+        0.0,
+        20.0,
+        30.0,
+        50.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        6,
+        3,
+        2,
+        1,
+        7,
+        8,
+        4,
+        5
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto"
+      ],
+      "points": [
+        50.0,
+        0.0,
+        0.0,
+        0.0,
+        20.0,
+        0.0,
+        0.0,
+        30.0
+      ],
+      "places": [
+        1,
+        4,
+        6,
+        7,
+        3,
+        5,
+        8,
+        2
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        50.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        30.0,
+        0.0,
+        20.0
+      ],
+      "places": [
+        1,
+        6,
+        5,
+        4,
+        8,
+        2,
+        7,
+        3
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        50.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        20.0,
+        30.0,
+        0.0
+      ],
+      "places": [
+        1,
+        5,
+        4,
+        8,
+        7,
+        3,
+        2,
+        6
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        0.0,
+        50.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        20.0
+      ],
+      "places": [
+        8,
+        1,
+        4,
+        2,
+        5,
+        7,
+        6,
+        3
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto"
+      ],
+      "points": [
+        20.0,
+        0.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        50.0,
+        0.0
+      ],
+      "places": [
+        3,
+        7,
+        6,
+        2,
+        8,
+        5,
+        1,
+        4
+      ]
+    },
+    {
+      "seats": [
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto"
+      ],
+      "points": [
+        30.0,
+        0.0,
+        20.0,
+        0.0,
+        50.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        2,
+        6,
+        3,
+        5,
+        1,
+        7,
+        8,
+        4
+      ]
+    },
+    {
+      "seats": [
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        20.0,
+        0.0,
+        50.0,
+        0.0,
+        0.0,
+        0.0,
+        30.0,
+        0.0
+      ],
+      "places": [
+        3,
+        8,
+        1,
+        4,
+        6,
+        7,
+        2,
+        5
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        30.0,
+        20.0,
+        50.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        2,
+        3,
+        1,
+        7,
+        8,
+        6,
+        4,
+        5
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        0.0,
+        30.0,
+        0.0,
+        50.0,
+        0.0,
+        0.0,
+        20.0,
+        0.0
+      ],
+      "places": [
+        5,
+        2,
+        6,
+        1,
+        8,
+        7,
+        3,
+        4
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        50.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        1,
+        5,
+        2,
+        4,
+        6,
+        3,
+        7,
+        8
+      ]
+    },
+    {
+      "seats": [
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto"
+      ],
+      "points": [
+        0.0,
+        0.0,
+        50.0,
+        30.0,
+        0.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        5,
+        4,
+        1,
+        2,
+        6,
+        3,
+        7,
+        8
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        0.0,
+        20.0,
+        0.0,
+        0.0,
+        0.0,
+        30.0,
+        0.0,
+        50.0
+      ],
+      "places": [
+        6,
+        3,
+        5,
+        4,
+        8,
+        2,
+        7,
+        1
+      ]
+    },
+    {
+      "seats": [
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto"
+      ],
+      "points": [
+        50.0,
+        0.0,
+        0.0,
+        20.0,
+        0.0,
+        0.0,
+        0.0,
+        30.0
+      ],
+      "places": [
+        1,
+        7,
+        4,
+        3,
+        5,
+        6,
+        8,
+        2
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto"
+      ],
+      "points": [
+        0.0,
+        0.0,
+        20.0,
+        50.0,
+        0.0,
+        0.0,
+        0.0,
+        30.0
+      ],
+      "places": [
+        8,
+        4,
+        3,
+        1,
+        6,
+        5,
+        7,
+        2
+      ]
+    },
+    {
+      "seats": [
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        50.0,
+        0.0,
+        0.0,
+        20.0
+      ],
+      "places": [
+        2,
+        5,
+        4,
+        8,
+        1,
+        6,
+        7,
+        3
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto"
+      ],
+      "points": [
+        0.0,
+        50.0,
+        30.0,
+        0.0,
+        20.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        6,
+        1,
+        2,
+        4,
+        3,
+        5,
+        8,
+        7
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto"
+      ],
+      "points": [
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        50.0,
+        0.0,
+        0.0,
+        20.0
+      ],
+      "places": [
+        7,
+        2,
+        6,
+        8,
+        1,
+        4,
+        5,
+        3
+      ]
+    },
+    {
+      "seats": [
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto"
+      ],
+      "points": [
+        30.0,
+        0.0,
+        50.0,
+        20.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        2,
+        4,
+        1,
+        3,
+        8,
+        7,
+        5,
+        6
+      ]
+    },
+    {
+      "seats": [
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto"
+      ],
+      "points": [
+        0.0,
+        0.0,
+        0.0,
+        50.0,
+        0.0,
+        0.0,
+        30.0,
+        20.0
+      ],
+      "places": [
+        5,
+        6,
+        7,
+        1,
+        8,
+        4,
+        2,
+        3
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        50.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        20.0
+      ],
+      "places": [
+        1,
+        2,
+        8,
+        4,
+        7,
+        6,
+        5,
+        3
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto"
+      ],
+      "points": [
+        0.0,
+        0.0,
+        20.0,
+        30.0,
+        50.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        5,
+        7,
+        3,
+        2,
+        1,
+        4,
+        6,
+        8
+      ]
+    },
+    {
+      "seats": [
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        0.0,
+        0.0,
+        20.0,
+        30.0,
+        0.0,
+        0.0,
+        50.0,
+        0.0
+      ],
+      "places": [
+        6,
+        4,
+        3,
+        2,
+        8,
+        7,
+        1,
+        5
+      ]
+    },
+    {
+      "seats": [
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        50.0,
+        0.0,
+        20.0
+      ],
+      "places": [
+        8,
+        2,
+        4,
+        6,
+        7,
+        1,
+        5,
+        3
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        0.0,
+        0.0,
+        30.0,
+        0.0,
+        50.0,
+        0.0,
+        0.0,
+        20.0
+      ],
+      "places": [
+        4,
+        6,
+        2,
+        5,
+        1,
+        7,
+        8,
+        3
+      ]
+    },
+    {
+      "seats": [
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto"
+      ],
+      "points": [
+        20.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        50.0,
+        0.0
+      ],
+      "places": [
+        3,
+        6,
+        2,
+        4,
+        8,
+        5,
+        1,
+        7
+      ]
+    },
+    {
+      "seats": [
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        30.0,
+        0.0,
+        20.0,
+        0.0,
+        0.0,
+        0.0,
+        50.0,
+        0.0
+      ],
+      "places": [
+        2,
+        7,
+        3,
+        6,
+        5,
+        8,
+        1,
+        4
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        50.0,
+        0.0,
+        30.0,
+        0.0,
+        20.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        1,
+        5,
+        2,
+        4,
+        3,
+        7,
+        6,
+        8
+      ]
+    },
+    {
+      "seats": [
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        0.0,
+        30.0,
+        50.0,
+        20.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        4,
+        2,
+        1,
+        3,
+        7,
+        5,
+        8,
+        6
+      ]
+    },
+    {
+      "seats": [
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        0.0,
+        30.0,
+        0.0,
+        20.0,
+        0.0,
+        50.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        4,
+        2,
+        8,
+        3,
+        7,
+        1,
+        5,
+        6
+      ]
+    },
+    {
+      "seats": [
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto"
+      ],
+      "points": [
+        0.0,
+        0.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        50.0,
+        20.0
+      ],
+      "places": [
+        4,
+        5,
+        6,
+        2,
+        8,
+        7,
+        1,
+        3
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        20.0,
+        0.0,
+        50.0,
+        0.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        3,
+        7,
+        1,
+        5,
+        6,
+        2,
+        4,
+        8
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "gto",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        0.0,
+        0.0,
+        30.0,
+        20.0,
+        50.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        6,
+        5,
+        2,
+        3,
+        1,
+        7,
+        4,
+        8
+      ]
+    },
+    {
+      "seats": [
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto"
+      ],
+      "points": [
+        50.0,
+        0.0,
+        0.0,
+        0.0,
+        20.0,
+        0.0,
+        30.0,
+        0.0
+      ],
+      "places": [
+        1,
+        6,
+        4,
+        8,
+        3,
+        5,
+        2,
+        7
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        0.0,
+        0.0,
+        20.0,
+        50.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        8,
+        5,
+        3,
+        1,
+        2,
+        7,
+        4,
+        6
+      ]
+    },
+    {
+      "seats": [
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        50.0,
+        30.0,
+        0.0,
+        0.0,
+        20.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        1,
+        2,
+        4,
+        7,
+        3,
+        5,
+        8,
+        6
+      ]
+    },
+    {
+      "seats": [
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto"
+      ],
+      "points": [
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        20.0,
+        0.0,
+        50.0
+      ],
+      "places": [
+        5,
+        2,
+        8,
+        4,
+        7,
+        3,
+        6,
+        1
+      ]
+    },
+    {
+      "seats": [
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto"
+      ],
+      "points": [
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        50.0,
+        0.0,
+        20.0
+      ],
+      "places": [
+        7,
+        2,
+        8,
+        5,
+        4,
+        1,
+        6,
+        3
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto"
+      ],
+      "points": [
+        30.0,
+        0.0,
+        0.0,
+        20.0,
+        0.0,
+        0.0,
+        50.0,
+        0.0
+      ],
+      "places": [
+        2,
+        4,
+        6,
+        3,
+        8,
+        7,
+        1,
+        5
+      ]
+    },
+    {
+      "seats": [
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto"
+      ],
+      "points": [
+        0.0,
+        50.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        20.0,
+        0.0
+      ],
+      "places": [
+        6,
+        1,
+        2,
+        5,
+        7,
+        8,
+        3,
+        4
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        0.0,
+        0.0,
+        0.0,
+        20.0,
+        50.0,
+        0.0,
+        30.0,
+        0.0
+      ],
+      "places": [
+        4,
+        8,
+        6,
+        3,
+        1,
+        5,
+        2,
+        7
+      ]
+    },
+    {
+      "seats": [
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "gto"
+      ],
+      "points": [
+        50.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        20.0
+      ],
+      "places": [
+        1,
+        8,
+        2,
+        7,
+        6,
+        4,
+        5,
+        3
+      ]
+    },
+    {
+      "seats": [
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto"
+      ],
+      "points": [
+        0.0,
+        20.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        50.0
+      ],
+      "places": [
+        6,
+        3,
+        2,
+        5,
+        4,
+        8,
+        7,
+        1
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto"
+      ],
+      "points": [
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        50.0,
+        0.0,
+        20.0
+      ],
+      "places": [
+        8,
+        2,
+        6,
+        4,
+        5,
+        1,
+        7,
+        3
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        30.0,
+        20.0,
+        50.0,
+        0.0
+      ],
+      "places": [
+        4,
+        7,
+        5,
+        6,
+        2,
+        3,
+        1,
+        8
+      ]
+    },
+    {
+      "seats": [
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto"
+      ],
+      "points": [
+        0.0,
+        20.0,
+        50.0,
+        0.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        6,
+        3,
+        1,
+        7,
+        5,
+        2,
+        4,
+        8
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "gto",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        0.0,
+        20.0,
+        30.0,
+        50.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        8,
+        3,
+        2,
+        1,
+        7,
+        5,
+        4,
+        6
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        0.0,
+        50.0,
+        0.0,
+        0.0,
+        0.0,
+        20.0,
+        0.0,
+        30.0
+      ],
+      "places": [
+        6,
+        1,
+        8,
+        5,
+        7,
+        3,
+        4,
+        2
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto"
+      ],
+      "points": [
+        50.0,
+        0.0,
+        0.0,
+        0.0,
+        20.0,
+        0.0,
+        0.0,
+        30.0
+      ],
+      "places": [
+        1,
+        4,
+        5,
+        6,
+        3,
+        8,
+        7,
+        2
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        0.0,
+        0.0,
+        30.0,
+        0.0,
+        50.0,
+        0.0,
+        20.0,
+        0.0
+      ],
+      "places": [
+        8,
+        4,
+        2,
+        7,
+        1,
+        5,
+        3,
+        6
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto"
+      ],
+      "points": [
+        0.0,
+        0.0,
+        0.0,
+        20.0,
+        50.0,
+        0.0,
+        0.0,
+        30.0
+      ],
+      "places": [
+        6,
+        5,
+        4,
+        3,
+        1,
+        8,
+        7,
+        2
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        0.0,
+        50.0,
+        0.0,
+        20.0,
+        0.0,
+        0.0,
+        30.0,
+        0.0
+      ],
+      "places": [
+        8,
+        1,
+        5,
+        3,
+        6,
+        4,
+        2,
+        7
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        50.0,
+        0.0,
+        0.0,
+        20.0
+      ],
+      "places": [
+        7,
+        2,
+        8,
+        6,
+        1,
+        5,
+        4,
+        3
+      ]
+    },
+    {
+      "seats": [
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto"
+      ],
+      "points": [
+        0.0,
+        0.0,
+        0.0,
+        20.0,
+        30.0,
+        0.0,
+        0.0,
+        50.0
+      ],
+      "places": [
+        7,
+        4,
+        8,
+        3,
+        2,
+        5,
+        6,
+        1
+      ]
+    },
+    {
+      "seats": [
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto"
+      ],
+      "points": [
+        0.0,
+        20.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        50.0
+      ],
+      "places": [
+        4,
+        3,
+        2,
+        5,
+        6,
+        8,
+        7,
+        1
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "gto"
+      ],
+      "points": [
+        50.0,
+        0.0,
+        0.0,
+        30.0,
+        20.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        1,
+        4,
+        8,
+        2,
+        3,
+        6,
+        5,
+        7
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto"
+      ],
+      "points": [
+        0.0,
+        0.0,
+        0.0,
+        50.0,
+        20.0,
+        0.0,
+        30.0,
+        0.0
+      ],
+      "places": [
+        6,
+        4,
+        7,
+        1,
+        3,
+        8,
+        2,
+        5
+      ]
+    },
+    {
+      "seats": [
+        "codex_nc_v7_adapted",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_nc_v7_adapted",
+        "codex_nc_v7_adapted",
+        "gto"
+      ],
+      "points": [
+        50.0,
+        0.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        20.0
+      ],
+      "places": [
+        1,
+        5,
+        6,
+        2,
+        8,
+        4,
+        7,
+        3
+      ]
+    }
+  ]
+}

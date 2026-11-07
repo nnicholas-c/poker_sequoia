@@ -1,0 +1,82 @@
+{
+  "gto": {
+    "agent.py": "1d388d34699a5a93874534b3d61a74f1fffa9376b42ebf2b57edd2f8f01b5e06"
+  },
+  "select_only": {
+    "agent.py": "b83b45fe849f95e8de8d24942ea0c21315140e4c5ca8352486c27e2cca9b49f0"
+  },
+  "guard_only": {
+    "agent.py": "b31becb5302aff6faf388670b6c95bc0f078a29abb11aad8653510e0abfd9806"
+  },
+  "gto_edge": {
+    "agent.py": "b5c4021c272de235ce5b64285d7c635b312c37a9b85bdcb71bebe04289428f35"
+  },
+  "arch_limper": {
+    "agent.py": "401280a5180e2691d241998e212a49590427e6ca870bef48c7131f77ed264ea7"
+  },
+  "arch_loose": {
+    "agent.py": "8eee71a81dca7d2e9583eec657efd60f88e7a6447c61add09bef45f4368fa0c1"
+  },
+  "arch_maniac": {
+    "agent.py": "e920d7c26c73eea41b82584b40462e4f226d7713ad7489db8fdf0846ce726ddb"
+  },
+  "arch_nit": {
+    "agent.py": "c9c73d2fe9b92d0faf773f204c2da22b98576fd1c3ca0e11311034ce6f99984e"
+  },
+  "arch_station": {
+    "agent.py": "64c89e3c012fa92dc2274e086cb257b612ae6f676e6b61c5cd5bb60dd8ee592c"
+  },
+  "arch_tag": {
+    "agent.py": "b5cef6f0742b721790fb5b1781766f9cca8b05c71720b89da34fc83eb15c8aee"
+  },
+  "claude_v6": {
+    "README.md": "240547e3f71cd37ceee425e2729a76e516e7da7901c1d09e714be636e76724e0",
+    "agent.py": "8afacbfca1ee35a5a23033db086272a9882c99d1482a63848444910acc8dcbb5"
+  },
+  "codex_merge_river_guard": {
+    "README.md": "cb4e6b2623d99e3b4872a4d5cbc820c41aefc35bfff199bdc595962d2cd7ed4d",
+    "agent.py": "df6580d139d44d292bbf1a90766dcde1be3d8aabee75ec3cdc1b8253dd66ea29"
+  },
+  "codex_merge_v4_v6": {
+    "README.md": "5abe37076336325754363a2018400bc81c3109c446a3aa2f9a847a367bedba59",
+    "agent.py": "839e31eb7db4cfa3cf64f5863b4d3f7532e489ee6b5890986cda99a5b67fc234"
+  },
+  "codex_nc_v7_adapted": {
+    "README.md": "c8a7ff98ec05809d4c66cad8ce316622de4ff9fd94e66a2e8329c84ce29c73f0",
+    "agent.py": "418902a7a99d1da027bcc541d01fc66424ef3e38c9dea11e753d452d8deddb35"
+  },
+  "codex_reform_v7": {
+    "README.md": "f5a90245e5ef1850cf8b7076a9a6b8e61d4253410052ef9b8fc14817231a8112",
+    "agent.py": "bdd4e279146ba3b5fed762e11401206944cb7e7946e2693b04b1ec9396014daf"
+  },
+  "codex_reveal_v1": {
+    "README.md": "85e5785fa2b82b4265b42fe0ce5e1dce471cf2a8ac5847aeaa95dac64e1a22a0",
+    "agent.py": "c1152f3ce2ab5da640f5bdff0c578600b5bb2ebe39406329f4b223e9c45cea10",
+    "preflop.bin": "12c044e5b41f09ad1ed0c4ac70bb82838e085ba23da0c5571f9ddadf4063325f"
+  },
+  "codex_v6_round_challenger": {
+    "README.md": "8e8e5180541735130389930f108224830ae24d69413f85456d70d1b1e5f6c23e",
+    "agent.py": "2e0080ea59d1f9f30a3e04185423650675b5c1ba3fd0bb418d953a263f4fc80e"
+  },
+  "kevin1": {
+    "agent.py": "63a5f114afbc95b4905fb91ab03ffcd4c4ec6703c292642e76fe54956124275a"
+  },
+  "nc_v3": {
+    "agent.py": "b38660f254910ba41595af1e3811c490efec509bed1b59ecfb5a3aba46de7dd2"
+  },
+  "nc_v4": {
+    "agent.py": "d96f556ed03df1ddeb98b36d56a38dbfb5abd61c9264176f4d2206208a8fbb5e"
+  },
+  "nc_v5": {
+    "agent.py": "4af5c98ecc179a8532981fb0c45a2425fa331b247d4e92ec51736b2148db9765"
+  },
+  "nc_v6": {
+    "agent.py": "85e6f38dec5c67814b71a8c0bf94dc340e81f4638d34f9fa82b2f1b8317b21e9"
+  },
+  "nc_v7": {
+    "agent.py": "5a120a45d98f97d31d726c066e1d5d3c500584a8df681f1d77a2f9f71819e0ef"
+  },
+  "nc_v8": {
+    "agent.py": "b3bc30d9a35f0a3ed7d3730f2f8071d682f1e8694b6465550339ee93f0112c01"
+  }
+}

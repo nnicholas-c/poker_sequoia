@@ -1,0 +1,2126 @@
+{
+  "bots": [
+    "gto_edge",
+    "gto"
+  ],
+  "seed": "gto-development-1:gto_edge:gto",
+  "tables": 64,
+  "mixed": true,
+  "scores": {
+    "gto_edge": {
+      "points": {
+        "tables": 64,
+        "mean": 17.03125,
+        "approx_95ci": [
+          13.680223390097032,
+          20.382276609902966
+        ]
+      },
+      "first": {
+        "tables": 64,
+        "mean": 0.2109375,
+        "approx_95ci": [
+          0.1499615505916472,
+          0.2719134494083528
+        ]
+      }
+    },
+    "gto": {
+      "points": {
+        "tables": 64,
+        "mean": 12.578125,
+        "approx_95ci": [
+          9.553840871838887,
+          15.602409128161113
+        ]
+      },
+      "first": {
+        "tables": 64,
+        "mean": 0.109375,
+        "approx_95ci": [
+          0.058333333333333334,
+          0.16041666666666665
+        ]
+      }
+    }
+  },
+  "a_minus_b": {
+    "points": {
+      "tables": 64,
+      "mean": 4.453125,
+      "approx_95ci": [
+        -0.8669391614826099,
+        9.773189161482609
+      ]
+    },
+    "first": {
+      "tables": 64,
+      "mean": 0.1015625,
+      "approx_95ci": [
+        0.005974896110368416,
+        0.19715010388963158
+      ]
+    }
+  },
+  "failures": {},
+  "latency_ms": {
+    "gto_edge": {
+      "p99": 0.074917,
+      "max": 3.089666
+    },
+    "gto": {
+      "p99": 0.073833,
+      "max": 3.712958
+    }
+  },
+  "table_results": [
+    {
+      "seats": [
+        "gto",
+        "arch_nit",
+        "arch_loose",
+        "gto_edge",
+        "gto",
+        "kevin1",
+        "arch_tag",
+        "gto_edge"
+      ],
+      "points": [
+        0.0,
+        20.0,
+        0.0,
+        0.0,
+        30.0,
+        50.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        8,
+        3,
+        6,
+        7,
+        2,
+        1,
+        4,
+        5
+      ]
+    },
+    {
+      "seats": [
+        "codex_reveal_v1",
+        "gto",
+        "gto_edge",
+        "codex_merge_river_guard",
+        "nc_v7",
+        "arch_limper",
+        "gto_edge",
+        "gto"
+      ],
+      "points": [
+        30.0,
+        0.0,
+        0.0,
+        20.0,
+        50.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        2,
+        8,
+        6,
+        3,
+        1,
+        4,
+        7,
+        5
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "nc_v8",
+        "gto_edge",
+        "gto",
+        "codex_nc_v7_adapted",
+        "arch_station",
+        "gto_edge",
+        "arch_maniac"
+      ],
+      "points": [
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        20.0,
+        0.0,
+        0.0,
+        50.0
+      ],
+      "places": [
+        5,
+        2,
+        4,
+        8,
+        3,
+        7,
+        6,
+        1
+      ]
+    },
+    {
+      "seats": [
+        "codex_merge_v4_v6",
+        "gto",
+        "codex_reform_v7",
+        "nc_v6",
+        "nc_v5",
+        "gto_edge",
+        "gto",
+        "gto_edge"
+      ],
+      "points": [
+        20.0,
+        0.0,
+        50.0,
+        0.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        3,
+        8,
+        1,
+        6,
+        5,
+        2,
+        4,
+        7
+      ]
+    },
+    {
+      "seats": [
+        "nc_v3",
+        "gto_edge",
+        "claude_v6",
+        "nc_v4",
+        "gto",
+        "gto",
+        "codex_v6_round_challenger",
+        "gto_edge"
+      ],
+      "points": [
+        20.0,
+        0.0,
+        0.0,
+        50.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        3,
+        7,
+        8,
+        1,
+        4,
+        2,
+        5,
+        6
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "arch_limper",
+        "gto",
+        "gto_edge",
+        "arch_tag",
+        "nc_v6",
+        "gto_edge",
+        "codex_v6_round_challenger"
+      ],
+      "points": [
+        0.0,
+        20.0,
+        50.0,
+        0.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        6,
+        3,
+        1,
+        5,
+        8,
+        2,
+        7,
+        4
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "nc_v5",
+        "codex_reveal_v1",
+        "gto_edge",
+        "gto_edge",
+        "gto",
+        "codex_merge_v4_v6",
+        "kevin1"
+      ],
+      "points": [
+        0.0,
+        0.0,
+        50.0,
+        30.0,
+        20.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        6,
+        7,
+        1,
+        2,
+        3,
+        8,
+        4,
+        5
+      ]
+    },
+    {
+      "seats": [
+        "codex_reform_v7",
+        "gto",
+        "arch_station",
+        "gto_edge",
+        "arch_loose",
+        "gto_edge",
+        "gto",
+        "nc_v3"
+      ],
+      "points": [
+        50.0,
+        0.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        20.0
+      ],
+      "places": [
+        1,
+        5,
+        4,
+        2,
+        6,
+        8,
+        7,
+        3
+      ]
+    },
+    {
+      "seats": [
+        "arch_nit",
+        "nc_v4",
+        "claude_v6",
+        "nc_v8",
+        "gto",
+        "gto_edge",
+        "gto",
+        "gto_edge"
+      ],
+      "points": [
+        0.0,
+        0.0,
+        0.0,
+        20.0,
+        30.0,
+        0.0,
+        50.0,
+        0.0
+      ],
+      "places": [
+        8,
+        4,
+        5,
+        3,
+        2,
+        6,
+        1,
+        7
+      ]
+    },
+    {
+      "seats": [
+        "nc_v7",
+        "gto",
+        "gto_edge",
+        "codex_nc_v7_adapted",
+        "arch_maniac",
+        "gto_edge",
+        "gto",
+        "codex_merge_river_guard"
+      ],
+      "points": [
+        0.0,
+        30.0,
+        20.0,
+        0.0,
+        0.0,
+        0.0,
+        50.0,
+        0.0
+      ],
+      "places": [
+        4,
+        2,
+        3,
+        8,
+        5,
+        7,
+        1,
+        6
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "kevin1",
+        "nc_v5",
+        "gto_edge",
+        "claude_v6",
+        "arch_loose",
+        "gto_edge",
+        "gto"
+      ],
+      "points": [
+        0.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        50.0,
+        0.0,
+        20.0
+      ],
+      "places": [
+        7,
+        8,
+        2,
+        4,
+        5,
+        1,
+        6,
+        3
+      ]
+    },
+    {
+      "seats": [
+        "gto_edge",
+        "codex_v6_round_challenger",
+        "arch_nit",
+        "gto",
+        "gto_edge",
+        "codex_merge_v4_v6",
+        "gto",
+        "nc_v6"
+      ],
+      "points": [
+        0.0,
+        20.0,
+        50.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        4,
+        3,
+        1,
+        2,
+        7,
+        6,
+        8,
+        5
+      ]
+    },
+    {
+      "seats": [
+        "gto_edge",
+        "gto_edge",
+        "codex_nc_v7_adapted",
+        "arch_station",
+        "codex_merge_river_guard",
+        "gto",
+        "arch_maniac",
+        "gto"
+      ],
+      "points": [
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        20.0,
+        0.0,
+        0.0,
+        50.0
+      ],
+      "places": [
+        2,
+        7,
+        6,
+        5,
+        3,
+        4,
+        8,
+        1
+      ]
+    },
+    {
+      "seats": [
+        "arch_limper",
+        "nc_v4",
+        "gto",
+        "gto_edge",
+        "gto",
+        "gto_edge",
+        "nc_v3",
+        "nc_v7"
+      ],
+      "points": [
+        0.0,
+        20.0,
+        30.0,
+        0.0,
+        0.0,
+        50.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        5,
+        3,
+        2,
+        6,
+        7,
+        1,
+        4,
+        8
+      ]
+    },
+    {
+      "seats": [
+        "gto_edge",
+        "gto",
+        "nc_v8",
+        "codex_reveal_v1",
+        "codex_reform_v7",
+        "gto_edge",
+        "gto",
+        "arch_tag"
+      ],
+      "points": [
+        0.0,
+        0.0,
+        30.0,
+        0.0,
+        20.0,
+        0.0,
+        0.0,
+        50.0
+      ],
+      "places": [
+        5,
+        6,
+        2,
+        8,
+        3,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "seats": [
+        "nc_v7",
+        "gto",
+        "gto",
+        "arch_station",
+        "gto_edge",
+        "codex_merge_river_guard",
+        "arch_tag",
+        "gto_edge"
+      ],
+      "points": [
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        50.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        6,
+        2,
+        4,
+        7,
+        1,
+        3,
+        8,
+        5
+      ]
+    },
+    {
+      "seats": [
+        "codex_v6_round_challenger",
+        "codex_reveal_v1",
+        "gto",
+        "gto_edge",
+        "gto",
+        "gto_edge",
+        "kevin1",
+        "nc_v4"
+      ],
+      "points": [
+        0.0,
+        0.0,
+        0.0,
+        50.0,
+        0.0,
+        20.0,
+        30.0,
+        0.0
+      ],
+      "places": [
+        4,
+        8,
+        5,
+        1,
+        7,
+        3,
+        2,
+        6
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "gto_edge",
+        "gto",
+        "gto_edge",
+        "arch_nit",
+        "nc_v3",
+        "nc_v8",
+        "codex_nc_v7_adapted"
+      ],
+      "points": [
+        0.0,
+        50.0,
+        0.0,
+        0.0,
+        30.0,
+        0.0,
+        20.0,
+        0.0
+      ],
+      "places": [
+        5,
+        1,
+        4,
+        8,
+        2,
+        6,
+        3,
+        7
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "gto_edge",
+        "gto_edge",
+        "nc_v5",
+        "codex_reform_v7",
+        "arch_limper",
+        "gto",
+        "claude_v6"
+      ],
+      "points": [
+        0.0,
+        50.0,
+        20.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        5,
+        1,
+        3,
+        4,
+        2,
+        8,
+        7,
+        6
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "gto",
+        "arch_loose",
+        "gto_edge",
+        "codex_merge_v4_v6",
+        "gto_edge",
+        "arch_maniac",
+        "nc_v6"
+      ],
+      "points": [
+        0.0,
+        30.0,
+        0.0,
+        20.0,
+        0.0,
+        50.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        5,
+        2,
+        6,
+        3,
+        7,
+        1,
+        8,
+        4
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "nc_v7",
+        "gto_edge",
+        "claude_v6",
+        "nc_v8",
+        "gto",
+        "arch_station",
+        "gto_edge"
+      ],
+      "points": [
+        20.0,
+        0.0,
+        0.0,
+        0.0,
+        50.0,
+        0.0,
+        0.0,
+        30.0
+      ],
+      "places": [
+        3,
+        4,
+        6,
+        5,
+        1,
+        8,
+        7,
+        2
+      ]
+    },
+    {
+      "seats": [
+        "nc_v3",
+        "codex_merge_v4_v6",
+        "gto",
+        "codex_merge_river_guard",
+        "gto_edge",
+        "gto_edge",
+        "nc_v4",
+        "gto"
+      ],
+      "points": [
+        0.0,
+        50.0,
+        20.0,
+        0.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        8,
+        1,
+        3,
+        7,
+        5,
+        2,
+        6,
+        4
+      ]
+    },
+    {
+      "seats": [
+        "gto_edge",
+        "nc_v5",
+        "gto",
+        "arch_maniac",
+        "gto",
+        "arch_tag",
+        "codex_reform_v7",
+        "gto_edge"
+      ],
+      "points": [
+        50.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        20.0,
+        30.0,
+        0.0
+      ],
+      "places": [
+        1,
+        4,
+        7,
+        8,
+        6,
+        3,
+        2,
+        5
+      ]
+    },
+    {
+      "seats": [
+        "gto_edge",
+        "gto",
+        "nc_v6",
+        "arch_nit",
+        "gto",
+        "gto_edge",
+        "codex_reveal_v1",
+        "kevin1"
+      ],
+      "points": [
+        0.0,
+        50.0,
+        30.0,
+        0.0,
+        0.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        5,
+        1,
+        2,
+        4,
+        8,
+        3,
+        7,
+        6
+      ]
+    },
+    {
+      "seats": [
+        "arch_limper",
+        "arch_loose",
+        "codex_nc_v7_adapted",
+        "gto_edge",
+        "codex_v6_round_challenger",
+        "gto",
+        "gto_edge",
+        "gto"
+      ],
+      "points": [
+        20.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        50.0,
+        0.0
+      ],
+      "places": [
+        3,
+        8,
+        2,
+        7,
+        5,
+        6,
+        1,
+        4
+      ]
+    },
+    {
+      "seats": [
+        "nc_v3",
+        "gto",
+        "nc_v8",
+        "gto_edge",
+        "codex_reveal_v1",
+        "arch_maniac",
+        "gto",
+        "gto_edge"
+      ],
+      "points": [
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        50.0,
+        20.0
+      ],
+      "places": [
+        5,
+        2,
+        4,
+        6,
+        7,
+        8,
+        1,
+        3
+      ]
+    },
+    {
+      "seats": [
+        "gto_edge",
+        "codex_reform_v7",
+        "gto",
+        "nc_v7",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto_edge",
+        "arch_loose"
+      ],
+      "points": [
+        50.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        1,
+        6,
+        2,
+        4,
+        5,
+        3,
+        7,
+        8
+      ]
+    },
+    {
+      "seats": [
+        "codex_v6_round_challenger",
+        "gto_edge",
+        "nc_v6",
+        "arch_tag",
+        "gto",
+        "codex_merge_v4_v6",
+        "gto_edge",
+        "gto"
+      ],
+      "points": [
+        0.0,
+        0.0,
+        20.0,
+        50.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        6,
+        8,
+        3,
+        1,
+        2,
+        5,
+        4,
+        7
+      ]
+    },
+    {
+      "seats": [
+        "gto_edge",
+        "nc_v4",
+        "gto",
+        "gto_edge",
+        "nc_v5",
+        "claude_v6",
+        "gto",
+        "arch_nit"
+      ],
+      "points": [
+        50.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        30.0,
+        20.0,
+        0.0
+      ],
+      "places": [
+        1,
+        8,
+        6,
+        7,
+        4,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "seats": [
+        "codex_merge_river_guard",
+        "gto_edge",
+        "arch_limper",
+        "kevin1",
+        "gto_edge",
+        "gto",
+        "gto",
+        "arch_station"
+      ],
+      "points": [
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        50.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        2,
+        6,
+        4,
+        5,
+        1,
+        3,
+        8,
+        7
+      ]
+    },
+    {
+      "seats": [
+        "kevin1",
+        "codex_v6_round_challenger",
+        "arch_nit",
+        "gto",
+        "gto_edge",
+        "gto_edge",
+        "nc_v8",
+        "gto"
+      ],
+      "points": [
+        0.0,
+        0.0,
+        50.0,
+        0.0,
+        30.0,
+        0.0,
+        20.0,
+        0.0
+      ],
+      "places": [
+        5,
+        4,
+        1,
+        8,
+        2,
+        7,
+        3,
+        6
+      ]
+    },
+    {
+      "seats": [
+        "gto_edge",
+        "codex_reveal_v1",
+        "gto",
+        "codex_merge_river_guard",
+        "gto",
+        "claude_v6",
+        "arch_maniac",
+        "gto_edge"
+      ],
+      "points": [
+        30.0,
+        0.0,
+        50.0,
+        0.0,
+        0.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        2,
+        7,
+        1,
+        4,
+        6,
+        3,
+        8,
+        5
+      ]
+    },
+    {
+      "seats": [
+        "gto_edge",
+        "gto_edge",
+        "gto",
+        "gto",
+        "nc_v5",
+        "codex_merge_v4_v6",
+        "nc_v4",
+        "arch_station"
+      ],
+      "points": [
+        30.0,
+        20.0,
+        0.0,
+        0.0,
+        0.0,
+        50.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        2,
+        3,
+        7,
+        5,
+        4,
+        1,
+        8,
+        6
+      ]
+    },
+    {
+      "seats": [
+        "arch_limper",
+        "codex_reform_v7",
+        "arch_loose",
+        "gto",
+        "nc_v3",
+        "gto",
+        "gto_edge",
+        "gto_edge"
+      ],
+      "points": [
+        0.0,
+        20.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        50.0,
+        0.0
+      ],
+      "places": [
+        5,
+        3,
+        8,
+        2,
+        7,
+        6,
+        1,
+        4
+      ]
+    },
+    {
+      "seats": [
+        "gto_edge",
+        "arch_tag",
+        "gto",
+        "gto_edge",
+        "nc_v6",
+        "codex_nc_v7_adapted",
+        "gto",
+        "nc_v7"
+      ],
+      "points": [
+        0.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        20.0,
+        0.0,
+        50.0
+      ],
+      "places": [
+        4,
+        8,
+        2,
+        5,
+        7,
+        3,
+        6,
+        1
+      ]
+    },
+    {
+      "seats": [
+        "codex_reveal_v1",
+        "codex_reform_v7",
+        "gto_edge",
+        "nc_v7",
+        "nc_v4",
+        "gto",
+        "gto_edge",
+        "gto"
+      ],
+      "points": [
+        0.0,
+        30.0,
+        0.0,
+        50.0,
+        20.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        5,
+        2,
+        6,
+        1,
+        3,
+        7,
+        8,
+        4
+      ]
+    },
+    {
+      "seats": [
+        "codex_merge_v4_v6",
+        "gto_edge",
+        "nc_v5",
+        "arch_nit",
+        "gto_edge",
+        "nc_v3",
+        "gto",
+        "gto"
+      ],
+      "points": [
+        0.0,
+        0.0,
+        0.0,
+        20.0,
+        0.0,
+        50.0,
+        30.0,
+        0.0
+      ],
+      "places": [
+        8,
+        5,
+        4,
+        3,
+        6,
+        1,
+        2,
+        7
+      ]
+    },
+    {
+      "seats": [
+        "gto_edge",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto",
+        "codex_v6_round_challenger",
+        "nc_v8",
+        "gto_edge",
+        "arch_tag"
+      ],
+      "points": [
+        0.0,
+        20.0,
+        30.0,
+        0.0,
+        0.0,
+        50.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        4,
+        3,
+        2,
+        8,
+        5,
+        1,
+        7,
+        6
+      ]
+    },
+    {
+      "seats": [
+        "arch_maniac",
+        "gto",
+        "gto_edge",
+        "claude_v6",
+        "gto",
+        "arch_loose",
+        "gto_edge",
+        "kevin1"
+      ],
+      "points": [
+        0.0,
+        50.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        20.0,
+        0.0
+      ],
+      "places": [
+        8,
+        1,
+        4,
+        2,
+        6,
+        5,
+        3,
+        7
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "nc_v6",
+        "gto_edge",
+        "gto_edge",
+        "gto",
+        "codex_merge_river_guard",
+        "arch_limper",
+        "arch_station"
+      ],
+      "points": [
+        0.0,
+        0.0,
+        30.0,
+        20.0,
+        0.0,
+        50.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        7,
+        4,
+        2,
+        3,
+        8,
+        1,
+        6,
+        5
+      ]
+    },
+    {
+      "seats": [
+        "gto_edge",
+        "nc_v8",
+        "codex_merge_v4_v6",
+        "nc_v4",
+        "nc_v7",
+        "gto",
+        "gto_edge",
+        "gto"
+      ],
+      "points": [
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        20.0,
+        0.0,
+        50.0,
+        0.0
+      ],
+      "places": [
+        2,
+        4,
+        5,
+        7,
+        3,
+        6,
+        1,
+        8
+      ]
+    },
+    {
+      "seats": [
+        "arch_loose",
+        "gto",
+        "arch_tag",
+        "gto_edge",
+        "gto_edge",
+        "gto",
+        "arch_maniac",
+        "claude_v6"
+      ],
+      "points": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        50.0,
+        30.0,
+        0.0,
+        20.0
+      ],
+      "places": [
+        5,
+        6,
+        4,
+        7,
+        1,
+        2,
+        8,
+        3
+      ]
+    },
+    {
+      "seats": [
+        "arch_nit",
+        "kevin1",
+        "gto",
+        "gto_edge",
+        "gto_edge",
+        "codex_merge_river_guard",
+        "gto",
+        "codex_reveal_v1"
+      ],
+      "points": [
+        20.0,
+        30.0,
+        50.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        3,
+        2,
+        1,
+        6,
+        4,
+        5,
+        7,
+        8
+      ]
+    },
+    {
+      "seats": [
+        "arch_limper",
+        "gto",
+        "nc_v3",
+        "codex_v6_round_challenger",
+        "gto",
+        "codex_reform_v7",
+        "gto_edge",
+        "gto_edge"
+      ],
+      "points": [
+        0.0,
+        50.0,
+        0.0,
+        0.0,
+        30.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        6,
+        1,
+        5,
+        4,
+        2,
+        3,
+        7,
+        8
+      ]
+    },
+    {
+      "seats": [
+        "nc_v5",
+        "arch_station",
+        "gto_edge",
+        "gto",
+        "codex_nc_v7_adapted",
+        "gto_edge",
+        "gto",
+        "nc_v6"
+      ],
+      "points": [
+        0.0,
+        0.0,
+        30.0,
+        0.0,
+        20.0,
+        50.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        4,
+        8,
+        2,
+        7,
+        3,
+        1,
+        6,
+        5
+      ]
+    },
+    {
+      "seats": [
+        "arch_loose",
+        "gto_edge",
+        "arch_station",
+        "codex_merge_v4_v6",
+        "gto",
+        "codex_merge_river_guard",
+        "gto",
+        "gto_edge"
+      ],
+      "points": [
+        0.0,
+        0.0,
+        0.0,
+        30.0,
+        50.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        5,
+        4,
+        8,
+        2,
+        1,
+        3,
+        6,
+        7
+      ]
+    },
+    {
+      "seats": [
+        "codex_v6_round_challenger",
+        "gto",
+        "gto_edge",
+        "gto_edge",
+        "nc_v6",
+        "arch_limper",
+        "gto",
+        "arch_nit"
+      ],
+      "points": [
+        0.0,
+        0.0,
+        50.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        20.0
+      ],
+      "places": [
+        8,
+        7,
+        1,
+        5,
+        2,
+        6,
+        4,
+        3
+      ]
+    },
+    {
+      "seats": [
+        "gto_edge",
+        "gto",
+        "codex_nc_v7_adapted",
+        "arch_maniac",
+        "gto_edge",
+        "codex_reform_v7",
+        "claude_v6",
+        "gto"
+      ],
+      "points": [
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        50.0,
+        20.0
+      ],
+      "places": [
+        2,
+        5,
+        4,
+        8,
+        7,
+        6,
+        1,
+        3
+      ]
+    },
+    {
+      "seats": [
+        "kevin1",
+        "arch_tag",
+        "gto_edge",
+        "nc_v4",
+        "gto",
+        "nc_v7",
+        "gto",
+        "gto_edge"
+      ],
+      "points": [
+        0.0,
+        20.0,
+        0.0,
+        0.0,
+        50.0,
+        30.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        5,
+        3,
+        8,
+        4,
+        1,
+        2,
+        6,
+        7
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "codex_reveal_v1",
+        "nc_v8",
+        "nc_v3",
+        "nc_v5",
+        "gto_edge",
+        "gto_edge",
+        "gto"
+      ],
+      "points": [
+        20.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        50.0,
+        30.0,
+        0.0
+      ],
+      "places": [
+        3,
+        5,
+        6,
+        8,
+        4,
+        1,
+        2,
+        7
+      ]
+    },
+    {
+      "seats": [
+        "arch_station",
+        "nc_v4",
+        "gto_edge",
+        "gto",
+        "gto",
+        "nc_v7",
+        "gto_edge",
+        "arch_tag"
+      ],
+      "points": [
+        0.0,
+        0.0,
+        0.0,
+        20.0,
+        0.0,
+        50.0,
+        30.0,
+        0.0
+      ],
+      "places": [
+        7,
+        5,
+        6,
+        3,
+        4,
+        1,
+        2,
+        8
+      ]
+    },
+    {
+      "seats": [
+        "gto_edge",
+        "nc_v5",
+        "gto_edge",
+        "codex_nc_v7_adapted",
+        "nc_v8",
+        "codex_merge_river_guard",
+        "gto",
+        "gto"
+      ],
+      "points": [
+        0.0,
+        20.0,
+        0.0,
+        0.0,
+        30.0,
+        50.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        7,
+        3,
+        6,
+        5,
+        2,
+        1,
+        8,
+        4
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "gto_edge",
+        "gto_edge",
+        "codex_reveal_v1",
+        "arch_loose",
+        "arch_limper",
+        "gto",
+        "arch_maniac"
+      ],
+      "points": [
+        20.0,
+        50.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        30.0,
+        0.0
+      ],
+      "places": [
+        3,
+        1,
+        7,
+        8,
+        4,
+        6,
+        2,
+        5
+      ]
+    },
+    {
+      "seats": [
+        "codex_merge_v4_v6",
+        "gto_edge",
+        "gto",
+        "gto_edge",
+        "nc_v3",
+        "claude_v6",
+        "gto",
+        "codex_v6_round_challenger"
+      ],
+      "points": [
+        0.0,
+        50.0,
+        0.0,
+        20.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        7,
+        1,
+        5,
+        3,
+        8,
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "seats": [
+        "gto_edge",
+        "gto",
+        "gto_edge",
+        "codex_reform_v7",
+        "kevin1",
+        "gto",
+        "arch_nit",
+        "nc_v6"
+      ],
+      "points": [
+        50.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        3,
+        7,
+        5
+      ]
+    },
+    {
+      "seats": [
+        "arch_station",
+        "gto_edge",
+        "gto",
+        "gto_edge",
+        "arch_limper",
+        "gto",
+        "arch_nit",
+        "codex_reveal_v1"
+      ],
+      "points": [
+        20.0,
+        0.0,
+        0.0,
+        50.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        3,
+        8,
+        6,
+        1,
+        2,
+        7,
+        5,
+        4
+      ]
+    },
+    {
+      "seats": [
+        "gto_edge",
+        "codex_merge_river_guard",
+        "gto_edge",
+        "gto",
+        "nc_v8",
+        "codex_reform_v7",
+        "nc_v7",
+        "gto"
+      ],
+      "points": [
+        50.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        20.0
+      ],
+      "places": [
+        1,
+        7,
+        2,
+        8,
+        4,
+        5,
+        6,
+        3
+      ]
+    },
+    {
+      "seats": [
+        "gto_edge",
+        "arch_maniac",
+        "kevin1",
+        "nc_v5",
+        "gto",
+        "gto",
+        "nc_v4",
+        "gto_edge"
+      ],
+      "points": [
+        20.0,
+        0.0,
+        0.0,
+        0.0,
+        30.0,
+        50.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        3,
+        8,
+        6,
+        5,
+        2,
+        1,
+        4,
+        7
+      ]
+    },
+    {
+      "seats": [
+        "claude_v6",
+        "gto_edge",
+        "codex_nc_v7_adapted",
+        "gto",
+        "gto_edge",
+        "codex_v6_round_challenger",
+        "gto",
+        "nc_v6"
+      ],
+      "points": [
+        0.0,
+        50.0,
+        0.0,
+        20.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        8,
+        1,
+        7,
+        3,
+        2,
+        5,
+        4,
+        6
+      ]
+    },
+    {
+      "seats": [
+        "arch_tag",
+        "gto_edge",
+        "nc_v3",
+        "codex_merge_v4_v6",
+        "gto",
+        "gto_edge",
+        "gto",
+        "arch_loose"
+      ],
+      "points": [
+        0.0,
+        50.0,
+        0.0,
+        0.0,
+        0.0,
+        30.0,
+        0.0,
+        20.0
+      ],
+      "places": [
+        5,
+        1,
+        8,
+        6,
+        4,
+        2,
+        7,
+        3
+      ]
+    },
+    {
+      "seats": [
+        "gto_edge",
+        "gto",
+        "arch_tag",
+        "codex_nc_v7_adapted",
+        "arch_nit",
+        "gto",
+        "codex_merge_river_guard",
+        "gto_edge"
+      ],
+      "points": [
+        20.0,
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        50.0
+      ],
+      "places": [
+        3,
+        5,
+        2,
+        8,
+        6,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "seats": [
+        "nc_v7",
+        "nc_v4",
+        "gto_edge",
+        "gto",
+        "gto_edge",
+        "gto",
+        "codex_reveal_v1",
+        "nc_v3"
+      ],
+      "points": [
+        30.0,
+        0.0,
+        50.0,
+        0.0,
+        0.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        2,
+        5,
+        1,
+        4,
+        7,
+        3,
+        8,
+        6
+      ]
+    },
+    {
+      "seats": [
+        "gto",
+        "arch_station",
+        "nc_v5",
+        "gto_edge",
+        "codex_reform_v7",
+        "gto_edge",
+        "arch_maniac",
+        "gto"
+      ],
+      "points": [
+        50.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        30.0,
+        0.0,
+        20.0
+      ],
+      "places": [
+        1,
+        7,
+        4,
+        5,
+        6,
+        2,
+        8,
+        3
+      ]
+    },
+    {
+      "seats": [
+        "nc_v6",
+        "gto",
+        "claude_v6",
+        "gto",
+        "kevin1",
+        "gto_edge",
+        "codex_v6_round_challenger",
+        "gto_edge"
+      ],
+      "points": [
+        0.0,
+        30.0,
+        0.0,
+        0.0,
+        20.0,
+        50.0,
+        0.0,
+        0.0
+      ],
+      "places": [
+        7,
+        2,
+        5,
+        8,
+        3,
+        1,
+        4,
+        6
+      ]
+    }
+  ]
+}

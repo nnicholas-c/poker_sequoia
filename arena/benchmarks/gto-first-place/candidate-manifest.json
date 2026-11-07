@@ -1,0 +1,18 @@
+{
+  "gto_supplied": {
+    "source_label": "gto",
+    "sha256": "1d388d34699a5a93874534b3d61a74f1fffa9376b42ebf2b57edd2f8f01b5e06"
+  },
+  "codex_gto_refined": {
+    "source_label": "gto_refined",
+    "sha256": "f9a1b77abb5ca248c4aa100e432016453acc8107e2e32ae8efe0b5bcc5b40fe1"
+  },
+  "codex_gto_river_guard": {
+    "source_label": "guard_only",
+    "sha256": "b31becb5302aff6faf388670b6c95bc0f078a29abb11aad8653510e0abfd9806"
+  },
+  "nc_v9": {
+    "sha256": "0c1b50b6623e27138cafc1e1d318f90217f3dae1f94352d42110cae74b63490a",
+    "git_source": "d76cd34 origin/main snapshot"
+  }
+}

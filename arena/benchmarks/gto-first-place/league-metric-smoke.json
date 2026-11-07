@@ -1,0 +1,302 @@
+{
+  "run_id": "20261107T040849.503862Z",
+  "seed": "first-place-report-smoke",
+  "mode": "quick-triage",
+  "git_commit": "344fbc27db3b612e7f8f18a66dc4b8eb2d0ddd84",
+  "league_sha256": "8c33d16630761ec7b51e704a671051496d6892e92ce5884346a53d8bacc7b306",
+  "cases_sha256": "57205dabd22864f8ab5ff9e0dcc9120206657e44685f633d1b80b3488d1b33fc",
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+  "sources": {
+    "gto_supplied": {
+      "folder_sha256": "9e80863868bd38b5b60a1be235d7cfeecb038169c52ec55ba802f0a8fc1e623e",
+      "files": {
+        "README.md": "9f54cedb6d3146db0511ad2ffaf23892bf5f4f8511dcdc928d875e27b37131db",
+        "agent.py": "1d388d34699a5a93874534b3d61a74f1fffa9376b42ebf2b57edd2f8f01b5e06"
+      }
+    },
+    "codex_gto_refined": {
+      "folder_sha256": "2a840559dc609872fca1afcd5cf029c96c0e1fff421829c7ab2107d64c450c8f",
+      "files": {
+        "README.md": "33c5c4655590a12a269576023852d0f482030cc6cc9baf4aa12b0484cc506638",
+        "agent.py": "f9a1b77abb5ca248c4aa100e432016453acc8107e2e32ae8efe0b5bcc5b40fe1"
+      }
+    }
+  },
+  "checks": {
+    "gto_supplied": [
+      {
+        "case": "monster-215",
+        "severity": "block",
+        "action": "raise",
+        "amount": 985,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-314",
+        "severity": "block",
+        "action": "raise",
+        "amount": 408,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "bubble-two-pair",
+        "severity": "review",
+        "action": "fold",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-412",
+        "severity": "block",
+        "action": "raise",
+        "amount": 380,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-570",
+        "severity": "block",
+        "action": "raise",
+        "amount": 726,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "cheap-set",
+        "severity": "review",
+        "action": "call",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-843",
+        "severity": "block",
+        "action": "raise",
+        "amount": 2871,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "exposed-card-defeat",
+        "severity": "block",
+        "action": "fold",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "small-blind-premium-after-folds",
+        "severity": "block",
+        "action": "raise",
+        "amount": 50,
+        "swallowed_exceptions": [],
+        "passed": true
+      }
+    ],
+    "codex_gto_refined": [
+      {
+        "case": "monster-215",
+        "severity": "block",
+        "action": "raise",
+        "amount": 985,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-314",
+        "severity": "block",
+        "action": "raise",
+        "amount": 408,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "bubble-two-pair",
+        "severity": "review",
+        "action": "fold",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-412",
+        "severity": "block",
+        "action": "raise",
+        "amount": 380,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-570",
+        "severity": "block",
+        "action": "raise",
+        "amount": 726,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "cheap-set",
+        "severity": "review",
+        "action": "call",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-843",
+        "severity": "block",
+        "action": "raise",
+        "amount": 2871,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "exposed-card-defeat",
+        "severity": "block",
+        "action": "fold",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "small-blind-premium-after-folds",
+        "severity": "block",
+        "action": "raise",
+        "amount": 50,
+        "swallowed_exceptions": [],
+        "passed": true
+      }
+    ]
+  },
+  "matches": [
+    {
+      "bots": [
+        "gto_supplied",
+        "codex_gto_refined"
+      ],
+      "seed": "first-place-report-smoke:gto_supplied:codex_gto_refined",
+      "scores": {
+        "gto_supplied": {
+          "tables": 2,
+          "mean": 6.25,
+          "approx_95ci": [
+            3.8,
+            8.7
+          ]
+        },
+        "codex_gto_refined": {
+          "tables": 2,
+          "mean": 18.75,
+          "approx_95ci": [
+            16.3,
+            21.2
+          ]
+        }
+      },
+      "first_place_rates": {
+        "gto_supplied": {
+          "tables": 2,
+          "mean": 0.0,
+          "approx_95ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "codex_gto_refined": {
+          "tables": 2,
+          "mean": 0.25,
+          "approx_95ci": [
+            0.25,
+            0.25
+          ]
+        }
+      },
+      "first_place_difference_a_minus_b": {
+        "tables": 2,
+        "mean": -0.25,
+        "approx_95ci": [
+          -0.25,
+          -0.25
+        ]
+      },
+      "difference_a_minus_b": {
+        "tables": 2,
+        "mean": -12.5,
+        "approx_95ci": [
+          -17.4,
+          -7.6
+        ]
+      },
+      "health": {
+        "gto_supplied": {
+          "decisions": 992,
+          "failures": 0,
+          "errors": [],
+          "streets": {
+            "betting:0:fold": 724,
+            "betting:0:raise": 146,
+            "betting:0:call": 26,
+            "select:3:select": 44,
+            "betting:3:check": 9,
+            "betting:3:fold": 12,
+            "betting:3:raise": 17,
+            "betting:4:check": 3,
+            "betting:5:check": 2,
+            "betting:4:call": 3,
+            "betting:4:raise": 5,
+            "betting:3:call": 1
+          },
+          "early_busts": 0,
+          "seat_tables": 8,
+          "latency_ms": {
+            "p50": 0.051209,
+            "p99": 0.101875,
+            "p99.9": 0.304375
+          },
+          "latency_note": "direct computation only; use official subprocess check before upload"
+        },
+        "codex_gto_refined": {
+          "decisions": 1152,
+          "failures": 0,
+          "errors": [],
+          "streets": {
+            "betting:0:fold": 814,
+            "betting:0:raise": 207,
+            "select:3:select": 53,
+            "betting:3:raise": 15,
+            "betting:0:call": 22,
+            "betting:3:call": 10,
+            "betting:4:check": 6,
+            "betting:5:check": 4,
+            "betting:3:check": 4,
+            "betting:3:fold": 5,
+            "betting:4:raise": 4,
+            "betting:4:call": 2,
+            "betting:5:raise": 1,
+            "betting:5:fold": 1,
+            "betting:4:fold": 4
+          },
+          "early_busts": 0,
+          "seat_tables": 8,
+          "latency_ms": {
+            "p50": 0.050834,
+            "p99": 0.085375,
+            "p99.9": 0.19025
+          },
+          "latency_note": "direct computation only; use official subprocess check before upload"
+        }
+      }
+    }
+  ],
+  "notes": [
+    "Exact bot-folder hashes identify sources, including uncommitted edits.",
+    "Independent unit is a table, not each of four correlated copies.",
+    "Normal confidence intervals are approximate; short samples are not promotion proof.",
+    "No automatic champion changes, bot edits, learning across tables, or uploads."
+  ],
+  "sources_changed_during_run": []
+}

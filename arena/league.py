@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Fast internal league: tactical gates, frozen sources, balanced eight-seat matches.
 
-Run from the repository root: python arena/league.py [--bots claude_v2 kevin1]
+Run from the repository root: python arena/league.py [--bots nc_v3 kevin1]
 This evaluates versions; it never edits a bot, changes a champion or uploads anything.
 """
 from __future__ import annotations
@@ -23,7 +23,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from poker_agent_protocol.game import Action, is_legal, state_from_dict, state_to_dict
-from poker_engine.scoring import table_points
+from poker_engine.scoring import table_places, table_points
 from poker_engine.table import SitAndGo, TableRules
 from poker_engine.variant import load_variant
 
@@ -118,6 +118,7 @@ def play_match(names, modules, tables, seed, incident_file):
     stats = {n: {'decisions': 0, 'failures': 0, 'latency': [], 'errors': [], 'streets': Counter(),
                  'early_busts': 0, 'seat_tables': 0} for n in names}
     samples = defaultdict(list)
+    first_samples = defaultdict(list)
     for iteration in range(tables):
         seats = [names[0]]*4 + [names[1]]*4
         random.Random(f'{seed}:{iteration}:seats').shuffle(seats)
@@ -160,8 +161,10 @@ def play_match(names, modules, tables, seed, incident_file):
                                                     'state':state_to_dict(state)})+'\n')
         result = table.result(tuple(failures), tuple(decisions))
         scores = table_points(result, table.payouts)
+        places = table_places(result)
         for name in names:
             samples[name].append(statistics.fmean(scores[i] for i,n in enumerate(seats) if n == name))
+            first_samples[name].append(statistics.fmean(float(places[i] == 1) for i,n in enumerate(seats) if n == name))
             stats[name]['seat_tables'] += 4
         for hand in table.log:
             for seat,(before,after) in enumerate(zip(hand['stacks_before'],hand['stacks_after'])):
@@ -177,6 +180,8 @@ def play_match(names, modules, tables, seed, incident_file):
         st['latency_ms'] = {f'p{q}':lat[min(len(lat)-1,int(q/100*len(lat)))] if lat else 0 for q in (50,99,99.9)}
         st['latency_note'] = 'direct computation only; use official subprocess check before upload'
     return {'bots': names, 'seed': seed, 'scores': {n:mean_ci(samples[n]) for n in names},
+            'first_place_rates': {n:mean_ci(first_samples[n]) for n in names},
+            'first_place_difference_a_minus_b': mean_ci([a-b for a,b in zip(first_samples[names[0]],first_samples[names[1]])]),
             'difference_a_minus_b': mean_ci([a-b for a,b in zip(samples[names[0]],samples[names[1]])]), 'health':stats}
 
 
@@ -240,6 +245,10 @@ def main():
     for m in report['matches']:
         a,b=m['bots'];d=m['difference_a_minus_b'];lo,hi=d['approx_95ci']
         lines.append(f'| {a} / {b} | {m["scores"][a]["mean"]:.2f} / {m["scores"][b]["mean"]:.2f} | {d["mean"]:+.2f} [{lo:+.2f}, {hi:+.2f}] |')
+    lines+=['','| Pair | First places A / B | Difference (percentage points, approx. 95% CI) |','|---|---|---|']
+    for m in report['matches']:
+        a,b=m['bots'];d=m['first_place_difference_a_minus_b'];lo,hi=d['approx_95ci']
+        lines.append(f'| {a} / {b} | {m["first_place_rates"][a]["mean"]:.2%} / {m["first_place_rates"][b]["mean"]:.2%} | {100*d["mean"]:+.2f} [{100*lo:+.2f}, {100*hi:+.2f}] |')
     if changed:lines+=['',f'Sources changed while running: {", ".join(changed)}. Results describe frozen snapshots only.']
     lines+=['','See report.json for failures, street actions, latency and exact source hashes. Early busts in incidents.jsonl are review leads, not evidence of a bad decision.']
     (run/'SUMMARY.md').write_text('\n'.join(lines)+'\n')

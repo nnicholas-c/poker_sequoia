@@ -1,0 +1,1814 @@
+{
+  "random_flops": 400,
+  "trials_per_changed_flop": 800,
+  "opponent_model": "Random triple, retain best current flop eval7 value; no future-card selection",
+  "changed": 10,
+  "mean_equity_gain": 0.00021093750000000002,
+  "approx_95ci": [
+    -0.0013776711322885473,
+    0.0017995461322885473
+  ],
+  "caveat": "Random opponent, not a betting range. This measures discard changes, not table win rate.",
+  "rows": [
+    {
+      "changed": true,
+      "gain": -0.046875,
+      "hole": [
+        "3s",
+        "5d",
+        "3d"
+      ],
+      "board": [
+        "Ad",
+        "Kc",
+        "2d"
+      ],
+      "gto_keep": [
+        "5d",
+        "3d"
+      ],
+      "edge_keep": [
+        "3s",
+        "3d"
+      ],
+      "gto_equity": 0.4675,
+      "edge_equity": 0.420625
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": true,
+      "gain": 0.115,
+      "hole": [
+        "9s",
+        "7s",
+        "7c"
+      ],
+      "board": [
+        "Ks",
+        "2h",
+        "4s"
+      ],
+      "gto_keep": [
+        "9s",
+        "7s"
+      ],
+      "edge_keep": [
+        "7s",
+        "7c"
+      ],
+      "gto_equity": 0.436875,
+      "edge_equity": 0.551875
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": true,
+      "gain": 0.030625,
+      "hole": [
+        "7s",
+        "9h",
+        "Kc"
+      ],
+      "board": [
+        "8h",
+        "Qc",
+        "Ts"
+      ],
+      "gto_keep": [
+        "7s",
+        "9h"
+      ],
+      "edge_keep": [
+        "9h",
+        "Kc"
+      ],
+      "gto_equity": 0.365625,
+      "edge_equity": 0.39625
+    },
+    {
+      "changed": true,
+      "gain": -0.21375,
+      "hole": [
+        "Ts",
+        "Qc",
+        "9s"
+      ],
+      "board": [
+        "7h",
+        "4c",
+        "8s"
+      ],
+      "gto_keep": [
+        "Ts",
+        "9s"
+      ],
+      "edge_keep": [
+        "Ts",
+        "Qc"
+      ],
+      "gto_equity": 0.480625,
+      "edge_equity": 0.266875
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": true,
+      "gain": -0.045,
+      "hole": [
+        "6d",
+        "Ks",
+        "4s"
+      ],
+      "board": [
+        "5h",
+        "3d",
+        "3s"
+      ],
+      "gto_keep": [
+        "6d",
+        "4s"
+      ],
+      "edge_keep": [
+        "6d",
+        "Ks"
+      ],
+      "gto_equity": 0.404375,
+      "edge_equity": 0.359375
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": true,
+      "gain": -0.023125,
+      "hole": [
+        "5s",
+        "As",
+        "7d"
+      ],
+      "board": [
+        "7s",
+        "9s",
+        "Td"
+      ],
+      "gto_keep": [
+        "5s",
+        "As"
+      ],
+      "edge_keep": [
+        "As",
+        "7d"
+      ],
+      "gto_equity": 0.516875,
+      "edge_equity": 0.49375
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": true,
+      "gain": 0.130625,
+      "hole": [
+        "7h",
+        "9d",
+        "7d"
+      ],
+      "board": [
+        "3d",
+        "Td",
+        "2c"
+      ],
+      "gto_keep": [
+        "9d",
+        "7d"
+      ],
+      "edge_keep": [
+        "7h",
+        "7d"
+      ],
+      "gto_equity": 0.458125,
+      "edge_equity": 0.58875
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": true,
+      "gain": 0.148125,
+      "hole": [
+        "6h",
+        "Qh",
+        "Td"
+      ],
+      "board": [
+        "Th",
+        "Ah",
+        "2s"
+      ],
+      "gto_keep": [
+        "6h",
+        "Qh"
+      ],
+      "edge_keep": [
+        "Qh",
+        "Td"
+      ],
+      "gto_equity": 0.530625,
+      "edge_equity": 0.67875
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": true,
+      "gain": 0.01875,
+      "hole": [
+        "Js",
+        "4s",
+        "7d"
+      ],
+      "board": [
+        "As",
+        "Ks",
+        "7c"
+      ],
+      "gto_keep": [
+        "Js",
+        "4s"
+      ],
+      "edge_keep": [
+        "Js",
+        "7d"
+      ],
+      "gto_equity": 0.521875,
+      "edge_equity": 0.540625
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": true,
+      "gain": -0.03,
+      "hole": [
+        "9s",
+        "Ts",
+        "5h"
+      ],
+      "board": [
+        "5s",
+        "7c",
+        "Ks"
+      ],
+      "gto_keep": [
+        "9s",
+        "Ts"
+      ],
+      "edge_keep": [
+        "Ts",
+        "5h"
+      ],
+      "gto_equity": 0.509375,
+      "edge_equity": 0.479375
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    },
+    {
+      "changed": false,
+      "gain": 0.0
+    }
+  ]
+}
