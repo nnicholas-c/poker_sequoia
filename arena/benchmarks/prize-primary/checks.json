@@ -1,0 +1,296 @@
+{
+  "retain": [
+    {
+      "case": "monster-215",
+      "severity": "block",
+      "action": "raise",
+      "amount": 985,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "monster-314",
+      "severity": "block",
+      "action": "raise",
+      "amount": 408,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "bubble-two-pair",
+      "severity": "review",
+      "action": "fold",
+      "amount": 0,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "monster-412",
+      "severity": "block",
+      "action": "raise",
+      "amount": 380,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "monster-570",
+      "severity": "block",
+      "action": "raise",
+      "amount": 726,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "cheap-set",
+      "severity": "review",
+      "action": "call",
+      "amount": 0,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "monster-843",
+      "severity": "block",
+      "action": "raise",
+      "amount": 2871,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "exposed-card-defeat",
+      "severity": "block",
+      "action": "fold",
+      "amount": 0,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "small-blind-premium-after-folds",
+      "severity": "block",
+      "action": "raise",
+      "amount": 60,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "public-royal-win",
+      "severity": "block",
+      "action": "raise",
+      "amount": 200,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "public-royal-loss",
+      "severity": "block",
+      "action": "fold",
+      "amount": 0,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "certain-board-chop",
+      "severity": "block",
+      "action": "call",
+      "amount": 0,
+      "swallowed_exceptions": [],
+      "passed": true
+    }
+  ],
+  "open_hunter": [
+    {
+      "case": "monster-215",
+      "severity": "block",
+      "action": "raise",
+      "amount": 985,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "monster-314",
+      "severity": "block",
+      "action": "raise",
+      "amount": 408,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "bubble-two-pair",
+      "severity": "review",
+      "action": "fold",
+      "amount": 0,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "monster-412",
+      "severity": "block",
+      "action": "raise",
+      "amount": 380,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "monster-570",
+      "severity": "block",
+      "action": "raise",
+      "amount": 726,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "cheap-set",
+      "severity": "review",
+      "action": "call",
+      "amount": 0,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "monster-843",
+      "severity": "block",
+      "action": "raise",
+      "amount": 2871,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "exposed-card-defeat",
+      "severity": "block",
+      "action": "fold",
+      "amount": 0,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "small-blind-premium-after-folds",
+      "severity": "block",
+      "action": "raise",
+      "amount": 60,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "public-royal-win",
+      "severity": "block",
+      "action": "raise",
+      "amount": 200,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "public-royal-loss",
+      "severity": "block",
+      "action": "fold",
+      "amount": 0,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "certain-board-chop",
+      "severity": "block",
+      "action": "call",
+      "amount": 0,
+      "swallowed_exceptions": [],
+      "passed": true
+    }
+  ],
+  "limp_hunter": [
+    {
+      "case": "monster-215",
+      "severity": "block",
+      "action": "raise",
+      "amount": 985,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "monster-314",
+      "severity": "block",
+      "action": "raise",
+      "amount": 408,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "bubble-two-pair",
+      "severity": "review",
+      "action": "fold",
+      "amount": 0,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "monster-412",
+      "severity": "block",
+      "action": "raise",
+      "amount": 380,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "monster-570",
+      "severity": "block",
+      "action": "raise",
+      "amount": 726,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "cheap-set",
+      "severity": "review",
+      "action": "call",
+      "amount": 0,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "monster-843",
+      "severity": "block",
+      "action": "raise",
+      "amount": 2871,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "exposed-card-defeat",
+      "severity": "block",
+      "action": "fold",
+      "amount": 0,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "small-blind-premium-after-folds",
+      "severity": "block",
+      "action": "raise",
+      "amount": 60,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "public-royal-win",
+      "severity": "block",
+      "action": "raise",
+      "amount": 200,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "public-royal-loss",
+      "severity": "block",
+      "action": "fold",
+      "amount": 0,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "certain-board-chop",
+      "severity": "block",
+      "action": "call",
+      "amount": 0,
+      "swallowed_exceptions": [],
+      "passed": true
+    }
+  ]
+}
