@@ -1,0 +1,63 @@
+{
+  "scores": {
+    "v6": {
+      "tables": 96,
+      "mean": 17.65625,
+      "approx_95ci": [
+        15.193589455540646,
+        20.118910544459354
+      ]
+    },
+    "combined": {
+      "tables": 96,
+      "mean": 18.802083333333332,
+      "approx_95ci": [
+        16.522436075317405,
+        21.08173059134926
+      ]
+    },
+    "arch_nit": {
+      "tables": 96,
+      "mean": 10.9375,
+      "approx_95ci": [
+        7.62713574313069,
+        14.24786425686931
+      ]
+    },
+    "arch_tag": {
+      "tables": 96,
+      "mean": 8.541666666666666,
+      "approx_95ci": [
+        5.497777308148425,
+        11.585556025184907
+      ]
+    },
+    "arch_station": {
+      "tables": 96,
+      "mean": 2.8125,
+      "approx_95ci": [
+        0.9157788853281286,
+        4.709221114671871
+      ]
+    },
+    "arch_maniac": {
+      "tables": 96,
+      "mean": 4.791666666666667,
+      "approx_95ci": [
+        1.9186342863271184,
+        7.6646990470062155
+      ]
+    }
+  },
+  "combined_minus_v6": {
+    "tables": 96,
+    "mean": 1.1458333333333333,
+    "approx_95ci": [
+      -2.903347306294786,
+      5.195013972961452
+    ]
+  },
+  "failures": {},
+  "seed": "v6-mixed-final",
+  "note": "96 mixed fixture tables, two copies each of V6 and combined, one each nit, TAG, station, maniac. No actual competitor source; direct calls, not subprocess deadline validation."
+}
