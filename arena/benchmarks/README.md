@@ -17,6 +17,7 @@ Claude v2 led the initial pool, but Claude v3 arrived while this was running. A 
 |---|---:|---|---|
 | Claude v3 / Claude v2 | 24 | 11.77 / 13.23 | −1.46 [−7.16, +4.25] — inconclusive |
 | Claude v3 / Kevin 1 | 24 | 18.54 / 6.46 | +12.08 [+7.29, +16.87] |
+| Claude v3 / Codex reveal v1 | 24 | 16.25 / 8.75 | +7.50 [+1.69, +13.31] |
 
 **Next internal baseline: Claude v3**, which passes the expanded tactical gate. Its short match does not establish a scoring improvement over v2, but it repairs a demonstrated premium-hand fold. This is an internal testing choice, not a tournament upload or a claim about the unknown field. Keep the next iteration short: inspect a few early busts or public-card contradictions, make one change, then compare only that changed version.
 
