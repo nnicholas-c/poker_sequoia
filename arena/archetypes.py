@@ -13,7 +13,7 @@ from pathlib import Path
 import poker_agent_sdk
 from poker_agent_sdk import Action
 
-_spec = importlib.util.spec_from_file_location("v2_eval", Path(__file__).resolve().parents[1] / "bots" / "claude_v2" / "agent.py")
+_spec = importlib.util.spec_from_file_location("v2_eval", Path(__file__).resolve().parents[1] / "bots" / "nc_v5" / "agent.py")
 V2 = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(V2)
 

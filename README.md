@@ -34,7 +34,7 @@ and plays balanced eight-seat pairings. New versions go in new folders.
 ```bash
 python arena/league.py --tables 24
 # Compare only the changed version, without rerunning every unchanged pair:
-python arena/league.py --focus claude_v2 --tables 24
+python arena/league.py --focus nc_v2 --tables 24
 ```
 
 Reports and frozen snapshots stay in ignored `arena/runs/`. Short matches guide the
@@ -42,10 +42,10 @@ next fix; they do not automatically promote or upload a bot.
 
 ```bash
 # legality + size check exactly as the upload does it
-poker-agent check bots/claude_v1/agent.py
+poker-agent check bots/nc_v1/agent.py
 
 # upload-test conditions: heads-up vs check_or_fold, 1 ms per decision, no time bank
-python arena/arena.py bots/claude_v1 kit/examples/check_or_fold --players 2 --tables 300 --bank 0 --hand-cap 20
+python arena/arena.py bots/nc_v1 kit/examples/check_or_fold --players 2 --tables 300 --bank 0 --hand-cap 20
 
 # full table: four copies of A vs four of B (seats rotate every table)
 python arena/arena.py bots/A bots/A bots/A bots/A bots/B bots/B bots/B bots/B --tables 400
