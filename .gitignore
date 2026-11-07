@@ -5,3 +5,4 @@ venv/
 hand-history/*.jsonl.gz
 !kit/hand-history/sample.jsonl.gz
 *.zip
+arena/runs/

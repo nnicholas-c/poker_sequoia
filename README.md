@@ -27,6 +27,19 @@ pip install -e kit/sdk/agent-protocol -e kit/sdk/agent-sdk -e kit/sdk/engine
 
 ## Daily loop
 
+For quick shared competitions, see [the internal league](arena/LEAGUE.md). It discovers
+`bots/*/agent.py`, blocks known tactical failures, freezes source and assets by hash,
+and plays balanced eight-seat pairings. New versions go in new folders.
+
+```bash
+python arena/league.py --tables 24
+# Compare only the changed version, without rerunning every unchanged pair:
+python arena/league.py --focus claude_v2 --tables 24
+```
+
+Reports and frozen snapshots stay in ignored `arena/runs/`. Short matches guide the
+next fix; they do not automatically promote or upload a bot.
+
 ```bash
 # legality + size check exactly as the upload does it
 poker-agent check bots/claude_v1/agent.py
