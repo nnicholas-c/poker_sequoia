@@ -1,0 +1,14 @@
+{
+  "primary_metric": "official Empty Bluffer events per table",
+  "selection": "highest pooled development award rate among challengers; compare with current version",
+  "holdout_tables_per_profile": 128,
+  "holdout_profiles": ["balanced", "pressure", "call_heavy"],
+  "promotion_requires": [
+    "pooled paired approximate 95 percent interval for award gain versus current has lower bound above zero",
+    "award point estimate is at least current in each holdout profile",
+    "all blocking tactical and public-river checks pass",
+    "zero invalid or failed decisions in holdout and final subprocess health check"
+  ],
+  "fallback": "retain current prize-primary v1 if the gate fails",
+  "note": "Set before fresh holdout; tournament payout points are secondary diagnostics. Does not certify performance against the unknown live field."
+}

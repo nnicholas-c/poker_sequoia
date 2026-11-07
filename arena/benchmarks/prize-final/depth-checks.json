@@ -1,0 +1,23 @@
+[
+  {
+    "stack_bb": 6,
+    "actions": {
+      "current": "fold",
+      "short_stack": "fold"
+    }
+  },
+  {
+    "stack_bb": 10,
+    "actions": {
+      "current": "fold",
+      "short_stack": "call"
+    }
+  },
+  {
+    "stack_bb": 16,
+    "actions": {
+      "current": "call",
+      "short_stack": "call"
+    }
+  }
+]

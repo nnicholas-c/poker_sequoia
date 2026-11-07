@@ -1,0 +1,11 @@
+{
+  "selected_before_holdout": "short_stack",
+  "sha256": "ef58de32d61dc1dd33460938d768bbeeeaf23ac4454cc6e6dd2a51893430b678",
+  "development_awards_per_table": {
+    "current": 3.975,
+    "small_bets": 3.6,
+    "short_stack": 4.225,
+    "wide_keep": 3.85,
+    "volume": 3.5416666666666665
+  }
+}

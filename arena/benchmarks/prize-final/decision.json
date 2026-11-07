@@ -1,0 +1,13 @@
+{
+  "promoted": true,
+  "selected": "short_stack",
+  "repo_bot": "codex_empty_bluffer_final",
+  "sha256": "ef58de32d61dc1dd33460938d768bbeeeaf23ac4454cc6e6dd2a51893430b678",
+  "gates": {
+    "positive_paired_interval": true,
+    "nonnegative_in_every_profile": true,
+    "blocking_checks": true,
+    "no_holdout_failures": true,
+    "no_subprocess_failures": true
+  }
+}

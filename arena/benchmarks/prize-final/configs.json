@@ -1,0 +1,21 @@
+{
+  "current": {},
+  "small_bets": {
+    "fraction": 0.25,
+    "value": 0.45
+  },
+  "short_stack": {
+    "depth": 8
+  },
+  "wide_keep": {
+    "keep": 0.5
+  },
+  "volume": {
+    "fraction": 0.25,
+    "value": 0.45,
+    "depth": 8,
+    "keep": 0.5,
+    "multiway": true,
+    "later": 0.85
+  }
+}
