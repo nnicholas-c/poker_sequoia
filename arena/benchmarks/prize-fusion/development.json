@@ -1,0 +1,7516 @@
+{
+  "stage": "development",
+  "tables_per_profile": 64,
+  "profiles": {
+    "balanced": {
+      "nc_v9": 0.18,
+      "kevin1": 0.12,
+      "codex_merge_v4_v6": 0.12,
+      "codex_reveal_v1": 0.08,
+      "arch_tag": 0.2,
+      "arch_loose": 0.08,
+      "arch_limper": 0.08,
+      "arch_nit": 0.06,
+      "arch_maniac": 0.04,
+      "arch_station": 0.04
+    },
+    "pressure": {
+      "nc_v9": 0.3,
+      "kevin1": 0.16,
+      "codex_merge_v4_v6": 0.1,
+      "codex_reveal_v1": 0.06,
+      "arch_tag": 0.12,
+      "arch_loose": 0.1,
+      "arch_limper": 0.02,
+      "arch_nit": 0.02,
+      "arch_maniac": 0.08,
+      "arch_station": 0.04
+    }
+  },
+  "sources": {
+    "candidate": {
+      "agent.py": "2020edcd5ff36e8d68c250a443dd14c71bcdfbfaad087c7591fcb8ee031f57a0"
+    },
+    "survival": {
+      "agent.py": "da078c6e7117daa922affbad3f4df7d9886cdab42be2a62f22da54f16fbe91e8"
+    },
+    "nc_bluffer": {
+      "agent.py": "dd4f432dac0a92fdae5aa1a1db3c0978e629f6ee221c65b0512499e3f4767340"
+    },
+    "nc_v9": {
+      "agent.py": "0c1b50b6623e27138cafc1e1d318f90217f3dae1f94352d42110cae74b63490a"
+    },
+    "kevin1": {
+      "agent.py": "63a5f114afbc95b4905fb91ab03ffcd4c4ec6703c292642e76fe54956124275a"
+    },
+    "codex_merge_v4_v6": {
+      "README.md": "5abe37076336325754363a2018400bc81c3109c446a3aa2f9a847a367bedba59",
+      "agent.py": "839e31eb7db4cfa3cf64f5863b4d3f7532e489ee6b5890986cda99a5b67fc234"
+    },
+    "codex_reveal_v1": {
+      "README.md": "85e5785fa2b82b4265b42fe0ce5e1dce471cf2a8ac5847aeaa95dac64e1a22a0",
+      "agent.py": "c1152f3ce2ab5da640f5bdff0c578600b5bb2ebe39406329f4b223e9c45cea10",
+      "preflop.bin": "12c044e5b41f09ad1ed0c4ac70bb82838e085ba23da0c5571f9ddadf4063325f"
+    },
+    "arch_tag": {
+      "agent.py": "b5cef6f0742b721790fb5b1781766f9cca8b05c71720b89da34fc83eb15c8aee"
+    },
+    "arch_loose": {
+      "agent.py": "8eee71a81dca7d2e9583eec657efd60f88e7a6447c61add09bef45f4368fa0c1"
+    },
+    "arch_limper": {
+      "agent.py": "401280a5180e2691d241998e212a49590427e6ca870bef48c7131f77ed264ea7"
+    },
+    "arch_nit": {
+      "agent.py": "c9c73d2fe9b92d0faf773f204c2da22b98576fd1c3ca0e11311034ce6f99984e"
+    },
+    "arch_maniac": {
+      "agent.py": "e920d7c26c73eea41b82584b40462e4f226d7713ad7489db8fdf0846ce726ddb"
+    },
+    "arch_station": {
+      "agent.py": "64c89e3c012fa92dc2274e086cb257b612ae6f676e6b61c5cd5bb60dd8ee592c"
+    }
+  },
+  "rows": [
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:0",
+      "hero_seat": 0,
+      "opponents": [
+        "kevin1",
+        "kevin1",
+        "arch_nit",
+        "kevin1",
+        "codex_merge_v4_v6",
+        "kevin1",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 3,
+          "calls": 7,
+          "betting_decisions": 88,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 3,
+          "calls": 7,
+          "betting_decisions": 88,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 6,
+          "betting_decisions": 85,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:1",
+      "hero_seat": 1,
+      "opponents": [
+        "arch_station",
+        "codex_merge_v4_v6",
+        "arch_loose",
+        "arch_loose",
+        "kevin1",
+        "arch_loose",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 7,
+          "calls": 11,
+          "betting_decisions": 117,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 7,
+          "calls": 11,
+          "betting_decisions": 117,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 13,
+          "betting_decisions": 88,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:2",
+      "hero_seat": 2,
+      "opponents": [
+        "codex_merge_v4_v6",
+        "arch_nit",
+        "arch_nit",
+        "codex_reveal_v1",
+        "codex_merge_v4_v6",
+        "nc_v9",
+        "arch_tag"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 1,
+          "shover": 12,
+          "calls": 8,
+          "betting_decisions": 159,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 11,
+          "calls": 8,
+          "betting_decisions": 154,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 5,
+          "calls": 12,
+          "betting_decisions": 152,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:3",
+      "hero_seat": 3,
+      "opponents": [
+        "arch_station",
+        "arch_limper",
+        "arch_loose",
+        "arch_tag",
+        "codex_reveal_v1",
+        "kevin1",
+        "codex_reveal_v1"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 4,
+          "betting_decisions": 80,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 4,
+          "betting_decisions": 81,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 4,
+          "betting_decisions": 53,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:4",
+      "hero_seat": 4,
+      "opponents": [
+        "nc_v9",
+        "codex_merge_v4_v6",
+        "kevin1",
+        "arch_station",
+        "nc_v9",
+        "kevin1",
+        "kevin1"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 3,
+          "betting_decisions": 79,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 5,
+          "calls": 5,
+          "betting_decisions": 111,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 1,
+          "shover": 13,
+          "calls": 12,
+          "betting_decisions": 192,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:5",
+      "hero_seat": 5,
+      "opponents": [
+        "codex_merge_v4_v6",
+        "arch_limper",
+        "arch_tag",
+        "kevin1",
+        "kevin1",
+        "codex_reveal_v1",
+        "arch_tag"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 1,
+          "shover": 4,
+          "calls": 8,
+          "betting_decisions": 152,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 1,
+          "shover": 4,
+          "calls": 8,
+          "betting_decisions": 152,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 1,
+          "shover": 3,
+          "calls": 13,
+          "betting_decisions": 176,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:6",
+      "hero_seat": 6,
+      "opponents": [
+        "nc_v9",
+        "arch_loose",
+        "nc_v9",
+        "kevin1",
+        "codex_reveal_v1",
+        "arch_tag",
+        "arch_tag"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 0,
+          "calls": 3,
+          "betting_decisions": 91,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 1,
+          "shover": 1,
+          "calls": 10,
+          "betting_decisions": 132,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 5,
+          "calls": 11,
+          "betting_decisions": 178,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:7",
+      "hero_seat": 7,
+      "opponents": [
+        "arch_maniac",
+        "arch_nit",
+        "kevin1",
+        "kevin1",
+        "codex_reveal_v1",
+        "arch_limper",
+        "arch_station"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 5,
+          "betting_decisions": 43,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 5,
+          "betting_decisions": 43,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 3,
+          "calls": 7,
+          "betting_decisions": 69,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:8",
+      "hero_seat": 0,
+      "opponents": [
+        "nc_v9",
+        "nc_v9",
+        "codex_merge_v4_v6",
+        "kevin1",
+        "arch_maniac",
+        "arch_loose",
+        "arch_nit"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 2,
+          "shover": 5,
+          "calls": 8,
+          "betting_decisions": 130,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 2,
+          "shover": 6,
+          "calls": 8,
+          "betting_decisions": 130,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 1,
+          "shover": 2,
+          "calls": 14,
+          "betting_decisions": 180,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:9",
+      "hero_seat": 1,
+      "opponents": [
+        "arch_station",
+        "codex_merge_v4_v6",
+        "arch_nit",
+        "arch_nit",
+        "arch_loose",
+        "arch_limper",
+        "arch_loose"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 16,
+          "calls": 8,
+          "betting_decisions": 152,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 16,
+          "calls": 8,
+          "betting_decisions": 152,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 1,
+          "shover": 1,
+          "calls": 11,
+          "betting_decisions": 133,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:10",
+      "hero_seat": 2,
+      "opponents": [
+        "codex_merge_v4_v6",
+        "arch_limper",
+        "arch_tag",
+        "kevin1",
+        "codex_merge_v4_v6",
+        "arch_tag",
+        "kevin1"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 0,
+          "calls": 5,
+          "betting_decisions": 53,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 0,
+          "calls": 5,
+          "betting_decisions": 53,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 0,
+          "calls": 7,
+          "betting_decisions": 53,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:11",
+      "hero_seat": 3,
+      "opponents": [
+        "arch_loose",
+        "arch_tag",
+        "codex_merge_v4_v6",
+        "nc_v9",
+        "codex_merge_v4_v6",
+        "codex_merge_v4_v6",
+        "codex_reveal_v1"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 2,
+          "shover": 5,
+          "calls": 8,
+          "betting_decisions": 154,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 1,
+          "shover": 5,
+          "calls": 8,
+          "betting_decisions": 154,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 3,
+          "shover": 1,
+          "calls": 24,
+          "betting_decisions": 195,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:12",
+      "hero_seat": 4,
+      "opponents": [
+        "kevin1",
+        "kevin1",
+        "arch_tag",
+        "arch_loose",
+        "nc_v9",
+        "arch_nit",
+        "arch_maniac"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 7,
+          "betting_decisions": 68,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 7,
+          "betting_decisions": 68,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 7,
+          "betting_decisions": 60,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:13",
+      "hero_seat": 5,
+      "opponents": [
+        "arch_tag",
+        "nc_v9",
+        "codex_merge_v4_v6",
+        "nc_v9",
+        "arch_loose",
+        "kevin1",
+        "arch_tag"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 4,
+          "calls": 4,
+          "betting_decisions": 102,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 4,
+          "calls": 4,
+          "betting_decisions": 102,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 6,
+          "calls": 9,
+          "betting_decisions": 162,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:14",
+      "hero_seat": 6,
+      "opponents": [
+        "codex_merge_v4_v6",
+        "nc_v9",
+        "nc_v9",
+        "codex_merge_v4_v6",
+        "codex_merge_v4_v6",
+        "arch_tag",
+        "arch_nit"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 6,
+          "betting_decisions": 67,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 6,
+          "betting_decisions": 67,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 7,
+          "betting_decisions": 95,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:15",
+      "hero_seat": 7,
+      "opponents": [
+        "arch_loose",
+        "arch_tag",
+        "codex_reveal_v1",
+        "kevin1",
+        "arch_tag",
+        "kevin1",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 6,
+          "calls": 17,
+          "betting_decisions": 130,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 6,
+          "calls": 17,
+          "betting_decisions": 130,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 4,
+          "calls": 15,
+          "betting_decisions": 142,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:16",
+      "hero_seat": 0,
+      "opponents": [
+        "kevin1",
+        "codex_reveal_v1",
+        "arch_limper",
+        "arch_nit",
+        "codex_merge_v4_v6",
+        "arch_maniac",
+        "arch_loose"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 2,
+          "betting_decisions": 39,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 2,
+          "betting_decisions": 39,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 1,
+          "betting_decisions": 36,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:17",
+      "hero_seat": 1,
+      "opponents": [
+        "arch_tag",
+        "arch_loose",
+        "arch_maniac",
+        "codex_merge_v4_v6",
+        "arch_limper",
+        "arch_tag",
+        "codex_merge_v4_v6"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 4,
+          "calls": 6,
+          "betting_decisions": 67,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 4,
+          "calls": 6,
+          "betting_decisions": 67,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 1,
+          "shover": 5,
+          "calls": 13,
+          "betting_decisions": 146,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:18",
+      "hero_seat": 2,
+      "opponents": [
+        "codex_merge_v4_v6",
+        "kevin1",
+        "codex_reveal_v1",
+        "nc_v9",
+        "arch_tag",
+        "codex_merge_v4_v6",
+        "codex_reveal_v1"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 11,
+          "calls": 17,
+          "betting_decisions": 176,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 11,
+          "calls": 17,
+          "betting_decisions": 176,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 1,
+          "shover": 3,
+          "calls": 14,
+          "betting_decisions": 138,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:19",
+      "hero_seat": 3,
+      "opponents": [
+        "kevin1",
+        "arch_nit",
+        "nc_v9",
+        "nc_v9",
+        "arch_maniac",
+        "nc_v9",
+        "arch_maniac"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 12,
+          "calls": 7,
+          "betting_decisions": 149,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 12,
+          "calls": 7,
+          "betting_decisions": 149,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 1,
+          "shover": 7,
+          "calls": 13,
+          "betting_decisions": 156,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:20",
+      "hero_seat": 4,
+      "opponents": [
+        "arch_loose",
+        "arch_limper",
+        "arch_limper",
+        "arch_tag",
+        "nc_v9",
+        "arch_station",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 2,
+          "shover": 19,
+          "calls": 2,
+          "betting_decisions": 181,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 3,
+          "calls": 1,
+          "betting_decisions": 118,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 2,
+          "shover": 3,
+          "calls": 19,
+          "betting_decisions": 179,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:21",
+      "hero_seat": 5,
+      "opponents": [
+        "arch_loose",
+        "arch_station",
+        "arch_nit",
+        "arch_limper",
+        "nc_v9",
+        "arch_limper",
+        "codex_merge_v4_v6"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 5,
+          "calls": 5,
+          "betting_decisions": 114,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 5,
+          "calls": 5,
+          "betting_decisions": 114,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 3,
+          "calls": 7,
+          "betting_decisions": 99,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:22",
+      "hero_seat": 6,
+      "opponents": [
+        "nc_v9",
+        "codex_reveal_v1",
+        "arch_limper",
+        "arch_station",
+        "codex_reveal_v1",
+        "nc_v9",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 18,
+          "calls": 13,
+          "betting_decisions": 183,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 19,
+          "calls": 14,
+          "betting_decisions": 184,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 4,
+          "betting_decisions": 54,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:23",
+      "hero_seat": 7,
+      "opponents": [
+        "arch_station",
+        "arch_nit",
+        "nc_v9",
+        "arch_tag",
+        "codex_merge_v4_v6",
+        "arch_nit",
+        "arch_tag"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 4,
+          "calls": 5,
+          "betting_decisions": 126,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 4,
+          "calls": 5,
+          "betting_decisions": 126,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 10,
+          "betting_decisions": 133,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:24",
+      "hero_seat": 0,
+      "opponents": [
+        "arch_nit",
+        "arch_maniac",
+        "arch_nit",
+        "kevin1",
+        "arch_tag",
+        "nc_v9",
+        "arch_loose"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 3,
+          "calls": 8,
+          "betting_decisions": 79,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 3,
+          "calls": 8,
+          "betting_decisions": 79,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 3,
+          "calls": 10,
+          "betting_decisions": 139,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:25",
+      "hero_seat": 1,
+      "opponents": [
+        "arch_tag",
+        "nc_v9",
+        "nc_v9",
+        "arch_loose",
+        "codex_merge_v4_v6",
+        "arch_limper",
+        "arch_loose"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 3,
+          "calls": 4,
+          "betting_decisions": 57,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 3,
+          "calls": 4,
+          "betting_decisions": 57,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 0,
+          "calls": 4,
+          "betting_decisions": 36,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:26",
+      "hero_seat": 2,
+      "opponents": [
+        "codex_reveal_v1",
+        "codex_merge_v4_v6",
+        "arch_limper",
+        "arch_tag",
+        "nc_v9",
+        "kevin1",
+        "arch_tag"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 4,
+          "calls": 4,
+          "betting_decisions": 148,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 4,
+          "calls": 4,
+          "betting_decisions": 148,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 2,
+          "shover": 7,
+          "calls": 13,
+          "betting_decisions": 233,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:27",
+      "hero_seat": 3,
+      "opponents": [
+        "nc_v9",
+        "arch_maniac",
+        "arch_loose",
+        "arch_tag",
+        "kevin1",
+        "arch_loose",
+        "kevin1"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 10,
+          "betting_decisions": 119,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 10,
+          "betting_decisions": 119,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 3,
+          "calls": 6,
+          "betting_decisions": 85,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:28",
+      "hero_seat": 4,
+      "opponents": [
+        "nc_v9",
+        "codex_merge_v4_v6",
+        "codex_merge_v4_v6",
+        "nc_v9",
+        "kevin1",
+        "arch_tag",
+        "kevin1"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 2,
+          "shover": 9,
+          "calls": 14,
+          "betting_decisions": 149,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 15,
+          "calls": 13,
+          "betting_decisions": 163,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 10,
+          "betting_decisions": 62,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:29",
+      "hero_seat": 5,
+      "opponents": [
+        "arch_limper",
+        "nc_v9",
+        "nc_v9",
+        "nc_v9",
+        "arch_tag",
+        "arch_tag",
+        "arch_loose"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 2,
+          "shover": 2,
+          "calls": 5,
+          "betting_decisions": 98,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 2,
+          "shover": 2,
+          "calls": 5,
+          "betting_decisions": 99,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 2,
+          "shover": 4,
+          "calls": 8,
+          "betting_decisions": 162,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:30",
+      "hero_seat": 6,
+      "opponents": [
+        "arch_tag",
+        "arch_maniac",
+        "kevin1",
+        "arch_loose",
+        "arch_tag",
+        "kevin1",
+        "kevin1"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 1,
+          "shover": 1,
+          "calls": 15,
+          "betting_decisions": 125,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 1,
+          "shover": 1,
+          "calls": 15,
+          "betting_decisions": 125,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 0,
+          "calls": 10,
+          "betting_decisions": 112,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:31",
+      "hero_seat": 7,
+      "opponents": [
+        "nc_v9",
+        "arch_limper",
+        "codex_merge_v4_v6",
+        "codex_reveal_v1",
+        "kevin1",
+        "arch_nit",
+        "arch_loose"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 1,
+          "betting_decisions": 44,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 1,
+          "betting_decisions": 44,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 2,
+          "betting_decisions": 48,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:32",
+      "hero_seat": 0,
+      "opponents": [
+        "codex_merge_v4_v6",
+        "nc_v9",
+        "nc_v9",
+        "codex_merge_v4_v6",
+        "kevin1",
+        "arch_tag",
+        "arch_tag"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 4,
+          "calls": 5,
+          "betting_decisions": 104,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 4,
+          "calls": 5,
+          "betting_decisions": 104,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 2,
+          "shover": 5,
+          "calls": 19,
+          "betting_decisions": 213,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:33",
+      "hero_seat": 1,
+      "opponents": [
+        "kevin1",
+        "arch_maniac",
+        "nc_v9",
+        "arch_limper",
+        "codex_merge_v4_v6",
+        "nc_v9",
+        "arch_tag"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 0,
+          "betting_decisions": 3,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 1.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 0,
+          "betting_decisions": 3,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 1.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 0,
+          "betting_decisions": 3,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 1.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:34",
+      "hero_seat": 2,
+      "opponents": [
+        "kevin1",
+        "arch_limper",
+        "kevin1",
+        "kevin1",
+        "nc_v9",
+        "arch_limper",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 3,
+          "shover": 7,
+          "calls": 4,
+          "betting_decisions": 111,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 2,
+          "shover": 3,
+          "calls": 12,
+          "betting_decisions": 134,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 6,
+          "shover": 4,
+          "calls": 22,
+          "betting_decisions": 210,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:35",
+      "hero_seat": 3,
+      "opponents": [
+        "arch_maniac",
+        "arch_maniac",
+        "arch_station",
+        "arch_loose",
+        "arch_limper",
+        "arch_tag",
+        "kevin1"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 0,
+          "calls": 4,
+          "betting_decisions": 12,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 1.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 0,
+          "calls": 4,
+          "betting_decisions": 12,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 1.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 11,
+          "betting_decisions": 66,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:36",
+      "hero_seat": 4,
+      "opponents": [
+        "codex_reveal_v1",
+        "arch_limper",
+        "arch_nit",
+        "kevin1",
+        "arch_nit",
+        "arch_maniac",
+        "arch_nit"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 5,
+          "calls": 8,
+          "betting_decisions": 113,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 5,
+          "calls": 8,
+          "betting_decisions": 113,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 10,
+          "betting_decisions": 128,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:37",
+      "hero_seat": 5,
+      "opponents": [
+        "arch_loose",
+        "codex_reveal_v1",
+        "kevin1",
+        "codex_merge_v4_v6",
+        "arch_maniac",
+        "arch_tag",
+        "arch_tag"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 3,
+          "calls": 9,
+          "betting_decisions": 86,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 5,
+          "calls": 10,
+          "betting_decisions": 103,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 1,
+          "shover": 3,
+          "calls": 10,
+          "betting_decisions": 79,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:38",
+      "hero_seat": 6,
+      "opponents": [
+        "arch_tag",
+        "nc_v9",
+        "arch_tag",
+        "arch_loose",
+        "arch_loose",
+        "kevin1",
+        "arch_loose"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 2,
+          "shover": 5,
+          "calls": 10,
+          "betting_decisions": 135,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 2,
+          "shover": 5,
+          "calls": 10,
+          "betting_decisions": 128,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 3,
+          "shover": 2,
+          "calls": 14,
+          "betting_decisions": 138,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:39",
+      "hero_seat": 7,
+      "opponents": [
+        "arch_station",
+        "arch_tag",
+        "arch_station",
+        "arch_maniac",
+        "kevin1",
+        "arch_tag",
+        "codex_merge_v4_v6"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 0,
+          "betting_decisions": 3,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 1.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 0,
+          "betting_decisions": 3,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 1.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 0,
+          "betting_decisions": 3,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 1.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:40",
+      "hero_seat": 0,
+      "opponents": [
+        "nc_v9",
+        "kevin1",
+        "arch_limper",
+        "nc_v9",
+        "codex_reveal_v1",
+        "arch_tag",
+        "codex_merge_v4_v6"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 3,
+          "calls": 2,
+          "betting_decisions": 100,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 3,
+          "calls": 2,
+          "betting_decisions": 100,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 7,
+          "betting_decisions": 95,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:41",
+      "hero_seat": 1,
+      "opponents": [
+        "nc_v9",
+        "kevin1",
+        "nc_v9",
+        "arch_nit",
+        "kevin1",
+        "arch_tag",
+        "codex_merge_v4_v6"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 7,
+          "betting_decisions": 76,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 7,
+          "betting_decisions": 76,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 11,
+          "betting_decisions": 73,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:42",
+      "hero_seat": 2,
+      "opponents": [
+        "codex_merge_v4_v6",
+        "arch_tag",
+        "kevin1",
+        "arch_tag",
+        "arch_tag",
+        "nc_v9",
+        "codex_merge_v4_v6"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 9,
+          "betting_decisions": 112,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 9,
+          "betting_decisions": 112,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 5,
+          "betting_decisions": 60,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:43",
+      "hero_seat": 3,
+      "opponents": [
+        "nc_v9",
+        "arch_nit",
+        "arch_loose",
+        "nc_v9",
+        "kevin1",
+        "nc_v9",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 1,
+          "shover": 16,
+          "calls": 1,
+          "betting_decisions": 140,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 16,
+          "calls": 1,
+          "betting_decisions": 140,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 3,
+          "shover": 8,
+          "calls": 18,
+          "betting_decisions": 177,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:44",
+      "hero_seat": 4,
+      "opponents": [
+        "arch_tag",
+        "codex_merge_v4_v6",
+        "arch_limper",
+        "arch_tag",
+        "arch_tag",
+        "arch_maniac",
+        "arch_nit"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 22,
+          "calls": 6,
+          "betting_decisions": 174,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 14,
+          "calls": 5,
+          "betting_decisions": 142,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 1,
+          "shover": 1,
+          "calls": 7,
+          "betting_decisions": 88,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:45",
+      "hero_seat": 5,
+      "opponents": [
+        "codex_reveal_v1",
+        "kevin1",
+        "nc_v9",
+        "arch_loose",
+        "codex_merge_v4_v6",
+        "codex_merge_v4_v6",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 1,
+          "shover": 0,
+          "calls": 4,
+          "betting_decisions": 54,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 1,
+          "shover": 0,
+          "calls": 4,
+          "betting_decisions": 54,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 5,
+          "calls": 8,
+          "betting_decisions": 138,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:46",
+      "hero_seat": 6,
+      "opponents": [
+        "arch_loose",
+        "arch_limper",
+        "codex_reveal_v1",
+        "nc_v9",
+        "arch_tag",
+        "arch_tag",
+        "codex_merge_v4_v6"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 2,
+          "betting_decisions": 69,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 2,
+          "betting_decisions": 69,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 3,
+          "shover": 3,
+          "calls": 11,
+          "betting_decisions": 120,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:47",
+      "hero_seat": 7,
+      "opponents": [
+        "arch_tag",
+        "codex_merge_v4_v6",
+        "arch_tag",
+        "codex_merge_v4_v6",
+        "arch_limper",
+        "kevin1",
+        "arch_nit"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 8,
+          "calls": 6,
+          "betting_decisions": 148,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 3,
+          "calls": 7,
+          "betting_decisions": 134,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 8,
+          "betting_decisions": 148,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:48",
+      "hero_seat": 0,
+      "opponents": [
+        "codex_reveal_v1",
+        "arch_limper",
+        "nc_v9",
+        "arch_tag",
+        "arch_loose",
+        "arch_limper",
+        "arch_limper"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 7,
+          "betting_decisions": 72,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 7,
+          "betting_decisions": 72,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 3,
+          "betting_decisions": 51,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:49",
+      "hero_seat": 1,
+      "opponents": [
+        "arch_maniac",
+        "arch_loose",
+        "arch_limper",
+        "codex_merge_v4_v6",
+        "nc_v9",
+        "arch_nit",
+        "codex_reveal_v1"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 1,
+          "shover": 11,
+          "calls": 9,
+          "betting_decisions": 157,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 1,
+          "shover": 11,
+          "calls": 9,
+          "betting_decisions": 157,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 2,
+          "shover": 4,
+          "calls": 13,
+          "betting_decisions": 202,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:50",
+      "hero_seat": 2,
+      "opponents": [
+        "nc_v9",
+        "arch_limper",
+        "codex_merge_v4_v6",
+        "codex_reveal_v1",
+        "codex_merge_v4_v6",
+        "nc_v9",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 6,
+          "betting_decisions": 49,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 6,
+          "betting_decisions": 49,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 7,
+          "betting_decisions": 52,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:51",
+      "hero_seat": 3,
+      "opponents": [
+        "arch_limper",
+        "arch_tag",
+        "codex_merge_v4_v6",
+        "arch_limper",
+        "arch_limper",
+        "arch_limper",
+        "arch_nit"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 2,
+          "betting_decisions": 25,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 1.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 2,
+          "betting_decisions": 25,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 1.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 3,
+          "betting_decisions": 26,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 1.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:52",
+      "hero_seat": 4,
+      "opponents": [
+        "arch_station",
+        "nc_v9",
+        "arch_limper",
+        "arch_tag",
+        "arch_limper",
+        "codex_merge_v4_v6",
+        "kevin1"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 1,
+          "shover": 19,
+          "calls": 10,
+          "betting_decisions": 189,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 19,
+          "calls": 10,
+          "betting_decisions": 189,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 1,
+          "shover": 11,
+          "calls": 20,
+          "betting_decisions": 236,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:53",
+      "hero_seat": 5,
+      "opponents": [
+        "arch_tag",
+        "codex_merge_v4_v6",
+        "arch_tag",
+        "codex_merge_v4_v6",
+        "arch_maniac",
+        "codex_reveal_v1",
+        "arch_tag"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 1,
+          "shover": 11,
+          "calls": 6,
+          "betting_decisions": 137,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 14,
+          "calls": 6,
+          "betting_decisions": 136,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 0,
+          "calls": 2,
+          "betting_decisions": 8,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 1.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:54",
+      "hero_seat": 6,
+      "opponents": [
+        "codex_merge_v4_v6",
+        "arch_limper",
+        "arch_tag",
+        "codex_merge_v4_v6",
+        "codex_merge_v4_v6",
+        "nc_v9",
+        "arch_tag"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 0,
+          "betting_decisions": 45,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 0,
+          "betting_decisions": 45,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 1,
+          "shover": 1,
+          "calls": 9,
+          "betting_decisions": 88,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:55",
+      "hero_seat": 7,
+      "opponents": [
+        "arch_maniac",
+        "codex_merge_v4_v6",
+        "nc_v9",
+        "nc_v9",
+        "arch_nit",
+        "nc_v9",
+        "arch_loose"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 0,
+          "calls": 2,
+          "betting_decisions": 17,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 1.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 0,
+          "calls": 2,
+          "betting_decisions": 17,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 1.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 0,
+          "calls": 4,
+          "betting_decisions": 19,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 1.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:56",
+      "hero_seat": 0,
+      "opponents": [
+        "codex_reveal_v1",
+        "arch_nit",
+        "arch_station",
+        "nc_v9",
+        "kevin1",
+        "arch_nit",
+        "arch_station"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 0,
+          "calls": 3,
+          "betting_decisions": 16,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 1.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 0,
+          "calls": 3,
+          "betting_decisions": 16,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 1.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 3,
+          "betting_decisions": 41,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:57",
+      "hero_seat": 1,
+      "opponents": [
+        "codex_merge_v4_v6",
+        "kevin1",
+        "arch_tag",
+        "kevin1",
+        "arch_tag",
+        "kevin1",
+        "arch_loose"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 3,
+          "betting_decisions": 85,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 3,
+          "betting_decisions": 85,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 3,
+          "calls": 9,
+          "betting_decisions": 106,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:58",
+      "hero_seat": 2,
+      "opponents": [
+        "kevin1",
+        "codex_merge_v4_v6",
+        "arch_loose",
+        "kevin1",
+        "arch_tag",
+        "arch_loose",
+        "arch_tag"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 6,
+          "betting_decisions": 101,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 6,
+          "betting_decisions": 99,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 2,
+          "shover": 3,
+          "calls": 25,
+          "betting_decisions": 197,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:59",
+      "hero_seat": 3,
+      "opponents": [
+        "codex_reveal_v1",
+        "nc_v9",
+        "codex_reveal_v1",
+        "arch_loose",
+        "kevin1",
+        "nc_v9",
+        "kevin1"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 11,
+          "calls": 12,
+          "betting_decisions": 131,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 11,
+          "calls": 12,
+          "betting_decisions": 131,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 1,
+          "shover": 3,
+          "calls": 17,
+          "betting_decisions": 121,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:60",
+      "hero_seat": 4,
+      "opponents": [
+        "arch_tag",
+        "kevin1",
+        "arch_maniac",
+        "nc_v9",
+        "kevin1",
+        "arch_station",
+        "codex_merge_v4_v6"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 2,
+          "shover": 13,
+          "calls": 8,
+          "betting_decisions": 157,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 1,
+          "shover": 12,
+          "calls": 9,
+          "betting_decisions": 157,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 3,
+          "betting_decisions": 66,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:61",
+      "hero_seat": 5,
+      "opponents": [
+        "arch_loose",
+        "arch_limper",
+        "codex_merge_v4_v6",
+        "nc_v9",
+        "kevin1",
+        "arch_limper",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 2,
+          "betting_decisions": 87,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 2,
+          "betting_decisions": 87,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 4,
+          "betting_decisions": 98,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:62",
+      "hero_seat": 6,
+      "opponents": [
+        "codex_merge_v4_v6",
+        "kevin1",
+        "nc_v9",
+        "arch_limper",
+        "codex_reveal_v1",
+        "arch_loose",
+        "arch_station"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 4,
+          "betting_decisions": 67,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 4,
+          "betting_decisions": 67,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 7,
+          "calls": 13,
+          "betting_decisions": 140,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "balanced",
+      "seed": "prize-fusion-development-1:balanced:63",
+      "hero_seat": 7,
+      "opponents": [
+        "codex_merge_v4_v6",
+        "codex_merge_v4_v6",
+        "kevin1",
+        "arch_maniac",
+        "arch_tag",
+        "nc_v9",
+        "codex_merge_v4_v6"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 11,
+          "calls": 4,
+          "betting_decisions": 173,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 13,
+          "calls": 0,
+          "betting_decisions": 150,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 4,
+          "calls": 3,
+          "betting_decisions": 116,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:0",
+      "hero_seat": 0,
+      "opponents": [
+        "nc_v9",
+        "codex_reveal_v1",
+        "kevin1",
+        "nc_v9",
+        "nc_v9",
+        "arch_loose",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 27,
+          "calls": 6,
+          "betting_decisions": 169,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 27,
+          "calls": 6,
+          "betting_decisions": 169,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 5,
+          "calls": 9,
+          "betting_decisions": 122,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:1",
+      "hero_seat": 1,
+      "opponents": [
+        "arch_maniac",
+        "codex_merge_v4_v6",
+        "kevin1",
+        "codex_merge_v4_v6",
+        "nc_v9",
+        "arch_maniac",
+        "codex_merge_v4_v6"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 6,
+          "calls": 5,
+          "betting_decisions": 130,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 6,
+          "calls": 4,
+          "betting_decisions": 129,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 6,
+          "calls": 10,
+          "betting_decisions": 139,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:2",
+      "hero_seat": 2,
+      "opponents": [
+        "nc_v9",
+        "kevin1",
+        "nc_v9",
+        "kevin1",
+        "codex_merge_v4_v6",
+        "nc_v9",
+        "codex_merge_v4_v6"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 4,
+          "betting_decisions": 45,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 4,
+          "betting_decisions": 45,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 0,
+          "calls": 10,
+          "betting_decisions": 53,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:3",
+      "hero_seat": 3,
+      "opponents": [
+        "nc_v9",
+        "arch_tag",
+        "kevin1",
+        "codex_reveal_v1",
+        "arch_loose",
+        "nc_v9",
+        "kevin1"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 0,
+          "calls": 7,
+          "betting_decisions": 61,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 0,
+          "calls": 7,
+          "betting_decisions": 61,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 1,
+          "shover": 2,
+          "calls": 4,
+          "betting_decisions": 86,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:4",
+      "hero_seat": 4,
+      "opponents": [
+        "kevin1",
+        "nc_v9",
+        "nc_v9",
+        "arch_loose",
+        "nc_v9",
+        "codex_merge_v4_v6",
+        "kevin1"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 9,
+          "calls": 8,
+          "betting_decisions": 125,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 15,
+          "calls": 7,
+          "betting_decisions": 132,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 4,
+          "betting_decisions": 79,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:5",
+      "hero_seat": 5,
+      "opponents": [
+        "codex_merge_v4_v6",
+        "arch_loose",
+        "codex_merge_v4_v6",
+        "arch_tag",
+        "arch_maniac",
+        "codex_merge_v4_v6",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 9,
+          "calls": 9,
+          "betting_decisions": 153,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 9,
+          "calls": 9,
+          "betting_decisions": 153,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 1,
+          "shover": 5,
+          "calls": 16,
+          "betting_decisions": 195,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:6",
+      "hero_seat": 6,
+      "opponents": [
+        "arch_loose",
+        "codex_reveal_v1",
+        "kevin1",
+        "arch_loose",
+        "nc_v9",
+        "nc_v9",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 1,
+          "shover": 6,
+          "calls": 10,
+          "betting_decisions": 125,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 5,
+          "calls": 11,
+          "betting_decisions": 125,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 9,
+          "betting_decisions": 59,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:7",
+      "hero_seat": 7,
+      "opponents": [
+        "codex_merge_v4_v6",
+        "codex_merge_v4_v6",
+        "nc_v9",
+        "nc_v9",
+        "codex_merge_v4_v6",
+        "kevin1",
+        "arch_tag"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 15,
+          "calls": 11,
+          "betting_decisions": 152,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 15,
+          "calls": 11,
+          "betting_decisions": 152,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 1,
+          "shover": 1,
+          "calls": 14,
+          "betting_decisions": 151,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:8",
+      "hero_seat": 0,
+      "opponents": [
+        "nc_v9",
+        "kevin1",
+        "nc_v9",
+        "codex_reveal_v1",
+        "arch_tag",
+        "kevin1",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 16,
+          "calls": 7,
+          "betting_decisions": 149,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 1,
+          "shover": 21,
+          "calls": 10,
+          "betting_decisions": 171,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 2,
+          "shover": 11,
+          "calls": 14,
+          "betting_decisions": 184,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:9",
+      "hero_seat": 1,
+      "opponents": [
+        "nc_v9",
+        "codex_merge_v4_v6",
+        "nc_v9",
+        "arch_tag",
+        "kevin1",
+        "kevin1",
+        "arch_nit"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 9,
+          "calls": 8,
+          "betting_decisions": 131,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 8,
+          "calls": 5,
+          "betting_decisions": 94,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 4,
+          "shover": 1,
+          "calls": 21,
+          "betting_decisions": 138,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:10",
+      "hero_seat": 2,
+      "opponents": [
+        "codex_merge_v4_v6",
+        "arch_loose",
+        "codex_merge_v4_v6",
+        "codex_reveal_v1",
+        "nc_v9",
+        "nc_v9",
+        "kevin1"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 1,
+          "shover": 2,
+          "calls": 7,
+          "betting_decisions": 76,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 1,
+          "shover": 2,
+          "calls": 7,
+          "betting_decisions": 76,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 3,
+          "calls": 7,
+          "betting_decisions": 81,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:11",
+      "hero_seat": 3,
+      "opponents": [
+        "nc_v9",
+        "arch_tag",
+        "arch_maniac",
+        "arch_tag",
+        "arch_loose",
+        "arch_limper",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 3,
+          "calls": 4,
+          "betting_decisions": 119,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 3,
+          "calls": 4,
+          "betting_decisions": 119,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 5,
+          "betting_decisions": 79,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:12",
+      "hero_seat": 4,
+      "opponents": [
+        "kevin1",
+        "arch_tag",
+        "arch_tag",
+        "codex_merge_v4_v6",
+        "nc_v9",
+        "arch_loose",
+        "arch_maniac"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 2,
+          "shover": 7,
+          "calls": 5,
+          "betting_decisions": 117,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 1,
+          "shover": 7,
+          "calls": 5,
+          "betting_decisions": 118,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 2,
+          "shover": 2,
+          "calls": 10,
+          "betting_decisions": 132,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:13",
+      "hero_seat": 5,
+      "opponents": [
+        "nc_v9",
+        "kevin1",
+        "nc_v9",
+        "kevin1",
+        "nc_v9",
+        "codex_merge_v4_v6",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 15,
+          "calls": 6,
+          "betting_decisions": 168,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 15,
+          "calls": 6,
+          "betting_decisions": 168,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 7,
+          "calls": 6,
+          "betting_decisions": 146,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:14",
+      "hero_seat": 6,
+      "opponents": [
+        "nc_v9",
+        "nc_v9",
+        "nc_v9",
+        "nc_v9",
+        "kevin1",
+        "arch_tag",
+        "arch_tag"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 1,
+          "shover": 3,
+          "calls": 9,
+          "betting_decisions": 144,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 3,
+          "calls": 9,
+          "betting_decisions": 144,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 1,
+          "shover": 3,
+          "calls": 17,
+          "betting_decisions": 143,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:15",
+      "hero_seat": 7,
+      "opponents": [
+        "nc_v9",
+        "arch_maniac",
+        "arch_tag",
+        "nc_v9",
+        "nc_v9",
+        "codex_merge_v4_v6",
+        "arch_tag"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 1,
+          "shover": 8,
+          "calls": 1,
+          "betting_decisions": 127,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 1,
+          "shover": 8,
+          "calls": 1,
+          "betting_decisions": 127,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 2,
+          "shover": 3,
+          "calls": 3,
+          "betting_decisions": 132,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:16",
+      "hero_seat": 0,
+      "opponents": [
+        "kevin1",
+        "nc_v9",
+        "kevin1",
+        "codex_merge_v4_v6",
+        "arch_nit",
+        "codex_merge_v4_v6",
+        "kevin1"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 4,
+          "calls": 2,
+          "betting_decisions": 75,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 4,
+          "calls": 2,
+          "betting_decisions": 75,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 2,
+          "shover": 7,
+          "calls": 7,
+          "betting_decisions": 180,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:17",
+      "hero_seat": 1,
+      "opponents": [
+        "nc_v9",
+        "nc_v9",
+        "arch_station",
+        "arch_tag",
+        "codex_merge_v4_v6",
+        "nc_v9",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 4,
+          "betting_decisions": 22,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 1.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 4,
+          "betting_decisions": 22,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 1.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 6,
+          "calls": 7,
+          "betting_decisions": 83,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:18",
+      "hero_seat": 2,
+      "opponents": [
+        "kevin1",
+        "nc_v9",
+        "arch_tag",
+        "nc_v9",
+        "nc_v9",
+        "arch_station",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 1,
+          "shover": 10,
+          "calls": 8,
+          "betting_decisions": 157,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 1,
+          "shover": 12,
+          "calls": 8,
+          "betting_decisions": 157,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 1,
+          "shover": 4,
+          "calls": 6,
+          "betting_decisions": 143,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:19",
+      "hero_seat": 3,
+      "opponents": [
+        "kevin1",
+        "arch_maniac",
+        "arch_loose",
+        "codex_merge_v4_v6",
+        "codex_merge_v4_v6",
+        "codex_reveal_v1",
+        "arch_tag"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 25,
+          "calls": 9,
+          "betting_decisions": 160,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 25,
+          "calls": 9,
+          "betting_decisions": 160,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 3,
+          "calls": 8,
+          "betting_decisions": 45,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:20",
+      "hero_seat": 4,
+      "opponents": [
+        "arch_tag",
+        "arch_loose",
+        "nc_v9",
+        "nc_v9",
+        "codex_reveal_v1",
+        "codex_reveal_v1",
+        "kevin1"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 1,
+          "shover": 8,
+          "calls": 12,
+          "betting_decisions": 178,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 1,
+          "shover": 8,
+          "calls": 12,
+          "betting_decisions": 178,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 1,
+          "betting_decisions": 31,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:21",
+      "hero_seat": 5,
+      "opponents": [
+        "nc_v9",
+        "arch_tag",
+        "codex_merge_v4_v6",
+        "codex_reveal_v1",
+        "arch_tag",
+        "nc_v9",
+        "arch_tag"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 8,
+          "betting_decisions": 61,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 8,
+          "betting_decisions": 61,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 1,
+          "shover": 12,
+          "calls": 12,
+          "betting_decisions": 189,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:22",
+      "hero_seat": 6,
+      "opponents": [
+        "arch_loose",
+        "kevin1",
+        "codex_reveal_v1",
+        "arch_tag",
+        "nc_v9",
+        "arch_maniac",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 4,
+          "calls": 13,
+          "betting_decisions": 118,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 4,
+          "calls": 13,
+          "betting_decisions": 118,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 1,
+          "shover": 3,
+          "calls": 10,
+          "betting_decisions": 90,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:23",
+      "hero_seat": 7,
+      "opponents": [
+        "nc_v9",
+        "arch_maniac",
+        "arch_maniac",
+        "nc_v9",
+        "arch_tag",
+        "codex_reveal_v1",
+        "arch_loose"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 1,
+          "shover": 3,
+          "calls": 17,
+          "betting_decisions": 141,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 1,
+          "shover": 11,
+          "calls": 15,
+          "betting_decisions": 147,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 9,
+          "betting_decisions": 132,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:24",
+      "hero_seat": 0,
+      "opponents": [
+        "kevin1",
+        "kevin1",
+        "codex_merge_v4_v6",
+        "codex_merge_v4_v6",
+        "codex_merge_v4_v6",
+        "nc_v9",
+        "arch_maniac"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 5,
+          "betting_decisions": 56,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 5,
+          "betting_decisions": 56,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 1,
+          "shover": 9,
+          "calls": 9,
+          "betting_decisions": 186,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:25",
+      "hero_seat": 1,
+      "opponents": [
+        "nc_v9",
+        "codex_merge_v4_v6",
+        "arch_tag",
+        "nc_v9",
+        "kevin1",
+        "kevin1",
+        "kevin1"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 1,
+          "shover": 5,
+          "calls": 9,
+          "betting_decisions": 127,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 1,
+          "shover": 5,
+          "calls": 9,
+          "betting_decisions": 129,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 11,
+          "betting_decisions": 63,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:26",
+      "hero_seat": 2,
+      "opponents": [
+        "nc_v9",
+        "arch_loose",
+        "codex_merge_v4_v6",
+        "arch_limper",
+        "arch_nit",
+        "arch_limper",
+        "arch_station"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 2,
+          "betting_decisions": 54,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 2,
+          "betting_decisions": 54,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 4,
+          "betting_decisions": 56,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:27",
+      "hero_seat": 3,
+      "opponents": [
+        "kevin1",
+        "arch_tag",
+        "arch_tag",
+        "nc_v9",
+        "arch_loose",
+        "nc_v9",
+        "kevin1"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 4,
+          "calls": 7,
+          "betting_decisions": 87,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 4,
+          "calls": 7,
+          "betting_decisions": 87,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 3,
+          "calls": 8,
+          "betting_decisions": 139,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:28",
+      "hero_seat": 4,
+      "opponents": [
+        "kevin1",
+        "nc_v9",
+        "nc_v9",
+        "nc_v9",
+        "codex_merge_v4_v6",
+        "nc_v9",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 10,
+          "calls": 7,
+          "betting_decisions": 117,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 10,
+          "calls": 7,
+          "betting_decisions": 117,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 1,
+          "shover": 3,
+          "calls": 8,
+          "betting_decisions": 122,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:29",
+      "hero_seat": 5,
+      "opponents": [
+        "arch_loose",
+        "nc_v9",
+        "nc_v9",
+        "nc_v9",
+        "arch_limper",
+        "nc_v9",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 0,
+          "calls": 1,
+          "betting_decisions": 21,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 1.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 0,
+          "calls": 1,
+          "betting_decisions": 21,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 1.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 0,
+          "calls": 1,
+          "betting_decisions": 21,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 1.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:30",
+      "hero_seat": 6,
+      "opponents": [
+        "nc_v9",
+        "codex_merge_v4_v6",
+        "nc_v9",
+        "arch_station",
+        "kevin1",
+        "codex_reveal_v1",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 0,
+          "betting_decisions": 8,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 1.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 0,
+          "betting_decisions": 8,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 1.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 0,
+          "calls": 3,
+          "betting_decisions": 13,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 1.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:31",
+      "hero_seat": 7,
+      "opponents": [
+        "nc_v9",
+        "nc_v9",
+        "nc_v9",
+        "nc_v9",
+        "nc_v9",
+        "arch_loose",
+        "arch_loose"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 1,
+          "shover": 5,
+          "calls": 7,
+          "betting_decisions": 137,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 1,
+          "shover": 5,
+          "calls": 7,
+          "betting_decisions": 137,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 2,
+          "shover": 2,
+          "calls": 12,
+          "betting_decisions": 122,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:32",
+      "hero_seat": 0,
+      "opponents": [
+        "arch_station",
+        "arch_loose",
+        "arch_tag",
+        "arch_station",
+        "nc_v9",
+        "nc_v9",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 6,
+          "betting_decisions": 69,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 6,
+          "betting_decisions": 69,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 1,
+          "shover": 2,
+          "calls": 19,
+          "betting_decisions": 210,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:33",
+      "hero_seat": 1,
+      "opponents": [
+        "kevin1",
+        "nc_v9",
+        "arch_maniac",
+        "codex_merge_v4_v6",
+        "arch_maniac",
+        "arch_maniac",
+        "codex_merge_v4_v6"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 0,
+          "calls": 2,
+          "betting_decisions": 24,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 1.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 0,
+          "calls": 2,
+          "betting_decisions": 24,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 1.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 0,
+          "calls": 2,
+          "betting_decisions": 24,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 1.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:34",
+      "hero_seat": 2,
+      "opponents": [
+        "arch_tag",
+        "kevin1",
+        "arch_tag",
+        "nc_v9",
+        "kevin1",
+        "arch_tag",
+        "arch_tag"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 3,
+          "betting_decisions": 47,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 3,
+          "betting_decisions": 47,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 0,
+          "calls": 3,
+          "betting_decisions": 46,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:35",
+      "hero_seat": 3,
+      "opponents": [
+        "kevin1",
+        "codex_reveal_v1",
+        "arch_nit",
+        "kevin1",
+        "codex_merge_v4_v6",
+        "kevin1",
+        "codex_merge_v4_v6"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 7,
+          "calls": 12,
+          "betting_decisions": 122,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 6,
+          "calls": 12,
+          "betting_decisions": 122,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 3,
+          "shover": 7,
+          "calls": 31,
+          "betting_decisions": 230,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:36",
+      "hero_seat": 4,
+      "opponents": [
+        "codex_reveal_v1",
+        "arch_tag",
+        "kevin1",
+        "nc_v9",
+        "nc_v9",
+        "nc_v9",
+        "codex_merge_v4_v6"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 7,
+          "calls": 9,
+          "betting_decisions": 113,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 7,
+          "calls": 9,
+          "betting_decisions": 113,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 5,
+          "betting_decisions": 72,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:37",
+      "hero_seat": 5,
+      "opponents": [
+        "arch_station",
+        "codex_reveal_v1",
+        "nc_v9",
+        "arch_station",
+        "kevin1",
+        "kevin1",
+        "kevin1"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 7,
+          "betting_decisions": 106,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 1,
+          "shover": 15,
+          "calls": 13,
+          "betting_decisions": 169,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 1,
+          "shover": 3,
+          "calls": 23,
+          "betting_decisions": 202,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:38",
+      "hero_seat": 6,
+      "opponents": [
+        "codex_merge_v4_v6",
+        "arch_loose",
+        "arch_limper",
+        "kevin1",
+        "arch_limper",
+        "nc_v9",
+        "arch_tag"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 6,
+          "betting_decisions": 93,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 6,
+          "betting_decisions": 93,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 3,
+          "calls": 17,
+          "betting_decisions": 160,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:39",
+      "hero_seat": 7,
+      "opponents": [
+        "codex_merge_v4_v6",
+        "kevin1",
+        "kevin1",
+        "arch_loose",
+        "kevin1",
+        "arch_maniac",
+        "arch_station"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 1,
+          "betting_decisions": 19,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 1.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 1,
+          "betting_decisions": 19,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 1.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 1,
+          "betting_decisions": 20,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 1.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:40",
+      "hero_seat": 0,
+      "opponents": [
+        "arch_loose",
+        "arch_tag",
+        "codex_merge_v4_v6",
+        "nc_v9",
+        "codex_reveal_v1",
+        "arch_maniac",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 17,
+          "calls": 14,
+          "betting_decisions": 174,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 15,
+          "calls": 15,
+          "betting_decisions": 185,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 9,
+          "betting_decisions": 78,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:41",
+      "hero_seat": 1,
+      "opponents": [
+        "arch_station",
+        "codex_merge_v4_v6",
+        "kevin1",
+        "arch_loose",
+        "codex_merge_v4_v6",
+        "arch_tag",
+        "arch_tag"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 8,
+          "calls": 8,
+          "betting_decisions": 145,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 8,
+          "calls": 8,
+          "betting_decisions": 145,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 10,
+          "betting_decisions": 93,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:42",
+      "hero_seat": 2,
+      "opponents": [
+        "kevin1",
+        "kevin1",
+        "nc_v9",
+        "kevin1",
+        "arch_maniac",
+        "arch_tag",
+        "arch_tag"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 1,
+          "shover": 12,
+          "calls": 20,
+          "betting_decisions": 174,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 1,
+          "shover": 6,
+          "calls": 23,
+          "betting_decisions": 152,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 1,
+          "shover": 1,
+          "calls": 21,
+          "betting_decisions": 123,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:43",
+      "hero_seat": 3,
+      "opponents": [
+        "arch_tag",
+        "arch_maniac",
+        "nc_v9",
+        "codex_merge_v4_v6",
+        "kevin1",
+        "nc_v9",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 1,
+          "shover": 9,
+          "calls": 14,
+          "betting_decisions": 167,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 1,
+          "shover": 9,
+          "calls": 14,
+          "betting_decisions": 166,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 1,
+          "shover": 6,
+          "calls": 17,
+          "betting_decisions": 172,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:44",
+      "hero_seat": 4,
+      "opponents": [
+        "arch_station",
+        "kevin1",
+        "nc_v9",
+        "nc_v9",
+        "kevin1",
+        "codex_merge_v4_v6",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 9,
+          "calls": 9,
+          "betting_decisions": 154,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 14,
+          "calls": 9,
+          "betting_decisions": 167,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 1,
+          "shover": 4,
+          "calls": 20,
+          "betting_decisions": 168,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:45",
+      "hero_seat": 5,
+      "opponents": [
+        "arch_maniac",
+        "arch_station",
+        "kevin1",
+        "arch_station",
+        "nc_v9",
+        "kevin1",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 0,
+          "calls": 4,
+          "betting_decisions": 35,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 0,
+          "calls": 4,
+          "betting_decisions": 35,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 2,
+          "betting_decisions": 29,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 1.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:46",
+      "hero_seat": 6,
+      "opponents": [
+        "arch_loose",
+        "nc_v9",
+        "arch_station",
+        "arch_maniac",
+        "arch_tag",
+        "arch_nit",
+        "arch_loose"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 12,
+          "calls": 12,
+          "betting_decisions": 126,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 1,
+          "shover": 11,
+          "calls": 12,
+          "betting_decisions": 125,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 1,
+          "shover": 3,
+          "calls": 9,
+          "betting_decisions": 79,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:47",
+      "hero_seat": 7,
+      "opponents": [
+        "kevin1",
+        "codex_merge_v4_v6",
+        "arch_maniac",
+        "nc_v9",
+        "codex_merge_v4_v6",
+        "kevin1",
+        "arch_nit"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 7,
+          "betting_decisions": 60,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 7,
+          "betting_decisions": 60,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 3,
+          "betting_decisions": 60,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:48",
+      "hero_seat": 0,
+      "opponents": [
+        "arch_tag",
+        "arch_tag",
+        "arch_tag",
+        "kevin1",
+        "arch_station",
+        "arch_tag",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 9,
+          "calls": 6,
+          "betting_decisions": 144,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 9,
+          "calls": 6,
+          "betting_decisions": 142,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 5,
+          "betting_decisions": 63,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:49",
+      "hero_seat": 1,
+      "opponents": [
+        "nc_v9",
+        "nc_v9",
+        "arch_maniac",
+        "nc_v9",
+        "arch_maniac",
+        "arch_nit",
+        "arch_maniac"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 20,
+          "calls": 8,
+          "betting_decisions": 158,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 10,
+          "calls": 8,
+          "betting_decisions": 148,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 7,
+          "betting_decisions": 155,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:50",
+      "hero_seat": 2,
+      "opponents": [
+        "arch_maniac",
+        "codex_merge_v4_v6",
+        "nc_v9",
+        "codex_reveal_v1",
+        "kevin1",
+        "nc_v9",
+        "arch_maniac"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 15,
+          "calls": 10,
+          "betting_decisions": 124,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 15,
+          "calls": 10,
+          "betting_decisions": 124,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 10,
+          "calls": 12,
+          "betting_decisions": 139,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:51",
+      "hero_seat": 3,
+      "opponents": [
+        "nc_v9",
+        "arch_maniac",
+        "nc_v9",
+        "nc_v9",
+        "nc_v9",
+        "nc_v9",
+        "arch_tag"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 12,
+          "calls": 1,
+          "betting_decisions": 117,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 12,
+          "calls": 1,
+          "betting_decisions": 117,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 3,
+          "shover": 2,
+          "calls": 10,
+          "betting_decisions": 141,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:52",
+      "hero_seat": 4,
+      "opponents": [
+        "codex_merge_v4_v6",
+        "nc_v9",
+        "codex_merge_v4_v6",
+        "arch_maniac",
+        "arch_tag",
+        "codex_merge_v4_v6",
+        "arch_tag"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 1,
+          "shover": 11,
+          "calls": 6,
+          "betting_decisions": 113,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 1,
+          "shover": 11,
+          "calls": 6,
+          "betting_decisions": 113,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 1,
+          "shover": 3,
+          "calls": 10,
+          "betting_decisions": 90,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:53",
+      "hero_seat": 5,
+      "opponents": [
+        "nc_v9",
+        "kevin1",
+        "nc_v9",
+        "codex_reveal_v1",
+        "codex_merge_v4_v6",
+        "arch_loose",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 1,
+          "shover": 18,
+          "calls": 11,
+          "betting_decisions": 162,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 1,
+          "shover": 11,
+          "calls": 11,
+          "betting_decisions": 135,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 5,
+          "calls": 14,
+          "betting_decisions": 170,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:54",
+      "hero_seat": 6,
+      "opponents": [
+        "nc_v9",
+        "arch_loose",
+        "kevin1",
+        "arch_maniac",
+        "arch_loose",
+        "codex_merge_v4_v6",
+        "codex_reveal_v1"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 0,
+          "betting_decisions": 32,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 0,
+          "betting_decisions": 32,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 0,
+          "betting_decisions": 32,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:55",
+      "hero_seat": 7,
+      "opponents": [
+        "kevin1",
+        "kevin1",
+        "nc_v9",
+        "nc_v9",
+        "arch_station",
+        "kevin1",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 1,
+          "shover": 14,
+          "calls": 13,
+          "betting_decisions": 166,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 8,
+          "betting_decisions": 117,
+          "points": 30.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 10,
+          "betting_decisions": 115,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:56",
+      "hero_seat": 0,
+      "opponents": [
+        "codex_merge_v4_v6",
+        "nc_v9",
+        "codex_merge_v4_v6",
+        "arch_nit",
+        "arch_tag",
+        "arch_nit",
+        "arch_limper"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 1,
+          "shover": 9,
+          "calls": 2,
+          "betting_decisions": 134,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 9,
+          "calls": 2,
+          "betting_decisions": 134,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 2,
+          "shover": 1,
+          "calls": 10,
+          "betting_decisions": 171,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:57",
+      "hero_seat": 1,
+      "opponents": [
+        "arch_limper",
+        "nc_v9",
+        "kevin1",
+        "nc_v9",
+        "nc_v9",
+        "arch_station",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 1,
+          "shover": 4,
+          "calls": 4,
+          "betting_decisions": 85,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 1,
+          "shover": 6,
+          "calls": 4,
+          "betting_decisions": 80,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 1,
+          "shover": 3,
+          "calls": 2,
+          "betting_decisions": 99,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:58",
+      "hero_seat": 2,
+      "opponents": [
+        "arch_tag",
+        "kevin1",
+        "arch_loose",
+        "codex_merge_v4_v6",
+        "nc_v9",
+        "nc_v9",
+        "arch_tag"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 5,
+          "calls": 7,
+          "betting_decisions": 113,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 5,
+          "calls": 7,
+          "betting_decisions": 113,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 0,
+          "calls": 10,
+          "betting_decisions": 76,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:59",
+      "hero_seat": 3,
+      "opponents": [
+        "arch_station",
+        "arch_limper",
+        "arch_station",
+        "codex_merge_v4_v6",
+        "kevin1",
+        "arch_tag",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 4,
+          "calls": 4,
+          "betting_decisions": 56,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 4,
+          "calls": 4,
+          "betting_decisions": 56,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 7,
+          "betting_decisions": 60,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:60",
+      "hero_seat": 4,
+      "opponents": [
+        "nc_v9",
+        "nc_v9",
+        "codex_merge_v4_v6",
+        "nc_v9",
+        "arch_loose",
+        "codex_reveal_v1",
+        "nc_v9"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 4,
+          "betting_decisions": 63,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 4,
+          "betting_decisions": 63,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 6,
+          "calls": 9,
+          "betting_decisions": 116,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:61",
+      "hero_seat": 5,
+      "opponents": [
+        "arch_maniac",
+        "arch_loose",
+        "arch_station",
+        "arch_tag",
+        "codex_merge_v4_v6",
+        "arch_tag",
+        "arch_tag"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 8,
+          "calls": 3,
+          "betting_decisions": 138,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 8,
+          "calls": 3,
+          "betting_decisions": 138,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 2,
+          "calls": 14,
+          "betting_decisions": 156,
+          "points": 50.0,
+          "cash": 1.0,
+          "first": 1.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:62",
+      "hero_seat": 6,
+      "opponents": [
+        "arch_loose",
+        "arch_loose",
+        "arch_tag",
+        "codex_merge_v4_v6",
+        "arch_loose",
+        "arch_maniac",
+        "kevin1"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 1,
+          "shover": 1,
+          "calls": 8,
+          "betting_decisions": 88,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 1,
+          "shover": 1,
+          "calls": 8,
+          "betting_decisions": 88,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 0,
+          "calls": 11,
+          "betting_decisions": 96,
+          "points": 0.0,
+          "cash": 0.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    },
+    {
+      "profile": "pressure",
+      "seed": "prize-fusion-development-1:pressure:63",
+      "hero_seat": 7,
+      "opponents": [
+        "arch_maniac",
+        "kevin1",
+        "nc_v9",
+        "kevin1",
+        "nc_v9",
+        "arch_tag",
+        "arch_station"
+      ],
+      "results": {
+        "candidate": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 3,
+          "betting_decisions": 58,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "survival": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 3,
+          "betting_decisions": 58,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        },
+        "nc_bluffer": {
+          "empty_bluffer": 0,
+          "shover": 1,
+          "calls": 9,
+          "betting_decisions": 80,
+          "points": 20.0,
+          "cash": 1.0,
+          "first": 0.0,
+          "early_bust": 0.0,
+          "failed_decisions": 0,
+          "all_failed_decisions": 0
+        }
+      }
+    }
+  ],
+  "summary": {
+    "all": {
+      "candidate": {
+        "points": {
+          "tables": 128,
+          "mean": 18.28125,
+          "approx_95ci": [
+            15.02667535958091,
+            21.53582464041909
+          ]
+        },
+        "cash": {
+          "tables": 128,
+          "mean": 0.5625,
+          "approx_95ci": [
+            0.4762211191797752,
+            0.6487788808202248
+          ]
+        },
+        "first": {
+          "tables": 128,
+          "mean": 0.1796875,
+          "approx_95ci": [
+            0.11291420480255157,
+            0.24646079519744843
+          ]
+        },
+        "early_bust": {
+          "tables": 128,
+          "mean": 0.0859375,
+          "approx_95ci": [
+            0.03719211389944152,
+            0.13468288610055848
+          ]
+        },
+        "empty_bluffer": {
+          "tables": 128,
+          "mean": 0.34375,
+          "approx_95ci": [
+            0.2341018175375313,
+            0.4533981824624687
+          ]
+        },
+        "shover": {
+          "tables": 128,
+          "mean": 6.09375,
+          "approx_95ci": [
+            5.067703632083728,
+            7.119796367916272
+          ]
+        },
+        "failed_decisions": 0,
+        "call_share": 0.062368972746331235
+      },
+      "survival": {
+        "points": {
+          "tables": 128,
+          "mean": 18.671875,
+          "approx_95ci": [
+            15.50367984297028,
+            21.84007015702972
+          ]
+        },
+        "cash": {
+          "tables": 128,
+          "mean": 0.5859375,
+          "approx_95ci": [
+            0.5002706480881536,
+            0.6716043519118464
+          ]
+        },
+        "first": {
+          "tables": 128,
+          "mean": 0.1640625,
+          "approx_95ci": [
+            0.09965361553228091,
+            0.22847138446771909
+          ]
+        },
+        "early_bust": {
+          "tables": 128,
+          "mean": 0.0859375,
+          "approx_95ci": [
+            0.03719211389944152,
+            0.13468288610055848
+          ]
+        },
+        "empty_bluffer": {
+          "tables": 128,
+          "mean": 0.25,
+          "approx_95ci": [
+            0.16303906207722085,
+            0.33696093792277915
+          ]
+        },
+        "shover": {
+          "tables": 128,
+          "mean": 5.96875,
+          "approx_95ci": [
+            4.981078561926278,
+            6.956421438073722
+          ]
+        },
+        "failed_decisions": 0,
+        "call_share": 0.06379141934029604
+      },
+      "nc_bluffer": {
+        "points": {
+          "tables": 128,
+          "mean": 15.546875,
+          "approx_95ci": [
+            12.215517678100085,
+            18.878232321899915
+          ]
+        },
+        "cash": {
+          "tables": 128,
+          "mean": 0.4453125,
+          "approx_95ci": [
+            0.35887327917746203,
+            0.531751720822538
+          ]
+        },
+        "first": {
+          "tables": 128,
+          "mean": 0.1640625,
+          "approx_95ci": [
+            0.09965361553228091,
+            0.22847138446771909
+          ]
+        },
+        "early_bust": {
+          "tables": 128,
+          "mean": 0.078125,
+          "approx_95ci": [
+            0.03144990131131564,
+            0.12480009868868436
+          ]
+        },
+        "empty_bluffer": {
+          "tables": 128,
+          "mean": 0.6328125,
+          "approx_95ci": [
+            0.4563665634574099,
+            0.8092584365425901
+          ]
+        },
+        "shover": {
+          "tables": 128,
+          "mean": 2.890625,
+          "approx_95ci": [
+            2.438117607974634,
+            3.343132392025366
+          ]
+        },
+        "failed_decisions": 0,
+        "call_share": 0.08608058608058608
+      }
+    },
+    "balanced": {
+      "candidate": {
+        "points": {
+          "tables": 64,
+          "mean": 17.5,
+          "approx_95ci": [
+            12.798463608091026,
+            22.201536391908974
+          ]
+        },
+        "cash": {
+          "tables": 64,
+          "mean": 0.53125,
+          "approx_95ci": [
+            0.4080229906500473,
+            0.6544770093499527
+          ]
+        },
+        "first": {
+          "tables": 64,
+          "mean": 0.1875,
+          "approx_95ci": [
+            0.0911175154224932,
+            0.2838824845775068
+          ]
+        },
+        "early_bust": {
+          "tables": 64,
+          "mean": 0.09375,
+          "approx_95ci": [
+            0.021772717704357125,
+            0.16572728229564287
+          ]
+        },
+        "empty_bluffer": {
+          "tables": 64,
+          "mean": 0.390625,
+          "approx_95ci": [
+            0.2074023771776834,
+            0.5738476228223166
+          ]
+        },
+        "shover": {
+          "tables": 64,
+          "mean": 5.28125,
+          "approx_95ci": [
+            3.9276872500487627,
+            6.634812749951237
+          ]
+        },
+        "failed_decisions": 0,
+        "call_share": 0.06046080098963971
+      },
+      "survival": {
+        "points": {
+          "tables": 64,
+          "mean": 17.96875,
+          "approx_95ci": [
+            13.407522532865254,
+            22.529977467134746
+          ]
+        },
+        "cash": {
+          "tables": 64,
+          "mean": 0.5625,
+          "approx_95ci": [
+            0.44,
+            0.685
+          ]
+        },
+        "first": {
+          "tables": 64,
+          "mean": 0.171875,
+          "approx_95ci": [
+            0.07871272185350744,
+            0.2650372781464926
+          ]
+        },
+        "early_bust": {
+          "tables": 64,
+          "mean": 0.09375,
+          "approx_95ci": [
+            0.021772717704357125,
+            0.16572728229564287
+          ]
+        },
+        "empty_bluffer": {
+          "tables": 64,
+          "mean": 0.234375,
+          "approx_95ci": [
+            0.09812420362108379,
+            0.37062579637891624
+          ]
+        },
+        "shover": {
+          "tables": 64,
+          "mean": 5.03125,
+          "approx_95ci": [
+            3.774410309767214,
+            6.288089690232786
+          ]
+        },
+        "failed_decisions": 0,
+        "call_share": 0.06279069767441861
+      },
+      "nc_bluffer": {
+        "points": {
+          "tables": 64,
+          "mean": 15.625,
+          "approx_95ci": [
+            10.885618594045093,
+            20.36438140595491
+          ]
+        },
+        "cash": {
+          "tables": 64,
+          "mean": 0.4375,
+          "approx_95ci": [
+            0.315,
+            0.56
+          ]
+        },
+        "first": {
+          "tables": 64,
+          "mean": 0.15625,
+          "approx_95ci": [
+            0.06658918079785352,
+            0.24591081920214647
+          ]
+        },
+        "early_bust": {
+          "tables": 64,
+          "mean": 0.078125,
+          "approx_95ci": [
+            0.011855021356239726,
+            0.14439497864376027
+          ]
+        },
+        "empty_bluffer": {
+          "tables": 64,
+          "mean": 0.65625,
+          "approx_95ci": [
+            0.37941238965776347,
+            0.9330876103422365
+          ]
+        },
+        "shover": {
+          "tables": 64,
+          "mean": 2.84375,
+          "approx_95ci": [
+            2.2276149532502365,
+            3.4598850467497635
+          ]
+        },
+        "failed_decisions": 0,
+        "call_share": 0.08617065994115175
+      }
+    },
+    "pressure": {
+      "candidate": {
+        "points": {
+          "tables": 64,
+          "mean": 19.0625,
+          "approx_95ci": [
+            14.531892286900135,
+            23.593107713099865
+          ]
+        },
+        "cash": {
+          "tables": 64,
+          "mean": 0.59375,
+          "approx_95ci": [
+            0.47247136649663124,
+            0.7150286335033688
+          ]
+        },
+        "first": {
+          "tables": 64,
+          "mean": 0.171875,
+          "approx_95ci": [
+            0.07871272185350744,
+            0.2650372781464926
+          ]
+        },
+        "early_bust": {
+          "tables": 64,
+          "mean": 0.078125,
+          "approx_95ci": [
+            0.011855021356239726,
+            0.14439497864376027
+          ]
+        },
+        "empty_bluffer": {
+          "tables": 64,
+          "mean": 0.296875,
+          "approx_95ci": [
+            0.17590363487355548,
+            0.4178463651264445
+          ]
+        },
+        "shover": {
+          "tables": 64,
+          "mean": 6.90625,
+          "approx_95ci": [
+            5.379205775853233,
+            8.433294224146767
+          ]
+        },
+        "failed_decisions": 0,
+        "call_share": 0.06416025547975032
+      },
+      "survival": {
+        "points": {
+          "tables": 64,
+          "mean": 19.375,
+          "approx_95ci": [
+            14.947426987865951,
+            23.802573012134047
+          ]
+        },
+        "cash": {
+          "tables": 64,
+          "mean": 0.609375,
+          "approx_95ci": [
+            0.4888968942781165,
+            0.7298531057218834
+          ]
+        },
+        "first": {
+          "tables": 64,
+          "mean": 0.15625,
+          "approx_95ci": [
+            0.06658918079785352,
+            0.24591081920214647
+          ]
+        },
+        "early_bust": {
+          "tables": 64,
+          "mean": 0.078125,
+          "approx_95ci": [
+            0.011855021356239726,
+            0.14439497864376027
+          ]
+        },
+        "empty_bluffer": {
+          "tables": 64,
+          "mean": 0.265625,
+          "approx_95ci": [
+            0.15656155484331863,
+            0.37468844515668137
+          ]
+        },
+        "shover": {
+          "tables": 64,
+          "mean": 6.90625,
+          "approx_95ci": [
+            5.40754587226164,
+            8.40495412773836
+          ]
+        },
+        "failed_decisions": 0,
+        "call_share": 0.06473246828983817
+      },
+      "nc_bluffer": {
+        "points": {
+          "tables": 64,
+          "mean": 15.46875,
+          "approx_95ci": [
+            10.748410863613717,
+            20.189089136386283
+          ]
+        },
+        "cash": {
+          "tables": 64,
+          "mean": 0.453125,
+          "approx_95ci": [
+            0.33020038867482865,
+            0.5760496113251714
+          ]
+        },
+        "first": {
+          "tables": 64,
+          "mean": 0.171875,
+          "approx_95ci": [
+            0.07871272185350744,
+            0.2650372781464926
+          ]
+        },
+        "early_bust": {
+          "tables": 64,
+          "mean": 0.078125,
+          "approx_95ci": [
+            0.011855021356239726,
+            0.14439497864376027
+          ]
+        },
+        "empty_bluffer": {
+          "tables": 64,
+          "mean": 0.609375,
+          "approx_95ci": [
+            0.3884338902935144,
+            0.8303161097064856
+          ]
+        },
+        "shover": {
+          "tables": 64,
+          "mean": 2.9375,
+          "approx_95ci": [
+            2.2699209368505064,
+            3.6050790631494936
+          ]
+        },
+        "failed_decisions": 0,
+        "call_share": 0.08598951692874345
+      }
+    }
+  },
+  "paired_differences": {
+    "all": {
+      "survival": {
+        "points": {
+          "tables": 128,
+          "mean": -0.390625,
+          "approx_95ci": [
+            -1.9493004127142068,
+            1.1680504127142068
+          ]
+        },
+        "cash": {
+          "tables": 128,
+          "mean": -0.0234375,
+          "approx_95ci": [
+            -0.05756927867763148,
+            0.01069427867763148
+          ]
+        },
+        "first": {
+          "tables": 128,
+          "mean": 0.015625,
+          "approx_95ci": [
+            -0.027770463075662416,
+            0.059020463075662416
+          ]
+        },
+        "early_bust": {
+          "tables": 128,
+          "mean": 0.0,
+          "approx_95ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "empty_bluffer": {
+          "tables": 128,
+          "mean": 0.09375,
+          "approx_95ci": [
+            0.020225889781211454,
+            0.16727411021878855
+          ]
+        },
+        "shover": {
+          "tables": 128,
+          "mean": 0.125,
+          "approx_95ci": [
+            -0.3825308842082389,
+            0.6325308842082389
+          ]
+        }
+      },
+      "nc_bluffer": {
+        "points": {
+          "tables": 128,
+          "mean": 2.734375,
+          "approx_95ci": [
+            -0.9532381768131675,
+            6.4219881768131675
+          ]
+        },
+        "cash": {
+          "tables": 128,
+          "mean": 0.1171875,
+          "approx_95ci": [
+            0.016098697052062932,
+            0.21827630294793707
+          ]
+        },
+        "first": {
+          "tables": 128,
+          "mean": 0.015625,
+          "approx_95ci": [
+            -0.06567410312117278,
+            0.09692410312117278
+          ]
+        },
+        "early_bust": {
+          "tables": 128,
+          "mean": 0.0078125,
+          "approx_95ci": [
+            -0.0265349634696826,
+            0.0421599634696826
+          ]
+        },
+        "empty_bluffer": {
+          "tables": 128,
+          "mean": -0.2890625,
+          "approx_95ci": [
+            -0.45197265913550966,
+            -0.12615234086449034
+          ]
+        },
+        "shover": {
+          "tables": 128,
+          "mean": 3.203125,
+          "approx_95ci": [
+            2.1690667099983854,
+            4.237183290001615
+          ]
+        }
+      }
+    },
+    "balanced": {
+      "survival": {
+        "points": {
+          "tables": 64,
+          "mean": -0.46875,
+          "approx_95ci": [
+            -2.342750891215844,
+            1.405250891215844
+          ]
+        },
+        "cash": {
+          "tables": 64,
+          "mean": -0.03125,
+          "approx_95ci": [
+            -0.07421518293274734,
+            0.01171518293274735
+          ]
+        },
+        "first": {
+          "tables": 64,
+          "mean": 0.015625,
+          "approx_95ci": [
+            -0.03769897378811481,
+            0.06894897378811482
+          ]
+        },
+        "early_bust": {
+          "tables": 64,
+          "mean": 0.0,
+          "approx_95ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "empty_bluffer": {
+          "tables": 64,
+          "mean": 0.15625,
+          "approx_95ci": [
+            0.03896517929984858,
+            0.27353482070015145
+          ]
+        },
+        "shover": {
+          "tables": 64,
+          "mean": 0.25,
+          "approx_95ci": [
+            -0.3855924620208909,
+            0.8855924620208909
+          ]
+        }
+      },
+      "nc_bluffer": {
+        "points": {
+          "tables": 64,
+          "mean": 1.875,
+          "approx_95ci": [
+            -2.8442351663755376,
+            6.594235166375538
+          ]
+        },
+        "cash": {
+          "tables": 64,
+          "mean": 0.09375,
+          "approx_95ci": [
+            -0.049166666666666664,
+            0.23666666666666666
+          ]
+        },
+        "first": {
+          "tables": 64,
+          "mean": 0.03125,
+          "approx_95ci": [
+            -0.07539794757622963,
+            0.13789794757622964
+          ]
+        },
+        "early_bust": {
+          "tables": 64,
+          "mean": 0.015625,
+          "approx_95ci": [
+            -0.03769897378811481,
+            0.06894897378811482
+          ]
+        },
+        "empty_bluffer": {
+          "tables": 64,
+          "mean": -0.265625,
+          "approx_95ci": [
+            -0.4934659571084863,
+            -0.037784042891513686
+          ]
+        },
+        "shover": {
+          "tables": 64,
+          "mean": 2.4375,
+          "approx_95ci": [
+            1.0654756946597321,
+            3.809524305340268
+          ]
+        }
+      }
+    },
+    "pressure": {
+      "survival": {
+        "points": {
+          "tables": 64,
+          "mean": -0.3125,
+          "approx_95ci": [
+            -2.8189673291751127,
+            2.1939673291751127
+          ]
+        },
+        "cash": {
+          "tables": 64,
+          "mean": -0.015625,
+          "approx_95ci": [
+            -0.06894897378811482,
+            0.03769897378811481
+          ]
+        },
+        "first": {
+          "tables": 64,
+          "mean": 0.015625,
+          "approx_95ci": [
+            -0.053288001212478855,
+            0.08453800121247886
+          ]
+        },
+        "early_bust": {
+          "tables": 64,
+          "mean": 0.0,
+          "approx_95ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "empty_bluffer": {
+          "tables": 64,
+          "mean": 0.03125,
+          "approx_95ci": [
+            -0.05571363384260751,
+            0.11821363384260751
+          ]
+        },
+        "shover": {
+          "tables": 64,
+          "mean": 0.0,
+          "approx_95ci": [
+            -0.7953894922894346,
+            0.7953894922894346
+          ]
+        }
+      },
+      "nc_bluffer": {
+        "points": {
+          "tables": 64,
+          "mean": 3.59375,
+          "approx_95ci": [
+            -2.104005177479987,
+            9.291505177479987
+          ]
+        },
+        "cash": {
+          "tables": 64,
+          "mean": 0.140625,
+          "approx_95ci": [
+            -0.003277847483602242,
+            0.28452784748360227
+          ]
+        },
+        "first": {
+          "tables": 64,
+          "mean": 0.0,
+          "approx_95ci": [
+            -0.12346839451634757,
+            0.12346839451634757
+          ]
+        },
+        "early_bust": {
+          "tables": 64,
+          "mean": 0.0,
+          "approx_95ci": [
+            -0.04365266951236265,
+            0.04365266951236265
+          ]
+        },
+        "empty_bluffer": {
+          "tables": 64,
+          "mean": -0.3125,
+          "approx_95ci": [
+            -0.5470696414003029,
+            -0.07793035859969716
+          ]
+        },
+        "shover": {
+          "tables": 64,
+          "mean": 3.96875,
+          "approx_95ci": [
+            2.4334608827288875,
+            5.5040391172711125
+          ]
+        }
+      }
+    }
+  }
+}

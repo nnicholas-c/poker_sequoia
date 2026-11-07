@@ -1,0 +1,222 @@
+{
+  "events": [],
+  "hand_number": 10,
+  "seat": 0,
+  "cards": [
+    "2c",
+    "7d"
+  ],
+  "board": [
+    "Kh",
+    "9s",
+    "4c"
+  ],
+  "pot": 120,
+  "to_call": 0,
+  "legal_actions": [
+    [
+      "check",
+      0,
+      0
+    ],
+    [
+      "raise",
+      20,
+      1000
+    ]
+  ],
+  "history": [
+    [
+      "board",
+      null,
+      0,
+      [
+        "Kh",
+        "9s",
+        "4c"
+      ]
+    ],
+    [
+      "reveal",
+      0,
+      0,
+      [
+        "2c"
+      ]
+    ],
+    [
+      "reveal",
+      1,
+      0,
+      [
+        "6d"
+      ]
+    ],
+    [
+      "check",
+      1,
+      0,
+      []
+    ]
+  ],
+  "seats": [
+    [
+      0,
+      1000,
+      0,
+      "active",
+      [
+        "2c"
+      ]
+    ],
+    [
+      1,
+      1000,
+      0,
+      "active",
+      [
+        "6d"
+      ]
+    ],
+    [
+      2,
+      1000,
+      0,
+      "folded",
+      []
+    ],
+    [
+      3,
+      1000,
+      0,
+      "folded",
+      []
+    ],
+    [
+      4,
+      0,
+      0,
+      "busted",
+      []
+    ],
+    [
+      5,
+      0,
+      0,
+      "busted",
+      []
+    ],
+    [
+      6,
+      0,
+      0,
+      "busted",
+      []
+    ],
+    [
+      7,
+      0,
+      0,
+      "busted",
+      []
+    ]
+  ],
+  "button": 0,
+  "blind_level": 1,
+  "blinds": [
+    10,
+    20,
+    0
+  ],
+  "hands_until_next_level": 19,
+  "players_remaining": 4,
+  "bust_order": [
+    4
+  ],
+  "config": {
+    "table_id": "regression-monster-215",
+    "seat": 0,
+    "players": 8,
+    "variant": "flop_discard_reveal",
+    "starting_stack": 2000,
+    "blinds": [
+      [
+        10,
+        20,
+        0
+      ],
+      [
+        20,
+        40,
+        0
+      ],
+      [
+        30,
+        60,
+        0
+      ],
+      [
+        50,
+        100,
+        0
+      ],
+      [
+        80,
+        160,
+        0
+      ],
+      [
+        125,
+        250,
+        0
+      ],
+      [
+        200,
+        400,
+        0
+      ],
+      [
+        300,
+        600,
+        0
+      ],
+      [
+        500,
+        1000,
+        0
+      ],
+      [
+        800,
+        1600,
+        0
+      ],
+      [
+        1200,
+        2400,
+        0
+      ],
+      [
+        2000,
+        4000,
+        0
+      ]
+    ],
+    "hands_per_level": 20,
+    "hand_cap": 250,
+    "payouts": [
+      50,
+      30,
+      20
+    ],
+    "decision_ms": 1,
+    "memory_bytes": 65536,
+    "time_bank_ms": 100
+  },
+  "variant": {
+    "discarded": [
+      "7c"
+    ]
+  },
+  "phase": "betting",
+  "time_bank_ms": 0.0
+}
