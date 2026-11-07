@@ -1,0 +1,177 @@
+{
+  "checks": [
+    {
+      "case": "monster-215",
+      "severity": "block",
+      "action": "raise",
+      "amount": 985,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "monster-314",
+      "severity": "block",
+      "action": "raise",
+      "amount": 408,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "bubble-two-pair",
+      "severity": "review",
+      "action": "fold",
+      "amount": 0,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "monster-412",
+      "severity": "block",
+      "action": "raise",
+      "amount": 380,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "monster-570",
+      "severity": "block",
+      "action": "raise",
+      "amount": 726,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "cheap-set",
+      "severity": "review",
+      "action": "call",
+      "amount": 0,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "monster-843",
+      "severity": "block",
+      "action": "raise",
+      "amount": 2871,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "exposed-card-defeat",
+      "severity": "block",
+      "action": "fold",
+      "amount": 0,
+      "swallowed_exceptions": [],
+      "passed": true
+    },
+    {
+      "case": "small-blind-premium-after-folds",
+      "severity": "block",
+      "action": "raise",
+      "amount": 60,
+      "swallowed_exceptions": [],
+      "passed": true
+    }
+  ],
+  "match": {
+    "bots": [
+      "nc_v8",
+      "adapted"
+    ],
+    "seed": "nc7-adapted-vs-new-nc8",
+    "scores": {
+      "nc_v8": {
+        "tables": 64,
+        "mean": 11.484375,
+        "approx_95ci": [
+          9.907738600867516,
+          13.061011399132484
+        ]
+      },
+      "adapted": {
+        "tables": 64,
+        "mean": 13.515625,
+        "approx_95ci": [
+          11.938988600867516,
+          15.092261399132484
+        ]
+      }
+    },
+    "difference_a_minus_b": {
+      "tables": 64,
+      "mean": -2.03125,
+      "approx_95ci": [
+        -5.184522798264967,
+        1.1220227982649673
+      ]
+    },
+    "health": {
+      "nc_v8": {
+        "decisions": 32942,
+        "failures": 0,
+        "errors": [],
+        "streets": {
+          "betting:0:fold": 20832,
+          "betting:0:raise": 5253,
+          "select:3:select": 2159,
+          "betting:3:fold": 225,
+          "betting:3:raise": 586,
+          "betting:4:raise": 267,
+          "betting:0:call": 1186,
+          "betting:3:check": 509,
+          "betting:3:call": 415,
+          "betting:5:check": 393,
+          "betting:5:fold": 149,
+          "betting:4:call": 78,
+          "betting:4:check": 581,
+          "betting:5:call": 42,
+          "betting:4:fold": 165,
+          "betting:5:raise": 101,
+          "betting:0:check": 1
+        },
+        "early_busts": 8,
+        "seat_tables": 256,
+        "latency_ms": {
+          "p50": 0.052542,
+          "p99": 0.107667,
+          "p99.9": 0.289875
+        },
+        "latency_note": "direct computation only; use official subprocess check before upload"
+      },
+      "adapted": {
+        "decisions": 33614,
+        "failures": 0,
+        "errors": [],
+        "streets": {
+          "betting:0:raise": 5202,
+          "betting:0:fold": 21044,
+          "betting:0:call": 1189,
+          "select:3:select": 2298,
+          "betting:3:check": 554,
+          "betting:3:raise": 709,
+          "betting:3:call": 440,
+          "betting:4:check": 675,
+          "betting:5:raise": 244,
+          "betting:5:fold": 127,
+          "betting:4:raise": 286,
+          "betting:4:fold": 209,
+          "betting:4:call": 74,
+          "betting:5:check": 314,
+          "betting:3:fold": 228,
+          "betting:5:call": 21
+        },
+        "early_busts": 6,
+        "seat_tables": 256,
+        "latency_ms": {
+          "p50": 0.051875,
+          "p99": 0.110375,
+          "p99.9": 0.336625
+        },
+        "latency_note": "direct computation only; use official subprocess check before upload"
+      }
+    }
+  },
+  "source": {
+    "agent.py": "b3bc30d9a35f0a3ed7d3730f2f8071d682f1e8694b6465550339ee93f0112c01"
+  }
+}

@@ -1,0 +1,894 @@
+{
+  "candidate": "river",
+  "seed": "nc7-development-river",
+  "pool": [
+    "arch_limper",
+    "arch_loose",
+    "arch_maniac",
+    "arch_nit",
+    "arch_station",
+    "arch_tag",
+    "claude_v6",
+    "codex_merge_v4_v6",
+    "codex_reform_v7",
+    "codex_reveal_v1",
+    "codex_v6_round_challenger",
+    "kevin1",
+    "nc_v3",
+    "nc_v4",
+    "nc_v5",
+    "nc_v6"
+  ],
+  "tables": 64,
+  "scores": {
+    "arch_nit": {
+      "tables": 16,
+      "mean": 6.25,
+      "approx_95ci": [
+        -0.8788965953130967,
+        13.378896595313098
+      ]
+    },
+    "nc_v7": {
+      "tables": 64,
+      "mean": 15.078125,
+      "approx_95ci": [
+        11.851869423731626,
+        18.304380576268375
+      ]
+    },
+    "river": {
+      "tables": 64,
+      "mean": 12.5,
+      "approx_95ci": [
+        9.539331907228446,
+        15.460668092771554
+      ]
+    },
+    "codex_merge_v4_v6": {
+      "tables": 16,
+      "mean": 18.125,
+      "approx_95ci": [
+        8.12791917607945,
+        28.122080823920548
+      ]
+    },
+    "kevin1": {
+      "tables": 16,
+      "mean": 17.5,
+      "approx_95ci": [
+        5.835666900046679,
+        29.16433309995332
+      ]
+    },
+    "nc_v5": {
+      "tables": 16,
+      "mean": 14.375,
+      "approx_95ci": [
+        5.800000000000001,
+        22.95
+      ]
+    },
+    "arch_station": {
+      "tables": 16,
+      "mean": 7.5,
+      "approx_95ci": [
+        0.23212548264625,
+        14.76787451735375
+      ]
+    },
+    "arch_limper": {
+      "tables": 16,
+      "mean": 6.25,
+      "approx_95ci": [
+        -0.8788965953130967,
+        13.378896595313098
+      ]
+    },
+    "nc_v4": {
+      "tables": 16,
+      "mean": 15.0,
+      "approx_95ci": [
+        5.702903679104965,
+        24.297096320895037
+      ]
+    },
+    "nc_v3": {
+      "tables": 16,
+      "mean": 15.625,
+      "approx_95ci": [
+        6.68445797690841,
+        24.565542023091588
+      ]
+    },
+    "arch_tag": {
+      "tables": 16,
+      "mean": 6.25,
+      "approx_95ci": [
+        -0.8788965953130967,
+        13.378896595313098
+      ]
+    },
+    "nc_v6": {
+      "tables": 16,
+      "mean": 15.625,
+      "approx_95ci": [
+        4.746153936806227,
+        26.503846063193773
+      ]
+    },
+    "arch_maniac": {
+      "tables": 16,
+      "mean": 4.375,
+      "approx_95ci": [
+        -2.068391317207629,
+        10.81839131720763
+      ]
+    },
+    "codex_reveal_v1": {
+      "tables": 16,
+      "mean": 12.5,
+      "approx_95ci": [
+        2.4579882493595946,
+        22.542011750640405
+      ]
+    },
+    "claude_v6": {
+      "tables": 16,
+      "mean": 8.125,
+      "approx_95ci": [
+        2.6924783326095545,
+        13.557521667390446
+      ]
+    },
+    "codex_reform_v7": {
+      "tables": 16,
+      "mean": 10.625,
+      "approx_95ci": [
+        2.935746135027145,
+        18.314253864972855
+      ]
+    },
+    "codex_v6_round_challenger": {
+      "tables": 16,
+      "mean": 15.0,
+      "approx_95ci": [
+        6.800731739966059,
+        23.19926826003394
+      ]
+    },
+    "arch_loose": {
+      "tables": 16,
+      "mean": 6.25,
+      "approx_95ci": [
+        -0.8788965953130967,
+        13.378896595313098
+      ]
+    }
+  },
+  "candidate_minus_v7": {
+    "tables": 64,
+    "mean": -2.578125,
+    "approx_95ci": [
+      -7.687502548419344,
+      2.531252548419344
+    ]
+  },
+  "failures": {},
+  "latency_ms": {
+    "river": {
+      "p99": 0.124625,
+      "max": 21.24925
+    },
+    "nc_v5": {
+      "p99": 0.169666,
+      "max": 1.395708
+    },
+    "nc_v7": {
+      "p99": 0.130791,
+      "max": 0.53525
+    },
+    "kevin1": {
+      "p99": 0.235333,
+      "max": 0.405084
+    },
+    "arch_nit": {
+      "p99": 0.057291,
+      "max": 0.151
+    },
+    "codex_merge_v4_v6": {
+      "p99": 0.127125,
+      "max": 0.264959
+    },
+    "nc_v4": {
+      "p99": 0.16675,
+      "max": 0.697667
+    },
+    "nc_v3": {
+      "p99": 0.128959,
+      "max": 6.218917
+    },
+    "arch_limper": {
+      "p99": 0.055584,
+      "max": 0.14875
+    },
+    "arch_station": {
+      "p99": 0.063791,
+      "max": 0.15175
+    },
+    "nc_v6": {
+      "p99": 0.097125,
+      "max": 0.287709
+    },
+    "codex_reveal_v1": {
+      "p99": 0.14425,
+      "max": 0.361958
+    },
+    "arch_tag": {
+      "p99": 0.068958,
+      "max": 0.543
+    },
+    "arch_maniac": {
+      "p99": 0.066959,
+      "max": 0.14725
+    },
+    "codex_v6_round_challenger": {
+      "p99": 0.107958,
+      "max": 0.226167
+    },
+    "codex_reform_v7": {
+      "p99": 0.11725,
+      "max": 1.409208
+    },
+    "arch_loose": {
+      "p99": 0.083709,
+      "max": 0.758375
+    },
+    "claude_v6": {
+      "p99": 0.12825,
+      "max": 0.74575
+    }
+  },
+  "schedule": [
+    [
+      "river",
+      "nc_v5",
+      "river",
+      "nc_v7",
+      "kevin1",
+      "nc_v7",
+      "arch_nit",
+      "codex_merge_v4_v6"
+    ],
+    [
+      "nc_v3",
+      "nc_v7",
+      "arch_limper",
+      "nc_v7",
+      "arch_station",
+      "river",
+      "nc_v4",
+      "river"
+    ],
+    [
+      "nc_v7",
+      "nc_v6",
+      "codex_reveal_v1",
+      "arch_tag",
+      "nc_v7",
+      "arch_maniac",
+      "river",
+      "river"
+    ],
+    [
+      "river",
+      "codex_reform_v7",
+      "nc_v7",
+      "arch_loose",
+      "river",
+      "claude_v6",
+      "nc_v7",
+      "codex_v6_round_challenger"
+    ],
+    [
+      "river",
+      "river",
+      "nc_v7",
+      "arch_nit",
+      "codex_merge_v4_v6",
+      "claude_v6",
+      "nc_v5",
+      "nc_v7"
+    ],
+    [
+      "river",
+      "nc_v7",
+      "arch_tag",
+      "codex_reform_v7",
+      "nc_v3",
+      "river",
+      "nc_v6",
+      "nc_v7"
+    ],
+    [
+      "arch_maniac",
+      "arch_loose",
+      "river",
+      "river",
+      "nc_v7",
+      "codex_v6_round_challenger",
+      "nc_v7",
+      "arch_limper"
+    ],
+    [
+      "kevin1",
+      "river",
+      "nc_v7",
+      "arch_station",
+      "codex_reveal_v1",
+      "river",
+      "nc_v7",
+      "nc_v4"
+    ],
+    [
+      "river",
+      "arch_maniac",
+      "nc_v7",
+      "nc_v7",
+      "arch_station",
+      "river",
+      "arch_tag",
+      "codex_reveal_v1"
+    ],
+    [
+      "codex_merge_v4_v6",
+      "codex_reform_v7",
+      "nc_v5",
+      "nc_v7",
+      "nc_v7",
+      "arch_loose",
+      "river",
+      "river"
+    ],
+    [
+      "nc_v7",
+      "river",
+      "nc_v3",
+      "arch_limper",
+      "nc_v7",
+      "claude_v6",
+      "river",
+      "codex_v6_round_challenger"
+    ],
+    [
+      "river",
+      "kevin1",
+      "arch_nit",
+      "nc_v4",
+      "nc_v7",
+      "nc_v7",
+      "nc_v6",
+      "river"
+    ],
+    [
+      "arch_station",
+      "nc_v7",
+      "nc_v7",
+      "codex_merge_v4_v6",
+      "codex_reform_v7",
+      "river",
+      "river",
+      "nc_v4"
+    ],
+    [
+      "nc_v7",
+      "arch_maniac",
+      "river",
+      "nc_v6",
+      "nc_v3",
+      "arch_limper",
+      "river",
+      "nc_v7"
+    ],
+    [
+      "arch_loose",
+      "river",
+      "claude_v6",
+      "kevin1",
+      "river",
+      "nc_v7",
+      "codex_reveal_v1",
+      "nc_v7"
+    ],
+    [
+      "nc_v5",
+      "nc_v7",
+      "arch_nit",
+      "river",
+      "nc_v7",
+      "codex_v6_round_challenger",
+      "arch_tag",
+      "river"
+    ],
+    [
+      "nc_v7",
+      "nc_v5",
+      "nc_v3",
+      "river",
+      "nc_v7",
+      "river",
+      "arch_limper",
+      "codex_merge_v4_v6"
+    ],
+    [
+      "river",
+      "nc_v7",
+      "nc_v7",
+      "arch_tag",
+      "codex_reform_v7",
+      "river",
+      "nc_v6",
+      "kevin1"
+    ],
+    [
+      "nc_v7",
+      "river",
+      "arch_maniac",
+      "nc_v7",
+      "arch_nit",
+      "river",
+      "codex_reveal_v1",
+      "arch_station"
+    ],
+    [
+      "nc_v7",
+      "arch_loose",
+      "codex_v6_round_challenger",
+      "river",
+      "nc_v4",
+      "river",
+      "nc_v7",
+      "claude_v6"
+    ],
+    [
+      "river",
+      "nc_v7",
+      "codex_reveal_v1",
+      "nc_v7",
+      "arch_loose",
+      "arch_maniac",
+      "arch_station",
+      "river"
+    ],
+    [
+      "nc_v7",
+      "arch_tag",
+      "nc_v7",
+      "claude_v6",
+      "nc_v4",
+      "river",
+      "nc_v5",
+      "river"
+    ],
+    [
+      "codex_reform_v7",
+      "codex_merge_v4_v6",
+      "arch_nit",
+      "codex_v6_round_challenger",
+      "nc_v7",
+      "river",
+      "nc_v7",
+      "river"
+    ],
+    [
+      "nc_v3",
+      "nc_v7",
+      "river",
+      "river",
+      "kevin1",
+      "nc_v6",
+      "arch_limper",
+      "nc_v7"
+    ],
+    [
+      "nc_v3",
+      "river",
+      "nc_v7",
+      "nc_v7",
+      "nc_v4",
+      "codex_reveal_v1",
+      "river",
+      "claude_v6"
+    ],
+    [
+      "arch_tag",
+      "nc_v5",
+      "nc_v6",
+      "river",
+      "codex_reform_v7",
+      "nc_v7",
+      "river",
+      "nc_v7"
+    ],
+    [
+      "arch_nit",
+      "river",
+      "arch_station",
+      "codex_v6_round_challenger",
+      "nc_v7",
+      "river",
+      "nc_v7",
+      "kevin1"
+    ],
+    [
+      "river",
+      "arch_limper",
+      "nc_v7",
+      "arch_maniac",
+      "arch_loose",
+      "nc_v7",
+      "river",
+      "codex_merge_v4_v6"
+    ],
+    [
+      "nc_v6",
+      "river",
+      "nc_v7",
+      "nc_v7",
+      "river",
+      "kevin1",
+      "nc_v3",
+      "codex_merge_v4_v6"
+    ],
+    [
+      "nc_v7",
+      "nc_v7",
+      "claude_v6",
+      "river",
+      "arch_nit",
+      "river",
+      "arch_maniac",
+      "nc_v4"
+    ],
+    [
+      "codex_v6_round_challenger",
+      "river",
+      "nc_v7",
+      "codex_reveal_v1",
+      "arch_limper",
+      "river",
+      "codex_reform_v7",
+      "nc_v7"
+    ],
+    [
+      "nc_v5",
+      "river",
+      "arch_tag",
+      "nc_v7",
+      "arch_loose",
+      "arch_station",
+      "river",
+      "nc_v7"
+    ],
+    [
+      "arch_nit",
+      "nc_v7",
+      "claude_v6",
+      "arch_tag",
+      "river",
+      "nc_v6",
+      "nc_v7",
+      "river"
+    ],
+    [
+      "nc_v4",
+      "arch_maniac",
+      "river",
+      "codex_reveal_v1",
+      "nc_v7",
+      "river",
+      "nc_v7",
+      "codex_reform_v7"
+    ],
+    [
+      "nc_v7",
+      "arch_limper",
+      "codex_v6_round_challenger",
+      "river",
+      "river",
+      "nc_v5",
+      "arch_station",
+      "nc_v7"
+    ],
+    [
+      "nc_v7",
+      "nc_v3",
+      "nc_v7",
+      "kevin1",
+      "arch_loose",
+      "codex_merge_v4_v6",
+      "river",
+      "river"
+    ],
+    [
+      "arch_tag",
+      "river",
+      "arch_loose",
+      "arch_station",
+      "codex_reveal_v1",
+      "river",
+      "nc_v7",
+      "nc_v7"
+    ],
+    [
+      "river",
+      "codex_v6_round_challenger",
+      "arch_limper",
+      "nc_v7",
+      "codex_reform_v7",
+      "kevin1",
+      "nc_v7",
+      "river"
+    ],
+    [
+      "arch_nit",
+      "nc_v4",
+      "nc_v7",
+      "claude_v6",
+      "nc_v7",
+      "river",
+      "river",
+      "nc_v5"
+    ],
+    [
+      "nc_v6",
+      "nc_v7",
+      "nc_v3",
+      "codex_merge_v4_v6",
+      "nc_v7",
+      "river",
+      "arch_maniac",
+      "river"
+    ],
+    [
+      "nc_v7",
+      "river",
+      "arch_nit",
+      "arch_loose",
+      "nc_v7",
+      "nc_v4",
+      "river",
+      "nc_v6"
+    ],
+    [
+      "codex_reform_v7",
+      "river",
+      "kevin1",
+      "codex_reveal_v1",
+      "river",
+      "nc_v7",
+      "nc_v7",
+      "arch_limper"
+    ],
+    [
+      "codex_v6_round_challenger",
+      "nc_v7",
+      "arch_tag",
+      "river",
+      "arch_maniac",
+      "river",
+      "arch_station",
+      "nc_v7"
+    ],
+    [
+      "claude_v6",
+      "river",
+      "nc_v7",
+      "nc_v7",
+      "river",
+      "nc_v3",
+      "nc_v5",
+      "codex_merge_v4_v6"
+    ],
+    [
+      "arch_loose",
+      "river",
+      "codex_v6_round_challenger",
+      "river",
+      "nc_v6",
+      "arch_tag",
+      "nc_v7",
+      "nc_v7"
+    ],
+    [
+      "nc_v3",
+      "river",
+      "nc_v7",
+      "nc_v7",
+      "codex_merge_v4_v6",
+      "arch_maniac",
+      "river",
+      "codex_reveal_v1"
+    ],
+    [
+      "nc_v7",
+      "nc_v5",
+      "river",
+      "river",
+      "nc_v7",
+      "claude_v6",
+      "kevin1",
+      "nc_v4"
+    ],
+    [
+      "arch_limper",
+      "nc_v7",
+      "nc_v7",
+      "codex_reform_v7",
+      "arch_station",
+      "river",
+      "arch_nit",
+      "river"
+    ],
+    [
+      "arch_maniac",
+      "river",
+      "codex_reform_v7",
+      "nc_v7",
+      "arch_limper",
+      "river",
+      "nc_v4",
+      "nc_v7"
+    ],
+    [
+      "river",
+      "kevin1",
+      "nc_v3",
+      "nc_v5",
+      "codex_reveal_v1",
+      "nc_v7",
+      "river",
+      "nc_v7"
+    ],
+    [
+      "river",
+      "arch_tag",
+      "codex_v6_round_challenger",
+      "nc_v7",
+      "nc_v6",
+      "river",
+      "nc_v7",
+      "claude_v6"
+    ],
+    [
+      "codex_merge_v4_v6",
+      "arch_station",
+      "arch_nit",
+      "nc_v7",
+      "arch_loose",
+      "nc_v7",
+      "river",
+      "river"
+    ],
+    [
+      "nc_v5",
+      "river",
+      "arch_limper",
+      "river",
+      "codex_merge_v4_v6",
+      "codex_reform_v7",
+      "nc_v7",
+      "nc_v7"
+    ],
+    [
+      "codex_reveal_v1",
+      "nc_v7",
+      "claude_v6",
+      "nc_v4",
+      "arch_loose",
+      "nc_v7",
+      "river",
+      "river"
+    ],
+    [
+      "river",
+      "kevin1",
+      "arch_nit",
+      "nc_v7",
+      "nc_v7",
+      "river",
+      "arch_maniac",
+      "codex_v6_round_challenger"
+    ],
+    [
+      "arch_tag",
+      "nc_v6",
+      "nc_v7",
+      "arch_station",
+      "nc_v7",
+      "nc_v3",
+      "river",
+      "river"
+    ],
+    [
+      "nc_v7",
+      "kevin1",
+      "arch_station",
+      "nc_v7",
+      "river",
+      "codex_v6_round_challenger",
+      "codex_merge_v4_v6",
+      "river"
+    ],
+    [
+      "codex_reveal_v1",
+      "nc_v7",
+      "nc_v7",
+      "river",
+      "river",
+      "nc_v6",
+      "arch_limper",
+      "claude_v6"
+    ],
+    [
+      "river",
+      "arch_maniac",
+      "arch_tag",
+      "nc_v7",
+      "nc_v4",
+      "nc_v7",
+      "arch_nit",
+      "river"
+    ],
+    [
+      "nc_v5",
+      "river",
+      "nc_v7",
+      "codex_reform_v7",
+      "nc_v7",
+      "river",
+      "nc_v3",
+      "arch_loose"
+    ],
+    [
+      "nc_v7",
+      "nc_v7",
+      "codex_merge_v4_v6",
+      "arch_nit",
+      "river",
+      "arch_loose",
+      "arch_station",
+      "river"
+    ],
+    [
+      "claude_v6",
+      "nc_v3",
+      "nc_v7",
+      "river",
+      "river",
+      "arch_tag",
+      "arch_limper",
+      "nc_v7"
+    ],
+    [
+      "river",
+      "nc_v7",
+      "nc_v7",
+      "kevin1",
+      "codex_v6_round_challenger",
+      "river",
+      "nc_v5",
+      "codex_reveal_v1"
+    ],
+    [
+      "nc_v6",
+      "river",
+      "arch_maniac",
+      "nc_v4",
+      "codex_reform_v7",
+      "river",
+      "nc_v7",
+      "nc_v7"
+    ]
+  ]
+}

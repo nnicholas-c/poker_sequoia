@@ -1,0 +1,17 @@
+{
+  "tables": 20000,
+  "flop_call_later_fold": 31586,
+  "fullhouse_plus_folds": 1,
+  "flop_call_hands": 57491,
+  "enumerated_hu_river_fold": 15293,
+  "open_16to20_n": 65152,
+  "open_16to20_shove": 0,
+  "open_12to16_n": 76127,
+  "open_12to16_shove": 0,
+  "enumerated_hu_river_call": 8767,
+  "cannot_lose_fold": 190,
+  "cannot_lose_fold_chips": 221035,
+  "provably_lost_call": 630,
+  "provably_lost_call_chips": 407609,
+  "large_paired_board_pocket_calls": 169
+}

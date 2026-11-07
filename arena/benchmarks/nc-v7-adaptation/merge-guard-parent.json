@@ -1,0 +1,99 @@
+{
+  "bots": [
+    "codex_merge_v4_v6",
+    "merge_guard"
+  ],
+  "seed": "nc7-merge-guard-parent-check",
+  "scores": {
+    "codex_merge_v4_v6": {
+      "tables": 96,
+      "mean": 12.916666666666666,
+      "approx_95ci": [
+        11.548196792931172,
+        14.28513654040216
+      ]
+    },
+    "merge_guard": {
+      "tables": 96,
+      "mean": 12.083333333333334,
+      "approx_95ci": [
+        10.71486345959784,
+        13.451803207068828
+      ]
+    }
+  },
+  "difference_a_minus_b": {
+    "tables": 96,
+    "mean": 0.8333333333333334,
+    "approx_95ci": [
+      -1.9036064141376534,
+      3.5702730808043204
+    ]
+  },
+  "health": {
+    "codex_merge_v4_v6": {
+      "decisions": 54492,
+      "failures": 0,
+      "errors": [],
+      "streets": {
+        "betting:0:fold": 27237,
+        "betting:0:raise": 6948,
+        "betting:0:call": 3163,
+        "select:3:select": 5606,
+        "betting:3:check": 2038,
+        "betting:3:raise": 1745,
+        "betting:3:call": 1143,
+        "betting:4:check": 2104,
+        "betting:5:check": 1554,
+        "betting:4:fold": 441,
+        "betting:3:fold": 865,
+        "betting:4:raise": 669,
+        "betting:4:call": 224,
+        "betting:5:raise": 390,
+        "betting:5:fold": 245,
+        "betting:5:call": 113,
+        "betting:0:check": 7
+      },
+      "early_busts": 25,
+      "seat_tables": 384,
+      "latency_ms": {
+        "p50": 0.052125,
+        "p99": 0.070042,
+        "p99.9": 0.11675
+      },
+      "latency_note": "direct computation only; use official subprocess check before upload"
+    },
+    "merge_guard": {
+      "decisions": 54950,
+      "failures": 0,
+      "errors": [],
+      "streets": {
+        "betting:0:fold": 26826,
+        "betting:0:raise": 7067,
+        "select:3:select": 5781,
+        "betting:3:raise": 1885,
+        "betting:4:raise": 730,
+        "betting:0:call": 3219,
+        "betting:3:check": 2110,
+        "betting:3:fold": 813,
+        "betting:3:call": 1192,
+        "betting:4:check": 2211,
+        "betting:4:fold": 484,
+        "betting:5:check": 1620,
+        "betting:5:raise": 373,
+        "betting:5:fold": 292,
+        "betting:4:call": 221,
+        "betting:5:call": 119,
+        "betting:0:check": 7
+      },
+      "early_busts": 20,
+      "seat_tables": 384,
+      "latency_ms": {
+        "p50": 0.053791,
+        "p99": 0.072708,
+        "p99.9": 0.103667
+      },
+      "latency_note": "direct computation only; use official subprocess check before upload"
+    }
+  }
+}

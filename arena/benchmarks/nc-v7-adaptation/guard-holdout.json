@@ -1,0 +1,1214 @@
+{
+  "candidate": "guard",
+  "seed": "nc7-confirm-fresh-guard",
+  "pool": [
+    "arch_limper",
+    "arch_loose",
+    "arch_maniac",
+    "arch_nit",
+    "arch_station",
+    "arch_tag",
+    "claude_v6",
+    "codex_merge_v4_v6",
+    "codex_reform_v7",
+    "codex_reveal_v1",
+    "codex_v6_round_challenger",
+    "kevin1",
+    "nc_v3",
+    "nc_v4",
+    "nc_v5",
+    "nc_v6"
+  ],
+  "tables": 96,
+  "scores": {
+    "arch_nit": {
+      "tables": 24,
+      "mean": 5.833333333333333,
+      "approx_95ci": [
+        0.7020755184028626,
+        10.964591148263803
+      ]
+    },
+    "nc_v4": {
+      "tables": 24,
+      "mean": 12.5,
+      "approx_95ci": [
+        5.495436270296467,
+        19.504563729703534
+      ]
+    },
+    "nc_v3": {
+      "tables": 24,
+      "mean": 11.666666666666666,
+      "approx_95ci": [
+        4.923654538516036,
+        18.409678794817296
+      ]
+    },
+    "guard": {
+      "tables": 96,
+      "mean": 15.364583333333334,
+      "approx_95ci": [
+        12.95687869592875,
+        17.772287970737917
+      ]
+    },
+    "arch_loose": {
+      "tables": 24,
+      "mean": 6.666666666666667,
+      "approx_95ci": [
+        0.34996845252801645,
+        12.983364880805318
+      ]
+    },
+    "nc_v7": {
+      "tables": 96,
+      "mean": 14.479166666666666,
+      "approx_95ci": [
+        12.092396700816785,
+        16.865936632516547
+      ]
+    },
+    "arch_maniac": {
+      "tables": 24,
+      "mean": 0.0,
+      "approx_95ci": [
+        0.0,
+        0.0
+      ]
+    },
+    "kevin1": {
+      "tables": 24,
+      "mean": 11.666666666666666,
+      "approx_95ci": [
+        4.923654538516036,
+        18.409678794817296
+      ]
+    },
+    "claude_v6": {
+      "tables": 24,
+      "mean": 9.166666666666666,
+      "approx_95ci": [
+        2.0961761781084443,
+        16.23715715522489
+      ]
+    },
+    "nc_v6": {
+      "tables": 24,
+      "mean": 18.75,
+      "approx_95ci": [
+        10.216950440633273,
+        27.283049559366727
+      ]
+    },
+    "codex_reveal_v1": {
+      "tables": 24,
+      "mean": 11.25,
+      "approx_95ci": [
+        4.339209760155468,
+        18.16079023984453
+      ]
+    },
+    "arch_limper": {
+      "tables": 24,
+      "mean": 8.333333333333334,
+      "approx_95ci": [
+        1.2874930900195878,
+        15.37917357664708
+      ]
+    },
+    "arch_station": {
+      "tables": 24,
+      "mean": 1.25,
+      "approx_95ci": [
+        -1.2000000000000002,
+        3.7
+      ]
+    },
+    "codex_v6_round_challenger": {
+      "tables": 24,
+      "mean": 16.25,
+      "approx_95ci": [
+        10.492896637159031,
+        22.00710336284097
+      ]
+    },
+    "codex_merge_v4_v6": {
+      "tables": 24,
+      "mean": 14.166666666666666,
+      "approx_95ci": [
+        6.712850732483938,
+        21.620482600849392
+      ]
+    },
+    "codex_reform_v7": {
+      "tables": 24,
+      "mean": 12.5,
+      "approx_95ci": [
+        4.6520149359713105,
+        20.34798506402869
+      ]
+    },
+    "nc_v5": {
+      "tables": 24,
+      "mean": 13.333333333333334,
+      "approx_95ci": [
+        5.537248598155832,
+        21.129418068510837
+      ]
+    },
+    "arch_tag": {
+      "tables": 24,
+      "mean": 7.916666666666667,
+      "approx_95ci": [
+        2.3856223086072186,
+        13.447711024726114
+      ]
+    }
+  },
+  "candidate_minus_v7": {
+    "tables": 96,
+    "mean": 0.8854166666666666,
+    "approx_95ci": [
+      -3.178083137205269,
+      4.948916470538602
+    ]
+  },
+  "failures": {},
+  "latency_ms": {
+    "nc_v7": {
+      "p99": 0.276166,
+      "max": 37.278209
+    },
+    "guard": {
+      "p99": 0.247,
+      "max": 6.585625
+    },
+    "arch_loose": {
+      "p99": 0.103708,
+      "max": 0.443458
+    },
+    "arch_nit": {
+      "p99": 0.127459,
+      "max": 0.949958
+    },
+    "nc_v4": {
+      "p99": 0.374417,
+      "max": 2.237917
+    },
+    "nc_v3": {
+      "p99": 0.220916,
+      "max": 1.424958
+    },
+    "kevin1": {
+      "p99": 0.497292,
+      "max": 6.447916
+    },
+    "arch_maniac": {
+      "p99": 0.15525,
+      "max": 2.149167
+    },
+    "claude_v6": {
+      "p99": 0.195458,
+      "max": 0.578
+    },
+    "nc_v6": {
+      "p99": 0.219041,
+      "max": 2.333125
+    },
+    "arch_station": {
+      "p99": 0.130708,
+      "max": 13.18375
+    },
+    "codex_v6_round_challenger": {
+      "p99": 0.260792,
+      "max": 1.928875
+    },
+    "arch_limper": {
+      "p99": 0.156625,
+      "max": 4.968167
+    },
+    "codex_reveal_v1": {
+      "p99": 0.37325,
+      "max": 61.628958
+    },
+    "nc_v5": {
+      "p99": 0.294583,
+      "max": 2.504208
+    },
+    "arch_tag": {
+      "p99": 0.074,
+      "max": 0.356375
+    },
+    "codex_reform_v7": {
+      "p99": 0.286292,
+      "max": 10.206583
+    },
+    "codex_merge_v4_v6": {
+      "p99": 0.2145,
+      "max": 4.376584
+    }
+  },
+  "schedule": [
+    [
+      "nc_v3",
+      "nc_v7",
+      "guard",
+      "guard",
+      "arch_loose",
+      "arch_nit",
+      "nc_v4",
+      "nc_v7"
+    ],
+    [
+      "arch_maniac",
+      "claude_v6",
+      "nc_v7",
+      "guard",
+      "nc_v7",
+      "guard",
+      "nc_v6",
+      "kevin1"
+    ],
+    [
+      "guard",
+      "nc_v7",
+      "guard",
+      "codex_v6_round_challenger",
+      "arch_limper",
+      "codex_reveal_v1",
+      "nc_v7",
+      "arch_station"
+    ],
+    [
+      "arch_tag",
+      "guard",
+      "codex_reform_v7",
+      "codex_merge_v4_v6",
+      "nc_v5",
+      "nc_v7",
+      "nc_v7",
+      "guard"
+    ],
+    [
+      "claude_v6",
+      "nc_v7",
+      "arch_tag",
+      "guard",
+      "guard",
+      "nc_v7",
+      "codex_v6_round_challenger",
+      "nc_v4"
+    ],
+    [
+      "arch_nit",
+      "codex_reform_v7",
+      "arch_limper",
+      "guard",
+      "nc_v6",
+      "nc_v7",
+      "guard",
+      "nc_v7"
+    ],
+    [
+      "arch_maniac",
+      "guard",
+      "guard",
+      "codex_reveal_v1",
+      "arch_loose",
+      "nc_v7",
+      "nc_v5",
+      "nc_v7"
+    ],
+    [
+      "codex_merge_v4_v6",
+      "arch_station",
+      "guard",
+      "nc_v3",
+      "guard",
+      "nc_v7",
+      "kevin1",
+      "nc_v7"
+    ],
+    [
+      "guard",
+      "codex_merge_v4_v6",
+      "arch_nit",
+      "nc_v7",
+      "guard",
+      "codex_reform_v7",
+      "nc_v7",
+      "nc_v6"
+    ],
+    [
+      "arch_tag",
+      "codex_v6_round_challenger",
+      "guard",
+      "arch_loose",
+      "nc_v3",
+      "nc_v7",
+      "nc_v7",
+      "guard"
+    ],
+    [
+      "claude_v6",
+      "nc_v7",
+      "codex_reveal_v1",
+      "guard",
+      "arch_maniac",
+      "guard",
+      "nc_v7",
+      "nc_v4"
+    ],
+    [
+      "nc_v5",
+      "arch_limper",
+      "guard",
+      "guard",
+      "arch_station",
+      "nc_v7",
+      "nc_v7",
+      "kevin1"
+    ],
+    [
+      "arch_station",
+      "guard",
+      "codex_reform_v7",
+      "arch_loose",
+      "guard",
+      "nc_v7",
+      "nc_v7",
+      "arch_nit"
+    ],
+    [
+      "nc_v6",
+      "claude_v6",
+      "guard",
+      "guard",
+      "nc_v7",
+      "arch_maniac",
+      "nc_v7",
+      "nc_v4"
+    ],
+    [
+      "nc_v3",
+      "codex_merge_v4_v6",
+      "nc_v5",
+      "guard",
+      "nc_v7",
+      "codex_v6_round_challenger",
+      "nc_v7",
+      "guard"
+    ],
+    [
+      "nc_v7",
+      "guard",
+      "codex_reveal_v1",
+      "arch_limper",
+      "guard",
+      "kevin1",
+      "nc_v7",
+      "arch_tag"
+    ],
+    [
+      "nc_v7",
+      "arch_station",
+      "claude_v6",
+      "arch_maniac",
+      "codex_reveal_v1",
+      "nc_v7",
+      "guard",
+      "guard"
+    ],
+    [
+      "guard",
+      "arch_limper",
+      "codex_merge_v4_v6",
+      "nc_v3",
+      "nc_v7",
+      "nc_v7",
+      "guard",
+      "codex_reform_v7"
+    ],
+    [
+      "nc_v7",
+      "nc_v7",
+      "codex_v6_round_challenger",
+      "guard",
+      "guard",
+      "arch_nit",
+      "nc_v4",
+      "kevin1"
+    ],
+    [
+      "guard",
+      "nc_v7",
+      "nc_v6",
+      "nc_v5",
+      "arch_tag",
+      "arch_loose",
+      "guard",
+      "nc_v7"
+    ],
+    [
+      "nc_v7",
+      "guard",
+      "nc_v7",
+      "arch_tag",
+      "nc_v3",
+      "codex_merge_v4_v6",
+      "guard",
+      "kevin1"
+    ],
+    [
+      "nc_v6",
+      "nc_v7",
+      "arch_nit",
+      "guard",
+      "arch_station",
+      "arch_loose",
+      "nc_v7",
+      "guard"
+    ],
+    [
+      "codex_v6_round_challenger",
+      "nc_v7",
+      "guard",
+      "nc_v7",
+      "codex_reform_v7",
+      "codex_reveal_v1",
+      "nc_v5",
+      "guard"
+    ],
+    [
+      "nc_v4",
+      "guard",
+      "nc_v7",
+      "arch_limper",
+      "claude_v6",
+      "guard",
+      "arch_maniac",
+      "nc_v7"
+    ],
+    [
+      "arch_maniac",
+      "guard",
+      "nc_v7",
+      "nc_v5",
+      "codex_merge_v4_v6",
+      "nc_v7",
+      "guard",
+      "arch_loose"
+    ],
+    [
+      "guard",
+      "claude_v6",
+      "nc_v7",
+      "nc_v3",
+      "guard",
+      "nc_v7",
+      "codex_reveal_v1",
+      "nc_v6"
+    ],
+    [
+      "guard",
+      "nc_v4",
+      "nc_v7",
+      "guard",
+      "codex_reform_v7",
+      "codex_v6_round_challenger",
+      "arch_tag",
+      "nc_v7"
+    ],
+    [
+      "nc_v7",
+      "kevin1",
+      "nc_v7",
+      "guard",
+      "arch_limper",
+      "arch_nit",
+      "guard",
+      "arch_station"
+    ],
+    [
+      "codex_reveal_v1",
+      "guard",
+      "guard",
+      "codex_v6_round_challenger",
+      "nc_v5",
+      "nc_v7",
+      "arch_loose",
+      "nc_v7"
+    ],
+    [
+      "nc_v7",
+      "arch_tag",
+      "guard",
+      "nc_v3",
+      "guard",
+      "kevin1",
+      "arch_nit",
+      "nc_v7"
+    ],
+    [
+      "guard",
+      "codex_reform_v7",
+      "codex_merge_v4_v6",
+      "nc_v7",
+      "claude_v6",
+      "arch_maniac",
+      "nc_v7",
+      "guard"
+    ],
+    [
+      "arch_limper",
+      "guard",
+      "arch_station",
+      "nc_v7",
+      "nc_v6",
+      "nc_v4",
+      "nc_v7",
+      "guard"
+    ],
+    [
+      "arch_loose",
+      "nc_v5",
+      "nc_v3",
+      "arch_station",
+      "nc_v7",
+      "nc_v7",
+      "guard",
+      "guard"
+    ],
+    [
+      "nc_v7",
+      "arch_nit",
+      "guard",
+      "arch_limper",
+      "claude_v6",
+      "nc_v7",
+      "guard",
+      "nc_v6"
+    ],
+    [
+      "kevin1",
+      "arch_tag",
+      "nc_v7",
+      "guard",
+      "nc_v7",
+      "codex_merge_v4_v6",
+      "guard",
+      "arch_maniac"
+    ],
+    [
+      "codex_reveal_v1",
+      "nc_v4",
+      "codex_reform_v7",
+      "nc_v7",
+      "nc_v7",
+      "guard",
+      "guard",
+      "codex_v6_round_challenger"
+    ],
+    [
+      "guard",
+      "claude_v6",
+      "nc_v7",
+      "arch_tag",
+      "nc_v5",
+      "guard",
+      "nc_v6",
+      "nc_v7"
+    ],
+    [
+      "codex_merge_v4_v6",
+      "arch_station",
+      "nc_v3",
+      "nc_v7",
+      "guard",
+      "codex_v6_round_challenger",
+      "nc_v7",
+      "guard"
+    ],
+    [
+      "arch_nit",
+      "guard",
+      "nc_v7",
+      "nc_v4",
+      "guard",
+      "nc_v7",
+      "arch_loose",
+      "codex_reform_v7"
+    ],
+    [
+      "nc_v7",
+      "guard",
+      "arch_maniac",
+      "arch_limper",
+      "codex_reveal_v1",
+      "nc_v7",
+      "kevin1",
+      "guard"
+    ],
+    [
+      "codex_merge_v4_v6",
+      "nc_v7",
+      "arch_nit",
+      "guard",
+      "guard",
+      "claude_v6",
+      "nc_v7",
+      "arch_loose"
+    ],
+    [
+      "codex_reform_v7",
+      "arch_limper",
+      "guard",
+      "guard",
+      "nc_v7",
+      "codex_v6_round_challenger",
+      "nc_v5",
+      "nc_v7"
+    ],
+    [
+      "nc_v7",
+      "guard",
+      "nc_v7",
+      "nc_v6",
+      "guard",
+      "codex_reveal_v1",
+      "kevin1",
+      "arch_station"
+    ],
+    [
+      "nc_v4",
+      "nc_v3",
+      "arch_maniac",
+      "arch_tag",
+      "guard",
+      "nc_v7",
+      "guard",
+      "nc_v7"
+    ],
+    [
+      "codex_reform_v7",
+      "guard",
+      "arch_nit",
+      "nc_v7",
+      "guard",
+      "nc_v6",
+      "nc_v7",
+      "claude_v6"
+    ],
+    [
+      "nc_v7",
+      "codex_merge_v4_v6",
+      "nc_v7",
+      "guard",
+      "codex_v6_round_challenger",
+      "kevin1",
+      "guard",
+      "arch_loose"
+    ],
+    [
+      "nc_v7",
+      "arch_station",
+      "guard",
+      "nc_v7",
+      "guard",
+      "nc_v5",
+      "arch_maniac",
+      "arch_limper"
+    ],
+    [
+      "guard",
+      "nc_v4",
+      "nc_v7",
+      "codex_reveal_v1",
+      "nc_v3",
+      "arch_tag",
+      "guard",
+      "nc_v7"
+    ],
+    [
+      "kevin1",
+      "nc_v7",
+      "nc_v6",
+      "arch_maniac",
+      "guard",
+      "nc_v7",
+      "arch_nit",
+      "guard"
+    ],
+    [
+      "nc_v7",
+      "guard",
+      "nc_v3",
+      "guard",
+      "codex_merge_v4_v6",
+      "codex_v6_round_challenger",
+      "nc_v7",
+      "arch_tag"
+    ],
+    [
+      "nc_v4",
+      "guard",
+      "codex_reveal_v1",
+      "nc_v7",
+      "guard",
+      "codex_reform_v7",
+      "nc_v7",
+      "claude_v6"
+    ],
+    [
+      "guard",
+      "arch_station",
+      "nc_v5",
+      "arch_loose",
+      "guard",
+      "arch_limper",
+      "nc_v7",
+      "nc_v7"
+    ],
+    [
+      "nc_v7",
+      "codex_merge_v4_v6",
+      "arch_station",
+      "nc_v7",
+      "claude_v6",
+      "guard",
+      "guard",
+      "arch_limper"
+    ],
+    [
+      "guard",
+      "arch_tag",
+      "nc_v6",
+      "nc_v7",
+      "nc_v7",
+      "codex_reveal_v1",
+      "guard",
+      "nc_v5"
+    ],
+    [
+      "nc_v4",
+      "guard",
+      "nc_v7",
+      "guard",
+      "arch_nit",
+      "codex_reform_v7",
+      "codex_v6_round_challenger",
+      "nc_v7"
+    ],
+    [
+      "kevin1",
+      "nc_v7",
+      "arch_loose",
+      "nc_v7",
+      "arch_maniac",
+      "guard",
+      "nc_v3",
+      "guard"
+    ],
+    [
+      "nc_v7",
+      "guard",
+      "nc_v5",
+      "arch_nit",
+      "claude_v6",
+      "nc_v7",
+      "guard",
+      "codex_reform_v7"
+    ],
+    [
+      "guard",
+      "nc_v7",
+      "arch_station",
+      "nc_v7",
+      "guard",
+      "arch_loose",
+      "codex_merge_v4_v6",
+      "kevin1"
+    ],
+    [
+      "arch_tag",
+      "nc_v7",
+      "nc_v4",
+      "guard",
+      "guard",
+      "nc_v7",
+      "arch_limper",
+      "arch_maniac"
+    ],
+    [
+      "codex_v6_round_challenger",
+      "nc_v7",
+      "nc_v3",
+      "nc_v6",
+      "codex_reveal_v1",
+      "guard",
+      "nc_v7",
+      "guard"
+    ],
+    [
+      "arch_maniac",
+      "arch_loose",
+      "nc_v4",
+      "guard",
+      "nc_v7",
+      "nc_v7",
+      "guard",
+      "nc_v3"
+    ],
+    [
+      "kevin1",
+      "codex_reveal_v1",
+      "guard",
+      "codex_v6_round_challenger",
+      "codex_reform_v7",
+      "guard",
+      "nc_v7",
+      "nc_v7"
+    ],
+    [
+      "claude_v6",
+      "codex_merge_v4_v6",
+      "nc_v7",
+      "nc_v7",
+      "arch_nit",
+      "guard",
+      "guard",
+      "nc_v6"
+    ],
+    [
+      "nc_v7",
+      "arch_limper",
+      "arch_station",
+      "nc_v7",
+      "nc_v5",
+      "guard",
+      "guard",
+      "arch_tag"
+    ],
+    [
+      "claude_v6",
+      "codex_reveal_v1",
+      "guard",
+      "nc_v7",
+      "kevin1",
+      "guard",
+      "codex_v6_round_challenger",
+      "nc_v7"
+    ],
+    [
+      "nc_v7",
+      "arch_tag",
+      "arch_limper",
+      "nc_v5",
+      "arch_station",
+      "guard",
+      "nc_v7",
+      "guard"
+    ],
+    [
+      "guard",
+      "codex_reform_v7",
+      "arch_maniac",
+      "nc_v7",
+      "nc_v6",
+      "guard",
+      "codex_merge_v4_v6",
+      "nc_v7"
+    ],
+    [
+      "guard",
+      "nc_v7",
+      "arch_nit",
+      "nc_v3",
+      "arch_loose",
+      "guard",
+      "nc_v4",
+      "nc_v7"
+    ],
+    [
+      "codex_reform_v7",
+      "nc_v7",
+      "guard",
+      "nc_v6",
+      "guard",
+      "arch_nit",
+      "claude_v6",
+      "nc_v7"
+    ],
+    [
+      "codex_reveal_v1",
+      "guard",
+      "guard",
+      "nc_v4",
+      "arch_tag",
+      "nc_v7",
+      "nc_v7",
+      "arch_maniac"
+    ],
+    [
+      "guard",
+      "arch_limper",
+      "arch_station",
+      "nc_v5",
+      "nc_v7",
+      "nc_v7",
+      "guard",
+      "codex_v6_round_challenger"
+    ],
+    [
+      "nc_v3",
+      "nc_v7",
+      "codex_merge_v4_v6",
+      "kevin1",
+      "guard",
+      "nc_v7",
+      "arch_loose",
+      "guard"
+    ],
+    [
+      "nc_v7",
+      "nc_v4",
+      "nc_v6",
+      "arch_loose",
+      "arch_maniac",
+      "nc_v7",
+      "guard",
+      "guard"
+    ],
+    [
+      "nc_v7",
+      "arch_nit",
+      "guard",
+      "kevin1",
+      "arch_tag",
+      "arch_station",
+      "nc_v7",
+      "guard"
+    ],
+    [
+      "codex_merge_v4_v6",
+      "nc_v3",
+      "codex_v6_round_challenger",
+      "codex_reform_v7",
+      "nc_v7",
+      "guard",
+      "guard",
+      "nc_v7"
+    ],
+    [
+      "nc_v7",
+      "guard",
+      "codex_reveal_v1",
+      "arch_limper",
+      "nc_v5",
+      "guard",
+      "nc_v7",
+      "claude_v6"
+    ],
+    [
+      "guard",
+      "guard",
+      "arch_tag",
+      "nc_v4",
+      "nc_v7",
+      "arch_station",
+      "nc_v7",
+      "codex_v6_round_challenger"
+    ],
+    [
+      "guard",
+      "nc_v7",
+      "claude_v6",
+      "codex_merge_v4_v6",
+      "nc_v7",
+      "guard",
+      "nc_v6",
+      "nc_v5"
+    ],
+    [
+      "guard",
+      "codex_reform_v7",
+      "nc_v7",
+      "nc_v7",
+      "guard",
+      "kevin1",
+      "arch_limper",
+      "nc_v3"
+    ],
+    [
+      "arch_nit",
+      "guard",
+      "codex_reveal_v1",
+      "guard",
+      "nc_v7",
+      "arch_loose",
+      "nc_v7",
+      "arch_maniac"
+    ],
+    [
+      "guard",
+      "nc_v3",
+      "nc_v7",
+      "arch_nit",
+      "arch_station",
+      "guard",
+      "codex_merge_v4_v6",
+      "nc_v7"
+    ],
+    [
+      "nc_v7",
+      "guard",
+      "arch_tag",
+      "codex_reform_v7",
+      "nc_v6",
+      "guard",
+      "nc_v7",
+      "arch_maniac"
+    ],
+    [
+      "nc_v7",
+      "codex_reveal_v1",
+      "arch_limper",
+      "guard",
+      "nc_v7",
+      "guard",
+      "arch_loose",
+      "kevin1"
+    ],
+    [
+      "guard",
+      "codex_v6_round_challenger",
+      "nc_v5",
+      "claude_v6",
+      "guard",
+      "nc_v7",
+      "nc_v4",
+      "nc_v7"
+    ],
+    [
+      "arch_loose",
+      "codex_reform_v7",
+      "nc_v7",
+      "codex_merge_v4_v6",
+      "nc_v4",
+      "nc_v7",
+      "guard",
+      "guard"
+    ],
+    [
+      "arch_limper",
+      "nc_v7",
+      "guard",
+      "nc_v7",
+      "codex_v6_round_challenger",
+      "guard",
+      "nc_v6",
+      "kevin1"
+    ],
+    [
+      "nc_v3",
+      "codex_reveal_v1",
+      "nc_v5",
+      "nc_v7",
+      "arch_tag",
+      "guard",
+      "guard",
+      "nc_v7"
+    ],
+    [
+      "claude_v6",
+      "guard",
+      "nc_v7",
+      "guard",
+      "arch_nit",
+      "arch_maniac",
+      "nc_v7",
+      "arch_station"
+    ],
+    [
+      "guard",
+      "nc_v7",
+      "nc_v7",
+      "kevin1",
+      "guard",
+      "arch_station",
+      "arch_nit",
+      "codex_merge_v4_v6"
+    ],
+    [
+      "codex_reform_v7",
+      "nc_v5",
+      "nc_v7",
+      "nc_v3",
+      "claude_v6",
+      "guard",
+      "guard",
+      "nc_v7"
+    ],
+    [
+      "guard",
+      "nc_v7",
+      "codex_v6_round_challenger",
+      "arch_limper",
+      "nc_v4",
+      "nc_v7",
+      "guard",
+      "arch_loose"
+    ],
+    [
+      "nc_v7",
+      "arch_maniac",
+      "nc_v6",
+      "guard",
+      "guard",
+      "nc_v7",
+      "arch_tag",
+      "codex_reveal_v1"
+    ],
+    [
+      "claude_v6",
+      "nc_v7",
+      "nc_v7",
+      "guard",
+      "codex_reveal_v1",
+      "nc_v4",
+      "guard",
+      "nc_v3"
+    ],
+    [
+      "guard",
+      "arch_loose",
+      "arch_maniac",
+      "guard",
+      "arch_station",
+      "nc_v7",
+      "nc_v7",
+      "nc_v6"
+    ],
+    [
+      "codex_merge_v4_v6",
+      "nc_v7",
+      "codex_reform_v7",
+      "nc_v7",
+      "guard",
+      "guard",
+      "codex_v6_round_challenger",
+      "arch_tag"
+    ],
+    [
+      "nc_v5",
+      "guard",
+      "nc_v7",
+      "arch_limper",
+      "arch_nit",
+      "kevin1",
+      "guard",
+      "nc_v7"
+    ]
+  ]
+}

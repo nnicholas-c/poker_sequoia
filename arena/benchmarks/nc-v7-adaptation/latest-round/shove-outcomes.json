@@ -1,0 +1,50 @@
+{
+  "summary": {
+    "all": {
+      "n": 2788,
+      "called": 483,
+      "busts": 185,
+      "net_bb": 1927.8803333333333,
+      "net_points": 541.2878,
+      "mean_points_delta": 0.19414913916786225
+    },
+    "12to16": {
+      "n": 1153,
+      "called": 201,
+      "busts": 83,
+      "net_bb": 1001.0916666666667,
+      "net_points": 433.81800000000004,
+      "mean_points_delta": 0.37625151777970517
+    },
+    "16to22": {
+      "n": 1635,
+      "called": 282,
+      "busts": 102,
+      "net_bb": 926.7886666666667,
+      "net_points": 107.4697999999999,
+      "mean_points_delta": 0.06573076452599383
+    }
+  },
+  "automatic": [
+    {
+      "iteration": 14,
+      "table": 0,
+      "events": [
+        [
+          113,
+          5
+        ]
+      ]
+    },
+    {
+      "iteration": 112,
+      "table": 15,
+      "events": [
+        [
+          37,
+          24
+        ]
+      ]
+    }
+  ]
+}

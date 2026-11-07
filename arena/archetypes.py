@@ -1,7 +1,7 @@
 """Parametrised opponent archetypes for the arena, modelled on the practice-run census.
 
 Each bots/arch_*/agent.py does:  from archetypes import make_agent; Agent = make_agent(**knobs)
-They reuse claude_v2's hand evaluation so the comparison is about strategy, not evaluator quality.
+They reuse nc_v5's hand evaluation so the comparison is about strategy, not evaluator quality.
 Internal test opponents only (not uploadable: they import a sibling module).
 """
 
@@ -70,7 +70,9 @@ def make_agent(open_w=0.22, late_mult=1.6, pfr_frac=0.85, three_bet=0.05, call_o
             p = V2.score_percentile(score)
             cls = V2.cls2(state.cards[bp[0]], state.cards[bp[1]])
             eq1 = V2.PRE[cls][0] / 1000.0
-            pos = V2.position_of(state, live, me)
+            # Folds do not move the button or change preflop position.
+            dealt = [s.seat for s in seats if s.status != "busted"]
+            pos = V2.position_of(state, dealt, me)
             raises = [e for e in state.history if e.kind == "raise"]
             my_bb = my_total / bb
             if maniac:

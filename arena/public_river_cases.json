@@ -1,0 +1,870 @@
+[
+  {
+    "id": "public-royal-win",
+    "severity": "block",
+    "allowed_actions": [
+      "raise",
+      "call"
+    ],
+    "state": {
+      "events": [
+        [
+          "hand",
+          null,
+          1,
+          []
+        ],
+        [
+          "board",
+          null,
+          0,
+          [
+            "Ah",
+            "Qh",
+            "Jh"
+          ]
+        ],
+        [
+          "board",
+          null,
+          0,
+          [
+            "Th"
+          ]
+        ],
+        [
+          "board",
+          null,
+          0,
+          [
+            "3c"
+          ]
+        ],
+        [
+          "reveal",
+          2,
+          0,
+          [
+            "9h"
+          ]
+        ],
+        [
+          "raise",
+          2,
+          50,
+          []
+        ]
+      ],
+      "hand_number": 1,
+      "seat": 1,
+      "cards": [
+        "Kh",
+        "2d"
+      ],
+      "board": [
+        "Ah",
+        "Qh",
+        "Jh",
+        "Th",
+        "3c"
+      ],
+      "pot": 150,
+      "to_call": 50,
+      "legal_actions": [
+        [
+          "fold",
+          0,
+          0
+        ],
+        [
+          "call",
+          0,
+          0
+        ],
+        [
+          "raise",
+          100,
+          1000
+        ]
+      ],
+      "history": [
+        [
+          "hand",
+          null,
+          1,
+          []
+        ],
+        [
+          "board",
+          null,
+          0,
+          [
+            "Ah",
+            "Qh",
+            "Jh"
+          ]
+        ],
+        [
+          "board",
+          null,
+          0,
+          [
+            "Th"
+          ]
+        ],
+        [
+          "board",
+          null,
+          0,
+          [
+            "3c"
+          ]
+        ],
+        [
+          "reveal",
+          2,
+          0,
+          [
+            "9h"
+          ]
+        ],
+        [
+          "raise",
+          2,
+          50,
+          []
+        ]
+      ],
+      "seats": [
+        [
+          0,
+          0,
+          0,
+          "busted",
+          []
+        ],
+        [
+          1,
+          1000,
+          0,
+          "active",
+          []
+        ],
+        [
+          2,
+          950,
+          50,
+          "active",
+          [
+            "9h"
+          ]
+        ],
+        [
+          3,
+          0,
+          0,
+          "busted",
+          []
+        ],
+        [
+          4,
+          0,
+          0,
+          "busted",
+          []
+        ],
+        [
+          5,
+          0,
+          0,
+          "busted",
+          []
+        ],
+        [
+          6,
+          0,
+          0,
+          "busted",
+          []
+        ],
+        [
+          7,
+          0,
+          0,
+          "busted",
+          []
+        ]
+      ],
+      "button": 0,
+      "blind_level": 0,
+      "blinds": [
+        10,
+        20,
+        0
+      ],
+      "hands_until_next_level": 19,
+      "players_remaining": 2,
+      "bust_order": [],
+      "config": {
+        "table_id": "regression-small-blind-premium",
+        "seat": 1,
+        "players": 8,
+        "variant": "flop_discard_reveal",
+        "starting_stack": 2000,
+        "blinds": [
+          [
+            10,
+            20,
+            0
+          ],
+          [
+            20,
+            40,
+            0
+          ],
+          [
+            30,
+            60,
+            0
+          ],
+          [
+            50,
+            100,
+            0
+          ],
+          [
+            80,
+            160,
+            0
+          ],
+          [
+            125,
+            250,
+            0
+          ],
+          [
+            200,
+            400,
+            0
+          ],
+          [
+            300,
+            600,
+            0
+          ],
+          [
+            500,
+            1000,
+            0
+          ],
+          [
+            800,
+            1600,
+            0
+          ],
+          [
+            1200,
+            2400,
+            0
+          ],
+          [
+            2000,
+            4000,
+            0
+          ]
+        ],
+        "hands_per_level": 20,
+        "hand_cap": 250,
+        "payouts": [
+          50,
+          30,
+          20
+        ],
+        "decision_ms": 1,
+        "memory_bytes": 65536,
+        "time_bank_ms": 100
+      },
+      "variant": {},
+      "phase": "betting",
+      "time_bank_ms": 100
+    }
+  },
+  {
+    "id": "public-royal-loss",
+    "severity": "block",
+    "allowed_actions": [
+      "fold"
+    ],
+    "state": {
+      "events": [
+        [
+          "hand",
+          null,
+          1,
+          []
+        ],
+        [
+          "board",
+          null,
+          0,
+          [
+            "Ah",
+            "Qh",
+            "Jh"
+          ]
+        ],
+        [
+          "board",
+          null,
+          0,
+          [
+            "Th"
+          ]
+        ],
+        [
+          "board",
+          null,
+          0,
+          [
+            "3c"
+          ]
+        ],
+        [
+          "reveal",
+          2,
+          0,
+          [
+            "Kh"
+          ]
+        ],
+        [
+          "raise",
+          2,
+          50,
+          []
+        ]
+      ],
+      "hand_number": 1,
+      "seat": 1,
+      "cards": [
+        "9h",
+        "2d"
+      ],
+      "board": [
+        "Ah",
+        "Qh",
+        "Jh",
+        "Th",
+        "3c"
+      ],
+      "pot": 150,
+      "to_call": 50,
+      "legal_actions": [
+        [
+          "fold",
+          0,
+          0
+        ],
+        [
+          "call",
+          0,
+          0
+        ],
+        [
+          "raise",
+          100,
+          1000
+        ]
+      ],
+      "history": [
+        [
+          "hand",
+          null,
+          1,
+          []
+        ],
+        [
+          "board",
+          null,
+          0,
+          [
+            "Ah",
+            "Qh",
+            "Jh"
+          ]
+        ],
+        [
+          "board",
+          null,
+          0,
+          [
+            "Th"
+          ]
+        ],
+        [
+          "board",
+          null,
+          0,
+          [
+            "3c"
+          ]
+        ],
+        [
+          "reveal",
+          2,
+          0,
+          [
+            "Kh"
+          ]
+        ],
+        [
+          "raise",
+          2,
+          50,
+          []
+        ]
+      ],
+      "seats": [
+        [
+          0,
+          0,
+          0,
+          "busted",
+          []
+        ],
+        [
+          1,
+          1000,
+          0,
+          "active",
+          []
+        ],
+        [
+          2,
+          950,
+          50,
+          "active",
+          [
+            "Kh"
+          ]
+        ],
+        [
+          3,
+          0,
+          0,
+          "busted",
+          []
+        ],
+        [
+          4,
+          0,
+          0,
+          "busted",
+          []
+        ],
+        [
+          5,
+          0,
+          0,
+          "busted",
+          []
+        ],
+        [
+          6,
+          0,
+          0,
+          "busted",
+          []
+        ],
+        [
+          7,
+          0,
+          0,
+          "busted",
+          []
+        ]
+      ],
+      "button": 0,
+      "blind_level": 0,
+      "blinds": [
+        10,
+        20,
+        0
+      ],
+      "hands_until_next_level": 19,
+      "players_remaining": 2,
+      "bust_order": [],
+      "config": {
+        "table_id": "regression-small-blind-premium",
+        "seat": 1,
+        "players": 8,
+        "variant": "flop_discard_reveal",
+        "starting_stack": 2000,
+        "blinds": [
+          [
+            10,
+            20,
+            0
+          ],
+          [
+            20,
+            40,
+            0
+          ],
+          [
+            30,
+            60,
+            0
+          ],
+          [
+            50,
+            100,
+            0
+          ],
+          [
+            80,
+            160,
+            0
+          ],
+          [
+            125,
+            250,
+            0
+          ],
+          [
+            200,
+            400,
+            0
+          ],
+          [
+            300,
+            600,
+            0
+          ],
+          [
+            500,
+            1000,
+            0
+          ],
+          [
+            800,
+            1600,
+            0
+          ],
+          [
+            1200,
+            2400,
+            0
+          ],
+          [
+            2000,
+            4000,
+            0
+          ]
+        ],
+        "hands_per_level": 20,
+        "hand_cap": 250,
+        "payouts": [
+          50,
+          30,
+          20
+        ],
+        "decision_ms": 1,
+        "memory_bytes": 65536,
+        "time_bank_ms": 100
+      },
+      "variant": {},
+      "phase": "betting",
+      "time_bank_ms": 100
+    }
+  },
+  {
+    "id": "certain-board-chop",
+    "severity": "block",
+    "allowed_actions": [
+      "call"
+    ],
+    "state": {
+      "events": [
+        [
+          "hand",
+          null,
+          1,
+          []
+        ],
+        [
+          "board",
+          null,
+          0,
+          [
+            "As",
+            "Kd",
+            "Qc"
+          ]
+        ],
+        [
+          "board",
+          null,
+          0,
+          [
+            "Jh"
+          ]
+        ],
+        [
+          "board",
+          null,
+          0,
+          [
+            "Ts"
+          ]
+        ],
+        [
+          "reveal",
+          2,
+          0,
+          [
+            "4c"
+          ]
+        ],
+        [
+          "raise",
+          2,
+          50,
+          []
+        ]
+      ],
+      "hand_number": 1,
+      "seat": 1,
+      "cards": [
+        "2c",
+        "3d"
+      ],
+      "board": [
+        "As",
+        "Kd",
+        "Qc",
+        "Jh",
+        "Ts"
+      ],
+      "pot": 150,
+      "to_call": 50,
+      "legal_actions": [
+        [
+          "fold",
+          0,
+          0
+        ],
+        [
+          "call",
+          0,
+          0
+        ],
+        [
+          "raise",
+          100,
+          1000
+        ]
+      ],
+      "history": [
+        [
+          "hand",
+          null,
+          1,
+          []
+        ],
+        [
+          "board",
+          null,
+          0,
+          [
+            "As",
+            "Kd",
+            "Qc"
+          ]
+        ],
+        [
+          "board",
+          null,
+          0,
+          [
+            "Jh"
+          ]
+        ],
+        [
+          "board",
+          null,
+          0,
+          [
+            "Ts"
+          ]
+        ],
+        [
+          "reveal",
+          2,
+          0,
+          [
+            "4c"
+          ]
+        ],
+        [
+          "raise",
+          2,
+          50,
+          []
+        ]
+      ],
+      "seats": [
+        [
+          0,
+          0,
+          0,
+          "busted",
+          []
+        ],
+        [
+          1,
+          1000,
+          0,
+          "active",
+          []
+        ],
+        [
+          2,
+          950,
+          50,
+          "active",
+          [
+            "4c"
+          ]
+        ],
+        [
+          3,
+          0,
+          0,
+          "busted",
+          []
+        ],
+        [
+          4,
+          0,
+          0,
+          "busted",
+          []
+        ],
+        [
+          5,
+          0,
+          0,
+          "busted",
+          []
+        ],
+        [
+          6,
+          0,
+          0,
+          "busted",
+          []
+        ],
+        [
+          7,
+          0,
+          0,
+          "busted",
+          []
+        ]
+      ],
+      "button": 0,
+      "blind_level": 0,
+      "blinds": [
+        10,
+        20,
+        0
+      ],
+      "hands_until_next_level": 19,
+      "players_remaining": 2,
+      "bust_order": [],
+      "config": {
+        "table_id": "regression-small-blind-premium",
+        "seat": 1,
+        "players": 8,
+        "variant": "flop_discard_reveal",
+        "starting_stack": 2000,
+        "blinds": [
+          [
+            10,
+            20,
+            0
+          ],
+          [
+            20,
+            40,
+            0
+          ],
+          [
+            30,
+            60,
+            0
+          ],
+          [
+            50,
+            100,
+            0
+          ],
+          [
+            80,
+            160,
+            0
+          ],
+          [
+            125,
+            250,
+            0
+          ],
+          [
+            200,
+            400,
+            0
+          ],
+          [
+            300,
+            600,
+            0
+          ],
+          [
+            500,
+            1000,
+            0
+          ],
+          [
+            800,
+            1600,
+            0
+          ],
+          [
+            1200,
+            2400,
+            0
+          ],
+          [
+            2000,
+            4000,
+            0
+          ]
+        ],
+        "hands_per_level": 20,
+        "hand_cap": 250,
+        "payouts": [
+          50,
+          30,
+          20
+        ],
+        "decision_ms": 1,
+        "memory_bytes": 65536,
+        "time_bank_ms": 100
+      },
+      "variant": {},
+      "phase": "betting",
+      "time_bank_ms": 100
+    }
+  }
+]

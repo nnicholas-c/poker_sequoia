@@ -1,0 +1,894 @@
+{
+  "candidate": "combo",
+  "seed": "nc7-development-combo",
+  "pool": [
+    "arch_limper",
+    "arch_loose",
+    "arch_maniac",
+    "arch_nit",
+    "arch_station",
+    "arch_tag",
+    "claude_v6",
+    "codex_merge_v4_v6",
+    "codex_reform_v7",
+    "codex_reveal_v1",
+    "codex_v6_round_challenger",
+    "kevin1",
+    "nc_v3",
+    "nc_v4",
+    "nc_v5",
+    "nc_v6"
+  ],
+  "tables": 64,
+  "scores": {
+    "combo": {
+      "tables": 64,
+      "mean": 17.34375,
+      "approx_95ci": [
+        14.31178416241578,
+        20.37571583758422
+      ]
+    },
+    "claude_v6": {
+      "tables": 16,
+      "mean": 15.625,
+      "approx_95ci": [
+        6.68445797690841,
+        24.565542023091588
+      ]
+    },
+    "nc_v7": {
+      "tables": 64,
+      "mean": 12.265625,
+      "approx_95ci": [
+        9.30552264599591,
+        15.22572735400409
+      ]
+    },
+    "arch_maniac": {
+      "tables": 16,
+      "mean": 4.375,
+      "approx_95ci": [
+        -2.068391317207629,
+        10.81839131720763
+      ]
+    },
+    "codex_reveal_v1": {
+      "tables": 16,
+      "mean": 10.0,
+      "approx_95ci": [
+        0.876696504737625,
+        19.123303495262377
+      ]
+    },
+    "nc_v3": {
+      "tables": 16,
+      "mean": 5.625,
+      "approx_95ci": [
+        -1.0621985913385288,
+        12.312198591338529
+      ]
+    },
+    "arch_nit": {
+      "tables": 16,
+      "mean": 5.0,
+      "approx_95ci": [
+        -0.367681063550628,
+        10.367681063550627
+      ]
+    },
+    "codex_v6_round_challenger": {
+      "tables": 16,
+      "mean": 8.125,
+      "approx_95ci": [
+        0.48796578070605534,
+        15.762034219293945
+      ]
+    },
+    "codex_merge_v4_v6": {
+      "tables": 16,
+      "mean": 13.125,
+      "approx_95ci": [
+        3.876452816793332,
+        22.373547183206668
+      ]
+    },
+    "nc_v4": {
+      "tables": 16,
+      "mean": 16.25,
+      "approx_95ci": [
+        7.692517893679241,
+        24.80748210632076
+      ]
+    },
+    "arch_station": {
+      "tables": 16,
+      "mean": 3.125,
+      "approx_95ci": [
+        -3.0,
+        9.25
+      ]
+    },
+    "nc_v6": {
+      "tables": 16,
+      "mean": 23.75,
+      "approx_95ci": [
+        15.192517893679241,
+        32.30748210632076
+      ]
+    },
+    "kevin1": {
+      "tables": 16,
+      "mean": 19.375,
+      "approx_95ci": [
+        7.853051741711967,
+        30.896948258288035
+      ]
+    },
+    "nc_v5": {
+      "tables": 16,
+      "mean": 11.25,
+      "approx_95ci": [
+        4.585279450719632,
+        17.914720549280368
+      ]
+    },
+    "arch_tag": {
+      "tables": 16,
+      "mean": 4.375,
+      "approx_95ci": [
+        -0.3482712887009427,
+        9.098271288700943
+      ]
+    },
+    "arch_limper": {
+      "tables": 16,
+      "mean": 3.125,
+      "approx_95ci": [
+        -1.1537410531603793,
+        7.403741053160379
+      ]
+    },
+    "codex_reform_v7": {
+      "tables": 16,
+      "mean": 13.75,
+      "approx_95ci": [
+        3.808110508224976,
+        23.691889491775022
+      ]
+    },
+    "arch_loose": {
+      "tables": 16,
+      "mean": 6.25,
+      "approx_95ci": [
+        -2.1183431255336718,
+        14.618343125533672
+      ]
+    }
+  },
+  "candidate_minus_v7": {
+    "tables": 64,
+    "mean": 5.078125,
+    "approx_95ci": [
+      0.36397932046831816,
+      9.792270679531683
+    ]
+  },
+  "failures": {},
+  "latency_ms": {
+    "claude_v6": {
+      "p99": 0.070083,
+      "max": 0.083125
+    },
+    "combo": {
+      "p99": 0.073875,
+      "max": 0.478041
+    },
+    "nc_v7": {
+      "p99": 0.072083,
+      "max": 0.184708
+    },
+    "codex_reveal_v1": {
+      "p99": 0.132333,
+      "max": 0.254708
+    },
+    "arch_maniac": {
+      "p99": 0.051208,
+      "max": 0.054583
+    },
+    "nc_v3": {
+      "p99": 0.071542,
+      "max": 0.092459
+    },
+    "codex_merge_v4_v6": {
+      "p99": 0.070167,
+      "max": 0.080583
+    },
+    "nc_v4": {
+      "p99": 0.07025,
+      "max": 0.103958
+    },
+    "codex_v6_round_challenger": {
+      "p99": 0.070666,
+      "max": 0.120958
+    },
+    "arch_nit": {
+      "p99": 0.049667,
+      "max": 0.052583
+    },
+    "arch_station": {
+      "p99": 0.050292,
+      "max": 0.056333
+    },
+    "nc_v5": {
+      "p99": 0.070958,
+      "max": 0.137375
+    },
+    "kevin1": {
+      "p99": 0.215708,
+      "max": 0.40175
+    },
+    "nc_v6": {
+      "p99": 0.06975,
+      "max": 0.120083
+    },
+    "arch_loose": {
+      "p99": 0.049833,
+      "max": 0.146834
+    },
+    "arch_limper": {
+      "p99": 0.050292,
+      "max": 0.101958
+    },
+    "arch_tag": {
+      "p99": 0.05,
+      "max": 0.059916
+    },
+    "codex_reform_v7": {
+      "p99": 0.072583,
+      "max": 0.141542
+    }
+  },
+  "schedule": [
+    [
+      "nc_v3",
+      "claude_v6",
+      "combo",
+      "nc_v7",
+      "codex_reveal_v1",
+      "nc_v7",
+      "combo",
+      "arch_maniac"
+    ],
+    [
+      "nc_v4",
+      "codex_v6_round_challenger",
+      "combo",
+      "arch_nit",
+      "nc_v7",
+      "combo",
+      "nc_v7",
+      "codex_merge_v4_v6"
+    ],
+    [
+      "kevin1",
+      "nc_v6",
+      "arch_station",
+      "combo",
+      "combo",
+      "nc_v7",
+      "nc_v5",
+      "nc_v7"
+    ],
+    [
+      "arch_tag",
+      "combo",
+      "codex_reform_v7",
+      "nc_v7",
+      "nc_v7",
+      "arch_loose",
+      "arch_limper",
+      "combo"
+    ],
+    [
+      "arch_tag",
+      "combo",
+      "nc_v6",
+      "combo",
+      "arch_loose",
+      "nc_v7",
+      "nc_v7",
+      "codex_reveal_v1"
+    ],
+    [
+      "combo",
+      "nc_v7",
+      "nc_v7",
+      "arch_nit",
+      "codex_reform_v7",
+      "combo",
+      "nc_v5",
+      "codex_v6_round_challenger"
+    ],
+    [
+      "combo",
+      "nc_v7",
+      "nc_v4",
+      "nc_v7",
+      "combo",
+      "arch_maniac",
+      "arch_limper",
+      "codex_merge_v4_v6"
+    ],
+    [
+      "combo",
+      "kevin1",
+      "claude_v6",
+      "combo",
+      "nc_v7",
+      "nc_v7",
+      "nc_v3",
+      "arch_station"
+    ],
+    [
+      "kevin1",
+      "nc_v4",
+      "combo",
+      "combo",
+      "nc_v7",
+      "codex_v6_round_challenger",
+      "nc_v6",
+      "nc_v7"
+    ],
+    [
+      "claude_v6",
+      "arch_maniac",
+      "nc_v7",
+      "arch_limper",
+      "combo",
+      "nc_v7",
+      "codex_reform_v7",
+      "combo"
+    ],
+    [
+      "arch_station",
+      "nc_v7",
+      "arch_loose",
+      "nc_v7",
+      "combo",
+      "codex_merge_v4_v6",
+      "combo",
+      "arch_nit"
+    ],
+    [
+      "codex_reveal_v1",
+      "arch_tag",
+      "nc_v5",
+      "combo",
+      "nc_v7",
+      "nc_v7",
+      "nc_v3",
+      "combo"
+    ],
+    [
+      "combo",
+      "codex_merge_v4_v6",
+      "nc_v7",
+      "arch_maniac",
+      "combo",
+      "arch_loose",
+      "nc_v7",
+      "arch_station"
+    ],
+    [
+      "arch_nit",
+      "nc_v7",
+      "combo",
+      "nc_v7",
+      "codex_v6_round_challenger",
+      "claude_v6",
+      "combo",
+      "nc_v6"
+    ],
+    [
+      "nc_v5",
+      "combo",
+      "arch_tag",
+      "nc_v7",
+      "combo",
+      "nc_v3",
+      "nc_v7",
+      "codex_reveal_v1"
+    ],
+    [
+      "nc_v7",
+      "combo",
+      "combo",
+      "codex_reform_v7",
+      "nc_v7",
+      "nc_v4",
+      "arch_limper",
+      "kevin1"
+    ],
+    [
+      "combo",
+      "codex_reveal_v1",
+      "nc_v7",
+      "codex_reform_v7",
+      "arch_nit",
+      "nc_v7",
+      "combo",
+      "kevin1"
+    ],
+    [
+      "claude_v6",
+      "combo",
+      "nc_v5",
+      "nc_v7",
+      "codex_v6_round_challenger",
+      "nc_v7",
+      "combo",
+      "arch_maniac"
+    ],
+    [
+      "nc_v7",
+      "codex_merge_v4_v6",
+      "nc_v6",
+      "combo",
+      "combo",
+      "nc_v7",
+      "arch_station",
+      "arch_tag"
+    ],
+    [
+      "nc_v3",
+      "arch_limper",
+      "nc_v7",
+      "combo",
+      "arch_loose",
+      "nc_v4",
+      "combo",
+      "nc_v7"
+    ],
+    [
+      "combo",
+      "nc_v4",
+      "nc_v7",
+      "arch_loose",
+      "combo",
+      "nc_v3",
+      "nc_v7",
+      "codex_merge_v4_v6"
+    ],
+    [
+      "combo",
+      "nc_v7",
+      "combo",
+      "codex_reveal_v1",
+      "arch_maniac",
+      "claude_v6",
+      "nc_v7",
+      "codex_reform_v7"
+    ],
+    [
+      "nc_v7",
+      "arch_tag",
+      "combo",
+      "arch_station",
+      "nc_v7",
+      "combo",
+      "nc_v6",
+      "kevin1"
+    ],
+    [
+      "nc_v7",
+      "combo",
+      "nc_v5",
+      "codex_v6_round_challenger",
+      "arch_limper",
+      "combo",
+      "arch_nit",
+      "nc_v7"
+    ],
+    [
+      "nc_v7",
+      "combo",
+      "arch_maniac",
+      "combo",
+      "nc_v6",
+      "nc_v7",
+      "arch_station",
+      "arch_loose"
+    ],
+    [
+      "codex_reform_v7",
+      "nc_v7",
+      "claude_v6",
+      "codex_merge_v4_v6",
+      "combo",
+      "nc_v5",
+      "combo",
+      "nc_v7"
+    ],
+    [
+      "arch_limper",
+      "nc_v4",
+      "combo",
+      "arch_tag",
+      "combo",
+      "nc_v7",
+      "nc_v7",
+      "codex_reveal_v1"
+    ],
+    [
+      "combo",
+      "kevin1",
+      "combo",
+      "nc_v7",
+      "codex_v6_round_challenger",
+      "arch_nit",
+      "nc_v7",
+      "nc_v3"
+    ],
+    [
+      "arch_limper",
+      "claude_v6",
+      "combo",
+      "nc_v7",
+      "nc_v7",
+      "nc_v6",
+      "combo",
+      "kevin1"
+    ],
+    [
+      "combo",
+      "nc_v5",
+      "combo",
+      "arch_loose",
+      "codex_merge_v4_v6",
+      "nc_v7",
+      "nc_v3",
+      "nc_v7"
+    ],
+    [
+      "codex_reform_v7",
+      "arch_tag",
+      "combo",
+      "combo",
+      "arch_maniac",
+      "nc_v7",
+      "codex_reveal_v1",
+      "nc_v7"
+    ],
+    [
+      "arch_nit",
+      "nc_v4",
+      "combo",
+      "nc_v7",
+      "combo",
+      "nc_v7",
+      "arch_station",
+      "codex_v6_round_challenger"
+    ],
+    [
+      "nc_v6",
+      "combo",
+      "arch_nit",
+      "nc_v4",
+      "claude_v6",
+      "nc_v7",
+      "nc_v7",
+      "combo"
+    ],
+    [
+      "combo",
+      "nc_v7",
+      "combo",
+      "nc_v7",
+      "codex_merge_v4_v6",
+      "arch_maniac",
+      "arch_loose",
+      "nc_v3"
+    ],
+    [
+      "combo",
+      "nc_v7",
+      "nc_v7",
+      "arch_tag",
+      "combo",
+      "kevin1",
+      "codex_v6_round_challenger",
+      "codex_reform_v7"
+    ],
+    [
+      "nc_v5",
+      "arch_station",
+      "combo",
+      "combo",
+      "codex_reveal_v1",
+      "nc_v7",
+      "nc_v7",
+      "arch_limper"
+    ],
+    [
+      "combo",
+      "nc_v5",
+      "combo",
+      "codex_reveal_v1",
+      "claude_v6",
+      "nc_v7",
+      "arch_loose",
+      "nc_v7"
+    ],
+    [
+      "arch_maniac",
+      "nc_v7",
+      "nc_v7",
+      "arch_nit",
+      "combo",
+      "codex_reform_v7",
+      "arch_limper",
+      "combo"
+    ],
+    [
+      "codex_merge_v4_v6",
+      "nc_v3",
+      "nc_v7",
+      "combo",
+      "codex_v6_round_challenger",
+      "kevin1",
+      "combo",
+      "nc_v7"
+    ],
+    [
+      "nc_v6",
+      "nc_v4",
+      "arch_tag",
+      "combo",
+      "nc_v7",
+      "combo",
+      "nc_v7",
+      "arch_station"
+    ],
+    [
+      "combo",
+      "arch_maniac",
+      "arch_limper",
+      "combo",
+      "nc_v7",
+      "arch_nit",
+      "nc_v7",
+      "codex_v6_round_challenger"
+    ],
+    [
+      "codex_reveal_v1",
+      "nc_v7",
+      "nc_v4",
+      "combo",
+      "kevin1",
+      "nc_v7",
+      "claude_v6",
+      "combo"
+    ],
+    [
+      "nc_v3",
+      "codex_reform_v7",
+      "nc_v7",
+      "nc_v7",
+      "arch_station",
+      "combo",
+      "arch_tag",
+      "combo"
+    ],
+    [
+      "codex_merge_v4_v6",
+      "combo",
+      "nc_v7",
+      "nc_v5",
+      "nc_v6",
+      "combo",
+      "arch_loose",
+      "nc_v7"
+    ],
+    [
+      "nc_v3",
+      "nc_v7",
+      "combo",
+      "combo",
+      "claude_v6",
+      "nc_v7",
+      "arch_station",
+      "arch_maniac"
+    ],
+    [
+      "codex_reform_v7",
+      "codex_v6_round_challenger",
+      "nc_v7",
+      "arch_tag",
+      "combo",
+      "nc_v7",
+      "combo",
+      "codex_reveal_v1"
+    ],
+    [
+      "combo",
+      "nc_v7",
+      "combo",
+      "arch_limper",
+      "nc_v4",
+      "nc_v7",
+      "arch_nit",
+      "kevin1"
+    ],
+    [
+      "arch_loose",
+      "nc_v5",
+      "nc_v7",
+      "nc_v6",
+      "nc_v7",
+      "combo",
+      "codex_merge_v4_v6",
+      "combo"
+    ],
+    [
+      "nc_v4",
+      "combo",
+      "nc_v3",
+      "nc_v7",
+      "combo",
+      "nc_v7",
+      "claude_v6",
+      "arch_station"
+    ],
+    [
+      "arch_limper",
+      "arch_nit",
+      "arch_loose",
+      "nc_v7",
+      "nc_v7",
+      "combo",
+      "combo",
+      "codex_v6_round_challenger"
+    ],
+    [
+      "combo",
+      "nc_v7",
+      "combo",
+      "kevin1",
+      "nc_v5",
+      "codex_reform_v7",
+      "arch_tag",
+      "nc_v7"
+    ],
+    [
+      "combo",
+      "nc_v6",
+      "combo",
+      "codex_reveal_v1",
+      "codex_merge_v4_v6",
+      "nc_v7",
+      "arch_maniac",
+      "nc_v7"
+    ],
+    [
+      "combo",
+      "combo",
+      "codex_merge_v4_v6",
+      "nc_v4",
+      "claude_v6",
+      "nc_v7",
+      "arch_nit",
+      "nc_v7"
+    ],
+    [
+      "nc_v3",
+      "nc_v7",
+      "codex_reveal_v1",
+      "nc_v5",
+      "nc_v7",
+      "combo",
+      "codex_v6_round_challenger",
+      "combo"
+    ],
+    [
+      "arch_maniac",
+      "arch_station",
+      "nc_v7",
+      "combo",
+      "nc_v6",
+      "arch_limper",
+      "combo",
+      "nc_v7"
+    ],
+    [
+      "combo",
+      "arch_tag",
+      "kevin1",
+      "nc_v7",
+      "nc_v7",
+      "combo",
+      "codex_reform_v7",
+      "arch_loose"
+    ],
+    [
+      "combo",
+      "nc_v7",
+      "nc_v5",
+      "arch_limper",
+      "arch_tag",
+      "kevin1",
+      "combo",
+      "nc_v7"
+    ],
+    [
+      "claude_v6",
+      "codex_reveal_v1",
+      "arch_loose",
+      "codex_reform_v7",
+      "nc_v7",
+      "combo",
+      "nc_v7",
+      "combo"
+    ],
+    [
+      "nc_v6",
+      "nc_v4",
+      "arch_station",
+      "nc_v7",
+      "combo",
+      "arch_nit",
+      "nc_v7",
+      "combo"
+    ],
+    [
+      "nc_v7",
+      "combo",
+      "arch_maniac",
+      "codex_v6_round_challenger",
+      "combo",
+      "codex_merge_v4_v6",
+      "nc_v3",
+      "nc_v7"
+    ],
+    [
+      "codex_v6_round_challenger",
+      "nc_v7",
+      "combo",
+      "nc_v7",
+      "nc_v5",
+      "codex_reform_v7",
+      "arch_loose",
+      "combo"
+    ],
+    [
+      "arch_nit",
+      "arch_station",
+      "nc_v7",
+      "combo",
+      "combo",
+      "nc_v7",
+      "codex_reveal_v1",
+      "kevin1"
+    ],
+    [
+      "nc_v7",
+      "codex_merge_v4_v6",
+      "combo",
+      "nc_v7",
+      "claude_v6",
+      "arch_tag",
+      "combo",
+      "nc_v3"
+    ],
+    [
+      "combo",
+      "combo",
+      "nc_v6",
+      "nc_v4",
+      "arch_maniac",
+      "nc_v7",
+      "arch_limper",
+      "nc_v7"
+    ]
+  ]
+}
