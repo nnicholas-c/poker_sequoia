@@ -1,0 +1,434 @@
+{
+  "run_id": "20261107T030936.809853Z",
+  "seed": "shared-league-v3-20261106",
+  "mode": "quick-triage",
+  "git_commit": "32b53c90788d430dbfae8baf456e52b2beb5b59f",
+  "league_sha256": "a2341f04d42ce6e53a73abe3b35f4f9460ce6be1650f5bfbe9b267ae28f00623",
+  "cases_sha256": "d38eeb0a19f1c296d5fd755eb611f8ebb024a509d748f0e9c893ed61acac7c08",
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+  "sources": {
+    "claude_v3": {
+      "folder_sha256": "e2ebe3430f22eea19305938d6859f08dc7a9ca95208a51310bc578bd38fdf841",
+      "files": {
+        "agent.py": "b38660f254910ba41595af1e3811c490efec509bed1b59ecfb5a3aba46de7dd2"
+      }
+    },
+    "claude_v2": {
+      "folder_sha256": "30819059f23365043568e3d419d54574dde5a2077583d94bfcc5403244f981e2",
+      "files": {
+        "agent.py": "b016c190df9b697445a6e15a9ea8052d464a5b4c3dcff201b6b8f113e82badc7"
+      }
+    },
+    "kevin1": {
+      "folder_sha256": "31d19cc9149a3f37c7dcf1e2fe05b660a7dc8f3c8a3067ccbe2b7f19611dc44f",
+      "files": {
+        "agent.py": "63a5f114afbc95b4905fb91ab03ffcd4c4ec6703c292642e76fe54956124275a"
+      }
+    }
+  },
+  "checks": {
+    "claude_v3": [
+      {
+        "case": "monster-215",
+        "severity": "block",
+        "action": "raise",
+        "amount": 985,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-314",
+        "severity": "block",
+        "action": "raise",
+        "amount": 408,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "bubble-two-pair",
+        "severity": "review",
+        "action": "fold",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-412",
+        "severity": "block",
+        "action": "raise",
+        "amount": 380,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-570",
+        "severity": "block",
+        "action": "raise",
+        "amount": 726,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "cheap-set",
+        "severity": "review",
+        "action": "call",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-843",
+        "severity": "block",
+        "action": "raise",
+        "amount": 2871,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "exposed-card-defeat",
+        "severity": "block",
+        "action": "fold",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": true
+      }
+    ],
+    "claude_v2": [
+      {
+        "case": "monster-215",
+        "severity": "block",
+        "action": "raise",
+        "amount": 985,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-314",
+        "severity": "block",
+        "action": "raise",
+        "amount": 408,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "bubble-two-pair",
+        "severity": "review",
+        "action": "fold",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-412",
+        "severity": "block",
+        "action": "raise",
+        "amount": 380,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-570",
+        "severity": "block",
+        "action": "raise",
+        "amount": 726,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "cheap-set",
+        "severity": "review",
+        "action": "call",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-843",
+        "severity": "block",
+        "action": "raise",
+        "amount": 2871,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "exposed-card-defeat",
+        "severity": "block",
+        "action": "fold",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": true
+      }
+    ],
+    "kevin1": [
+      {
+        "case": "monster-215",
+        "severity": "block",
+        "action": "raise",
+        "amount": 999,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-314",
+        "severity": "block",
+        "action": "raise",
+        "amount": 428,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "bubble-two-pair",
+        "severity": "review",
+        "action": "call",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-412",
+        "severity": "block",
+        "action": "raise",
+        "amount": 399,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-570",
+        "severity": "block",
+        "action": "raise",
+        "amount": 778,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "cheap-set",
+        "severity": "review",
+        "action": "call",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-843",
+        "severity": "block",
+        "action": "raise",
+        "amount": 2520,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "exposed-card-defeat",
+        "severity": "block",
+        "action": "fold",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": true
+      }
+    ]
+  },
+  "matches": [
+    {
+      "bots": [
+        "claude_v3",
+        "claude_v2"
+      ],
+      "seed": "shared-league-v3-20261106:claude_v3:claude_v2",
+      "scores": {
+        "claude_v3": {
+          "tables": 24,
+          "mean": 11.770833333333334,
+          "approx_95ci": [
+            8.919165380233903,
+            14.622501286432765
+          ]
+        },
+        "claude_v2": {
+          "tables": 24,
+          "mean": 13.229166666666666,
+          "approx_95ci": [
+            10.377498713567235,
+            16.080834619766097
+          ]
+        }
+      },
+      "difference_a_minus_b": {
+        "tables": 24,
+        "mean": -1.4583333333333333,
+        "approx_95ci": [
+          -7.161669239532196,
+          4.24500257286553
+        ]
+      },
+      "health": {
+        "claude_v3": {
+          "decisions": 11548,
+          "failures": 0,
+          "errors": [],
+          "streets": {
+            "betting:0:raise": 1551,
+            "betting:0:fold": 5569,
+            "betting:0:call": 657,
+            "select:3:select": 1198,
+            "betting:3:raise": 408,
+            "betting:3:call": 314,
+            "betting:4:check": 439,
+            "betting:5:check": 352,
+            "betting:3:check": 326,
+            "betting:3:fold": 104,
+            "betting:4:raise": 204,
+            "betting:4:call": 99,
+            "betting:5:raise": 121,
+            "betting:5:fold": 69,
+            "betting:5:call": 52,
+            "betting:4:fold": 83,
+            "betting:0:check": 2
+          },
+          "early_busts": 11,
+          "seat_tables": 96,
+          "latency_ms": {
+            "p50": 0.048875,
+            "p99": 0.069583,
+            "p99.9": 0.079917
+          },
+          "latency_note": "direct computation only; use official subprocess check before upload"
+        },
+        "claude_v2": {
+          "decisions": 10740,
+          "failures": 0,
+          "errors": [],
+          "streets": {
+            "betting:0:fold": 5664,
+            "betting:0:call": 545,
+            "select:3:select": 1017,
+            "betting:3:call": 277,
+            "betting:4:check": 388,
+            "betting:5:check": 305,
+            "betting:0:raise": 1275,
+            "betting:5:raise": 118,
+            "betting:3:raise": 348,
+            "betting:5:call": 46,
+            "betting:3:check": 271,
+            "betting:3:fold": 97,
+            "betting:4:raise": 164,
+            "betting:4:fold": 66,
+            "betting:4:call": 102,
+            "betting:5:fold": 57
+          },
+          "early_busts": 17,
+          "seat_tables": 96,
+          "latency_ms": {
+            "p50": 0.045916,
+            "p99": 0.069625,
+            "p99.9": 0.079667
+          },
+          "latency_note": "direct computation only; use official subprocess check before upload"
+        }
+      }
+    },
+    {
+      "bots": [
+        "claude_v3",
+        "kevin1"
+      ],
+      "seed": "shared-league-v3-20261106:claude_v3:kevin1",
+      "scores": {
+        "claude_v3": {
+          "tables": 24,
+          "mean": 18.541666666666668,
+          "approx_95ci": [
+            16.14703259378723,
+            20.936300739546105
+          ]
+        },
+        "kevin1": {
+          "tables": 24,
+          "mean": 6.458333333333333,
+          "approx_95ci": [
+            4.063699260453895,
+            8.852967406212771
+          ]
+        }
+      },
+      "difference_a_minus_b": {
+        "tables": 24,
+        "mean": 12.083333333333334,
+        "approx_95ci": [
+          7.294065187574456,
+          16.87260147909221
+        ]
+      },
+      "health": {
+        "claude_v3": {
+          "decisions": 12011,
+          "failures": 0,
+          "errors": [],
+          "streets": {
+            "betting:0:fold": 5399,
+            "betting:0:call": 658,
+            "select:3:select": 1372,
+            "betting:3:check": 451,
+            "betting:3:fold": 214,
+            "betting:0:raise": 1529,
+            "betting:3:raise": 425,
+            "betting:4:raise": 221,
+            "betting:4:check": 443,
+            "betting:4:call": 182,
+            "betting:5:check": 305,
+            "betting:5:call": 94,
+            "betting:3:call": 345,
+            "betting:4:fold": 120,
+            "betting:5:raise": 146,
+            "betting:5:fold": 105,
+            "betting:0:check": 2
+          },
+          "early_busts": 7,
+          "seat_tables": 96,
+          "latency_ms": {
+            "p50": 0.050125,
+            "p99": 0.07475,
+            "p99.9": 0.128542
+          },
+          "latency_note": "direct computation only; use official subprocess check before upload"
+        },
+        "kevin1": {
+          "decisions": 8785,
+          "failures": 0,
+          "errors": [],
+          "streets": {
+            "betting:0:fold": 2367,
+            "betting:0:raise": 936,
+            "betting:0:call": 889,
+            "select:3:select": 1351,
+            "betting:3:check": 459,
+            "betting:4:raise": 393,
+            "betting:4:call": 228,
+            "betting:5:raise": 268,
+            "betting:5:call": 159,
+            "betting:3:raise": 540,
+            "betting:3:call": 344,
+            "betting:4:check": 303,
+            "betting:4:fold": 93,
+            "betting:5:check": 197,
+            "betting:3:fold": 205,
+            "betting:5:fold": 53
+          },
+          "early_busts": 38,
+          "seat_tables": 96,
+          "latency_ms": {
+            "p50": 0.094666,
+            "p99": 0.234166,
+            "p99.9": 0.328625
+          },
+          "latency_note": "direct computation only; use official subprocess check before upload"
+        }
+      }
+    }
+  ],
+  "notes": [
+    "Exact bot-folder hashes identify sources, including uncommitted edits.",
+    "Independent unit is a table, not each of four correlated copies.",
+    "Normal confidence intervals are approximate; short samples are not promotion proof.",
+    "No automatic champion changes, bot edits, learning across tables, or uploads."
+  ],
+  "sources_changed_during_run": []
+}

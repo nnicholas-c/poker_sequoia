@@ -189,7 +189,10 @@ def main():
     p.add_argument('--checks-only', action='store_true')
     args=p.parse_args()
     if args.tables < 2: p.error('--tables must be at least 2')
-    folders = {f.parent.name:f.parent for f in sorted((ROOT/'bots').glob('*/agent.py'))}
+    # arch_* are local arena helper policies, not standalone submitted contenders.
+    # They import shared arena code outside the bot folder; use arena.py for those.
+    folders = {f.parent.name:f.parent for f in sorted((ROOT/'bots').glob('*/agent.py'))
+               if not f.parent.name.startswith('arch_')}
     chosen=args.bots or list(folders)
     if len(set(chosen)) != len(chosen) or any(n not in folders for n in chosen): p.error('unknown or duplicate bot names')
     if args.focus and args.focus not in chosen:p.error('--focus must be a selected bot')

@@ -35,5 +35,12 @@ class LeagueChecks(unittest.TestCase):
         for result in league.tactical_checks(bot,cases):
             self.assertTrue(result['passed'],result)
 
+    def test_position_regression_separates_claude_v2_and_v3(self):
+        cases=json.loads((league.ROOT/'arena/critical_cases.json').read_text())['cases']
+        case=next(c for c in cases if c['id']=='small-blind-premium-after-folds')
+        for name,expected in [('claude_v2',False),('claude_v3',True)]:
+            bot=league.load_bot(league.ROOT/'bots'/name,'position_'+name)
+            self.assertEqual(league.tactical_checks(bot,[case])[0]['passed'],expected)
+
 
 if __name__=='__main__':unittest.main()

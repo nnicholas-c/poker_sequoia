@@ -1,0 +1,447 @@
+{
+  "run_id": "20261107T031109.612317Z",
+  "seed": "20261107T031109.612317Z",
+  "mode": "checks-only",
+  "git_commit": "32b53c90788d430dbfae8baf456e52b2beb5b59f",
+  "league_sha256": "a2341f04d42ce6e53a73abe3b35f4f9460ce6be1650f5bfbe9b267ae28f00623",
+  "cases_sha256": "57205dabd22864f8ab5ff9e0dcc9120206657e44685f633d1b80b3488d1b33fc",
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+  "sources": {
+    "claude_v1": {
+      "folder_sha256": "0cd38aa46f68dd5d13d4f9f8767ba07d99b9f1bb34395c10839d238113cdca55",
+      "files": {
+        "agent.py": "42ffcd6c199567ea26c2cddfdf090ea88fe09fc056c77afaddf7e87c0b6c7dbd"
+      }
+    },
+    "claude_v2": {
+      "folder_sha256": "30819059f23365043568e3d419d54574dde5a2077583d94bfcc5403244f981e2",
+      "files": {
+        "agent.py": "b016c190df9b697445a6e15a9ea8052d464a5b4c3dcff201b6b8f113e82badc7"
+      }
+    },
+    "claude_v3": {
+      "folder_sha256": "e2ebe3430f22eea19305938d6859f08dc7a9ca95208a51310bc578bd38fdf841",
+      "files": {
+        "agent.py": "b38660f254910ba41595af1e3811c490efec509bed1b59ecfb5a3aba46de7dd2"
+      }
+    },
+    "codex_reveal_v1": {
+      "folder_sha256": "64fb308c07d4626e9b48b7e116f8d7d28265396087964509e855bd665b64eae2",
+      "files": {
+        "README.md": "85e5785fa2b82b4265b42fe0ce5e1dce471cf2a8ac5847aeaa95dac64e1a22a0",
+        "agent.py": "c1152f3ce2ab5da640f5bdff0c578600b5bb2ebe39406329f4b223e9c45cea10",
+        "preflop.bin": "12c044e5b41f09ad1ed0c4ac70bb82838e085ba23da0c5571f9ddadf4063325f"
+      }
+    },
+    "kevin1": {
+      "folder_sha256": "31d19cc9149a3f37c7dcf1e2fe05b660a7dc8f3c8a3067ccbe2b7f19611dc44f",
+      "files": {
+        "agent.py": "63a5f114afbc95b4905fb91ab03ffcd4c4ec6703c292642e76fe54956124275a"
+      }
+    }
+  },
+  "checks": {
+    "claude_v1": [
+      {
+        "case": "monster-215",
+        "severity": "block",
+        "action": "fold",
+        "amount": 0,
+        "swallowed_exceptions": [
+          "analyze:418: TypeError: can only concatenate tuple (not \"list\") to tuple",
+          "postflop:821: TypeError: can only concatenate tuple (not \"list\") to tuple",
+          "decide:589: TypeError: can only concatenate tuple (not \"list\") to tuple"
+        ],
+        "passed": false
+      },
+      {
+        "case": "monster-314",
+        "severity": "block",
+        "action": "fold",
+        "amount": 0,
+        "swallowed_exceptions": [
+          "analyze:418: TypeError: can only concatenate tuple (not \"list\") to tuple",
+          "postflop:821: TypeError: can only concatenate tuple (not \"list\") to tuple",
+          "decide:589: TypeError: can only concatenate tuple (not \"list\") to tuple"
+        ],
+        "passed": false
+      },
+      {
+        "case": "bubble-two-pair",
+        "severity": "review",
+        "action": "raise",
+        "amount": 3150,
+        "swallowed_exceptions": [],
+        "passed": false
+      },
+      {
+        "case": "monster-412",
+        "severity": "block",
+        "action": "fold",
+        "amount": 0,
+        "swallowed_exceptions": [
+          "analyze:418: TypeError: can only concatenate tuple (not \"list\") to tuple",
+          "postflop:821: TypeError: can only concatenate tuple (not \"list\") to tuple",
+          "decide:589: TypeError: can only concatenate tuple (not \"list\") to tuple"
+        ],
+        "passed": false
+      },
+      {
+        "case": "monster-570",
+        "severity": "block",
+        "action": "fold",
+        "amount": 0,
+        "swallowed_exceptions": [
+          "analyze:418: TypeError: can only concatenate tuple (not \"list\") to tuple",
+          "postflop:821: TypeError: can only concatenate tuple (not \"list\") to tuple",
+          "decide:589: TypeError: can only concatenate tuple (not \"list\") to tuple"
+        ],
+        "passed": false
+      },
+      {
+        "case": "cheap-set",
+        "severity": "review",
+        "action": "fold",
+        "amount": 0,
+        "swallowed_exceptions": [
+          "analyze:418: TypeError: can only concatenate tuple (not \"list\") to tuple",
+          "postflop:821: TypeError: can only concatenate tuple (not \"list\") to tuple",
+          "decide:589: TypeError: can only concatenate tuple (not \"list\") to tuple"
+        ],
+        "passed": false
+      },
+      {
+        "case": "monster-843",
+        "severity": "block",
+        "action": "fold",
+        "amount": 0,
+        "swallowed_exceptions": [
+          "analyze:418: TypeError: can only concatenate tuple (not \"list\") to tuple",
+          "postflop:821: TypeError: can only concatenate tuple (not \"list\") to tuple",
+          "decide:589: TypeError: can only concatenate tuple (not \"list\") to tuple"
+        ],
+        "passed": false
+      },
+      {
+        "case": "exposed-card-defeat",
+        "severity": "block",
+        "action": "raise",
+        "amount": 1050,
+        "swallowed_exceptions": [],
+        "passed": false
+      },
+      {
+        "case": "small-blind-premium-after-folds",
+        "severity": "block",
+        "action": "fold",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": false
+      }
+    ],
+    "claude_v2": [
+      {
+        "case": "monster-215",
+        "severity": "block",
+        "action": "raise",
+        "amount": 985,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-314",
+        "severity": "block",
+        "action": "raise",
+        "amount": 408,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "bubble-two-pair",
+        "severity": "review",
+        "action": "fold",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-412",
+        "severity": "block",
+        "action": "raise",
+        "amount": 380,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-570",
+        "severity": "block",
+        "action": "raise",
+        "amount": 726,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "cheap-set",
+        "severity": "review",
+        "action": "call",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-843",
+        "severity": "block",
+        "action": "raise",
+        "amount": 2871,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "exposed-card-defeat",
+        "severity": "block",
+        "action": "fold",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "small-blind-premium-after-folds",
+        "severity": "block",
+        "action": "fold",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": false
+      }
+    ],
+    "claude_v3": [
+      {
+        "case": "monster-215",
+        "severity": "block",
+        "action": "raise",
+        "amount": 985,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-314",
+        "severity": "block",
+        "action": "raise",
+        "amount": 408,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "bubble-two-pair",
+        "severity": "review",
+        "action": "fold",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-412",
+        "severity": "block",
+        "action": "raise",
+        "amount": 380,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-570",
+        "severity": "block",
+        "action": "raise",
+        "amount": 726,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "cheap-set",
+        "severity": "review",
+        "action": "call",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-843",
+        "severity": "block",
+        "action": "raise",
+        "amount": 2871,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "exposed-card-defeat",
+        "severity": "block",
+        "action": "fold",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "small-blind-premium-after-folds",
+        "severity": "block",
+        "action": "raise",
+        "amount": 60,
+        "swallowed_exceptions": [],
+        "passed": true
+      }
+    ],
+    "codex_reveal_v1": [
+      {
+        "case": "monster-215",
+        "severity": "block",
+        "action": "raise",
+        "amount": 999,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-314",
+        "severity": "block",
+        "action": "raise",
+        "amount": 428,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "bubble-two-pair",
+        "severity": "review",
+        "action": "raise",
+        "amount": 2946,
+        "swallowed_exceptions": [],
+        "passed": false
+      },
+      {
+        "case": "monster-412",
+        "severity": "block",
+        "action": "raise",
+        "amount": 399,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-570",
+        "severity": "block",
+        "action": "raise",
+        "amount": 778,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "cheap-set",
+        "severity": "review",
+        "action": "call",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-843",
+        "severity": "block",
+        "action": "raise",
+        "amount": 2520,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "exposed-card-defeat",
+        "severity": "block",
+        "action": "fold",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "small-blind-premium-after-folds",
+        "severity": "block",
+        "action": "raise",
+        "amount": 44,
+        "swallowed_exceptions": [],
+        "passed": true
+      }
+    ],
+    "kevin1": [
+      {
+        "case": "monster-215",
+        "severity": "block",
+        "action": "raise",
+        "amount": 999,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-314",
+        "severity": "block",
+        "action": "raise",
+        "amount": 428,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "bubble-two-pair",
+        "severity": "review",
+        "action": "call",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-412",
+        "severity": "block",
+        "action": "raise",
+        "amount": 399,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-570",
+        "severity": "block",
+        "action": "raise",
+        "amount": 778,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "cheap-set",
+        "severity": "review",
+        "action": "call",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-843",
+        "severity": "block",
+        "action": "raise",
+        "amount": 2520,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "exposed-card-defeat",
+        "severity": "block",
+        "action": "fold",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "small-blind-premium-after-folds",
+        "severity": "block",
+        "action": "raise",
+        "amount": 44,
+        "swallowed_exceptions": [],
+        "passed": true
+      }
+    ]
+  },
+  "matches": [],
+  "notes": [
+    "Exact bot-folder hashes identify sources, including uncommitted edits.",
+    "Independent unit is a table, not each of four correlated copies.",
+    "Normal confidence intervals are approximate; short samples are not promotion proof.",
+    "No automatic champion changes, bot edits, learning across tables, or uploads."
+  ],
+  "sources_changed_during_run": []
+}

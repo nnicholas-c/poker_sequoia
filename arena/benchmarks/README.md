@@ -11,6 +11,13 @@ Sources are frozen and identified by hashes in the JSON reports. Recheck hashes 
 
 All matches returned zero failed decisions. Claude v1 was excluded because it failed the critical hand cases and its strategy silently raised a TypeError. Claude v2, Kevin 1 and Codex reveal v1 passed all blocking tactical checks.
 
-**Current internal lead: Claude v2.** Use that exact version as the next challenger baseline. This does not establish superiority against the unknown tournament field. Keep the next iteration short: inspect a few early busts or public-card contradictions, make one change, then compare only that changed version.
+Claude v2 led the initial pool, but Claude v3 arrived while this was running. A focused regression for the known position bug demonstrates that **v2 folds pocket kings in an unopened small blind after the others fold; v3 continues**. The final gate set therefore blocks v2 as well as v1. This is a definite mistake, even though v2 scored well in the broader sample.
 
-Raw per-pair scores, compute latency, street-action counts, sample sizes, seeds and bot-folder hashes are in `2026-11-06-initial.json` and `2026-11-06-confirm.json`. Private incident histories are intentionally kept in ignored local run folders.
+| Newly arrived version | Tables | Points | Paired difference, approximate 95% CI |
+|---|---:|---|---|
+| Claude v3 / Claude v2 | 24 | 11.77 / 13.23 | −1.46 [−7.16, +4.25] — inconclusive |
+| Claude v3 / Kevin 1 | 24 | 18.54 / 6.46 | +12.08 [+7.29, +16.87] |
+
+**Next internal baseline: Claude v3**, which passes the expanded tactical gate. Its short match does not establish a scoring improvement over v2, but it repairs a demonstrated premium-hand fold. This is an internal testing choice, not a tournament upload or a claim about the unknown field. Keep the next iteration short: inspect a few early busts or public-card contradictions, make one change, then compare only that changed version.
+
+Raw per-pair scores, compute latency, street-action counts, sample sizes, seeds and bot-folder hashes are in the adjacent JSON files. The v3 matches used the earlier gate set; `2026-11-06-critical-gates.json` records the expanded nine-case check. Private incident histories are intentionally kept in ignored local run folders.

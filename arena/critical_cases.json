@@ -1,5 +1,5 @@
 {
-  "description": "Anonymized decision-time tactical reconstructions from our Practice 1 export. Fresh prior memory; no future opposing cards.",
+  "description": "Decision-time Practice 1 reconstructions plus the observed folded-button/small-blind position defect. Fresh prior memory; no future opposing cards.",
   "cases": [
     {
       "id": "monster-215",
@@ -3707,6 +3707,305 @@
         },
         "phase": "betting",
         "time_bank_ms": 0.0
+      }
+    },
+    {
+      "id": "small-blind-premium-after-folds",
+      "severity": "block",
+      "allowed_actions": [
+        "call",
+        "raise"
+      ],
+      "state": {
+        "events": [
+          [
+            "hand",
+            null,
+            1,
+            []
+          ],
+          [
+            "blind",
+            1,
+            10,
+            []
+          ],
+          [
+            "blind",
+            2,
+            20,
+            []
+          ],
+          [
+            "fold",
+            3,
+            0,
+            []
+          ],
+          [
+            "fold",
+            4,
+            0,
+            []
+          ],
+          [
+            "fold",
+            5,
+            0,
+            []
+          ],
+          [
+            "fold",
+            6,
+            0,
+            []
+          ],
+          [
+            "fold",
+            7,
+            0,
+            []
+          ],
+          [
+            "fold",
+            0,
+            0,
+            []
+          ]
+        ],
+        "hand_number": 1,
+        "seat": 1,
+        "cards": [
+          "Ks",
+          "Kd",
+          "7c"
+        ],
+        "board": [],
+        "pot": 30,
+        "to_call": 10,
+        "legal_actions": [
+          [
+            "fold",
+            0,
+            0
+          ],
+          [
+            "call",
+            0,
+            0
+          ],
+          [
+            "raise",
+            40,
+            2000
+          ]
+        ],
+        "history": [
+          [
+            "hand",
+            null,
+            1,
+            []
+          ],
+          [
+            "blind",
+            1,
+            10,
+            []
+          ],
+          [
+            "blind",
+            2,
+            20,
+            []
+          ],
+          [
+            "fold",
+            3,
+            0,
+            []
+          ],
+          [
+            "fold",
+            4,
+            0,
+            []
+          ],
+          [
+            "fold",
+            5,
+            0,
+            []
+          ],
+          [
+            "fold",
+            6,
+            0,
+            []
+          ],
+          [
+            "fold",
+            7,
+            0,
+            []
+          ],
+          [
+            "fold",
+            0,
+            0,
+            []
+          ]
+        ],
+        "seats": [
+          [
+            0,
+            2000,
+            0,
+            "folded",
+            []
+          ],
+          [
+            1,
+            1990,
+            10,
+            "active",
+            []
+          ],
+          [
+            2,
+            1980,
+            20,
+            "active",
+            []
+          ],
+          [
+            3,
+            2000,
+            0,
+            "folded",
+            []
+          ],
+          [
+            4,
+            2000,
+            0,
+            "folded",
+            []
+          ],
+          [
+            5,
+            2000,
+            0,
+            "folded",
+            []
+          ],
+          [
+            6,
+            2000,
+            0,
+            "folded",
+            []
+          ],
+          [
+            7,
+            2000,
+            0,
+            "folded",
+            []
+          ]
+        ],
+        "button": 0,
+        "blind_level": 0,
+        "blinds": [
+          10,
+          20,
+          0
+        ],
+        "hands_until_next_level": 19,
+        "players_remaining": 8,
+        "bust_order": [],
+        "config": {
+          "table_id": "regression-small-blind-premium",
+          "seat": 1,
+          "players": 8,
+          "variant": "flop_discard_reveal",
+          "starting_stack": 2000,
+          "blinds": [
+            [
+              10,
+              20,
+              0
+            ],
+            [
+              20,
+              40,
+              0
+            ],
+            [
+              30,
+              60,
+              0
+            ],
+            [
+              50,
+              100,
+              0
+            ],
+            [
+              80,
+              160,
+              0
+            ],
+            [
+              125,
+              250,
+              0
+            ],
+            [
+              200,
+              400,
+              0
+            ],
+            [
+              300,
+              600,
+              0
+            ],
+            [
+              500,
+              1000,
+              0
+            ],
+            [
+              800,
+              1600,
+              0
+            ],
+            [
+              1200,
+              2400,
+              0
+            ],
+            [
+              2000,
+              4000,
+              0
+            ]
+          ],
+          "hands_per_level": 20,
+          "hand_cap": 250,
+          "payouts": [
+            50,
+            30,
+            20
+          ],
+          "decision_ms": 1,
+          "memory_bytes": 65536,
+          "time_bank_ms": 100
+        },
+        "variant": {},
+        "phase": "betting",
+        "time_bank_ms": 100
       }
     }
   ]

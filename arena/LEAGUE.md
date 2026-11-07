@@ -2,6 +2,8 @@
 
 Put every new version in `bots/<owner>_<version>/agent.py`, with its required local assets beside it. Keep old versions immutable. Pull teammates' changes before starting a comparison. The league discovers these folders automatically; no registration service or tournament API key is needed.
 
+The repository's `arch_*` folders are shared arena helper opponents, not standalone contenders; they are excluded here. Use the existing `arena/arena.py` for mixed-field checks with those helpers. The team's `arena/mistakes.py` and `arena/busts.py` complement the small incident samples from the league.
+
 ```sh
 git pull --ff-only
 # Use the project's Python 3.12 virtualenv.
@@ -14,7 +16,7 @@ python arena/league.py --bots claude_v2 kevin1 codex_reveal_v1 --focus claude_v2
 
 The loop is **one demonstrated mistake → one new version → focused checks → short internal match**. Fix monster folds, public-card contradictions, silent exceptions and avoidable large commitments first. Ordinary losing hands and early busts are review leads, not automatic bugs.
 
-`critical_cases.json` contains six blocking tactical cases from Practice 1: a straight flush, four quad hands, and the river where the lone opponent's exposed card proves a better hand. The team policy for that last case is to fold instead of accidentally value-raising a dead hand; this is not a claim that every intentional zero-equity bluff is impossible. A cheap set and a weak-two-pair bubble commitment are review-only cases. These reconstruct decision-time information with fresh prior memory. No future hidden cards are supplied.
+`critical_cases.json` contains seven blocking tactical cases: a straight flush, four quad hands, the river where the lone opponent's exposed card proves a better hand, and pocket kings in an unopened small blind after the other players fold. The team policy for the river case is to fold instead of accidentally value-raising a dead hand; this is not a claim that every intentional zero-equity bluff is impossible. A cheap set and a weak-two-pair bubble commitment are review-only cases. These reconstruct decision-time information with fresh prior memory. No future hidden cards are supplied.
 
 Every bot runs its real `Agent.act()` wrapper. A separate traced call reports swallowed strategy exceptions; its slower timing and action are not used to grade deadline-sensitive choices. Failed blocking checks exclude a bot from matches and remain visible in the report. Custom strategy exceptions intentionally handled inside a strategy function may require reviewing the trace. The checks are focused regressions, not exhaustive proof of correctness.
 
