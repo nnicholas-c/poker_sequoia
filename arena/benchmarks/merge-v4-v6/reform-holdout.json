@@ -1,0 +1,281 @@
+{
+  "run_id": "20261107T032044.213692Z",
+  "seed": "practice4-steal-holdout-2",
+  "mode": "quick-triage",
+  "git_commit": "b870b9a63f9e06e5022f9724c5ad366226fab03e",
+  "league_sha256": "a2341f04d42ce6e53a73abe3b35f4f9460ce6be1650f5bfbe9b267ae28f00623",
+  "cases_sha256": "57205dabd22864f8ab5ff9e0dcc9120206657e44685f633d1b80b3488d1b33fc",
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+  "sources": {
+    "claude_v6": {
+      "folder_sha256": "e27ea858b37ec1b4a5c2f3573ed160e5be21f2a1bf958aeb2be8a71cd2295dc2",
+      "files": {
+        "agent.py": "8afacbfca1ee35a5a23033db086272a9882c99d1482a63848444910acc8dcbb5"
+      }
+    },
+    "codex_reform_v7": {
+      "folder_sha256": "afb3872741894faf207b1402d8d35557d4ad4c28af13eba19f7c87b9c5f57691",
+      "files": {
+        "agent.py": "bdd4e279146ba3b5fed762e11401206944cb7e7946e2693b04b1ec9396014daf"
+      }
+    }
+  },
+  "checks": {
+    "claude_v6": [
+      {
+        "case": "monster-215",
+        "severity": "block",
+        "action": "raise",
+        "amount": 985,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-314",
+        "severity": "block",
+        "action": "raise",
+        "amount": 408,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "bubble-two-pair",
+        "severity": "review",
+        "action": "fold",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-412",
+        "severity": "block",
+        "action": "raise",
+        "amount": 380,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-570",
+        "severity": "block",
+        "action": "raise",
+        "amount": 726,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "cheap-set",
+        "severity": "review",
+        "action": "call",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-843",
+        "severity": "block",
+        "action": "raise",
+        "amount": 2871,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "exposed-card-defeat",
+        "severity": "block",
+        "action": "fold",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "small-blind-premium-after-folds",
+        "severity": "block",
+        "action": "raise",
+        "amount": 60,
+        "swallowed_exceptions": [],
+        "passed": true
+      }
+    ],
+    "codex_reform_v7": [
+      {
+        "case": "monster-215",
+        "severity": "block",
+        "action": "raise",
+        "amount": 985,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-314",
+        "severity": "block",
+        "action": "raise",
+        "amount": 408,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "bubble-two-pair",
+        "severity": "review",
+        "action": "fold",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-412",
+        "severity": "block",
+        "action": "raise",
+        "amount": 380,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-570",
+        "severity": "block",
+        "action": "raise",
+        "amount": 726,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "cheap-set",
+        "severity": "review",
+        "action": "call",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "monster-843",
+        "severity": "block",
+        "action": "raise",
+        "amount": 2871,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "exposed-card-defeat",
+        "severity": "block",
+        "action": "fold",
+        "amount": 0,
+        "swallowed_exceptions": [],
+        "passed": true
+      },
+      {
+        "case": "small-blind-premium-after-folds",
+        "severity": "block",
+        "action": "raise",
+        "amount": 45,
+        "swallowed_exceptions": [],
+        "passed": true
+      }
+    ]
+  },
+  "matches": [
+    {
+      "bots": [
+        "claude_v6",
+        "codex_reform_v7"
+      ],
+      "seed": "practice4-steal-holdout-2:claude_v6:codex_reform_v7",
+      "scores": {
+        "claude_v6": {
+          "tables": 64,
+          "mean": 12.6171875,
+          "approx_95ci": [
+            10.799466257806106,
+            14.434908742193894
+          ]
+        },
+        "codex_reform_v7": {
+          "tables": 64,
+          "mean": 12.3828125,
+          "approx_95ci": [
+            10.565091257806106,
+            14.200533742193894
+          ]
+        }
+      },
+      "difference_a_minus_b": {
+        "tables": 64,
+        "mean": 0.234375,
+        "approx_95ci": [
+          -3.4010674843877897,
+          3.8698174843877897
+        ]
+      },
+      "health": {
+        "claude_v6": {
+          "decisions": 35086,
+          "failures": 0,
+          "errors": [],
+          "streets": {
+            "betting:0:fold": 19226,
+            "betting:0:raise": 4779,
+            "select:3:select": 3189,
+            "betting:3:raise": 1047,
+            "betting:4:check": 1129,
+            "betting:5:raise": 189,
+            "betting:5:call": 57,
+            "betting:0:call": 1654,
+            "betting:3:check": 1016,
+            "betting:3:fold": 424,
+            "betting:3:call": 617,
+            "betting:5:check": 863,
+            "betting:4:fold": 260,
+            "betting:4:raise": 408,
+            "betting:4:call": 107,
+            "betting:5:fold": 118,
+            "betting:0:check": 3
+          },
+          "early_busts": 12,
+          "seat_tables": 256,
+          "latency_ms": {
+            "p50": 0.053292,
+            "p99": 0.107,
+            "p99.9": 0.254
+          },
+          "latency_note": "direct computation only; use official subprocess check before upload"
+        },
+        "codex_reform_v7": {
+          "decisions": 37208,
+          "failures": 0,
+          "errors": [],
+          "streets": {
+            "betting:0:fold": 18260,
+            "betting:0:raise": 5044,
+            "betting:0:call": 2194,
+            "select:3:select": 3810,
+            "betting:3:call": 839,
+            "betting:4:check": 1486,
+            "betting:5:raise": 208,
+            "betting:3:check": 1377,
+            "betting:3:fold": 532,
+            "betting:3:raise": 1191,
+            "betting:5:check": 1131,
+            "betting:4:raise": 460,
+            "betting:4:call": 139,
+            "betting:5:call": 67,
+            "betting:4:fold": 323,
+            "betting:5:fold": 145,
+            "betting:0:check": 2
+          },
+          "early_busts": 9,
+          "seat_tables": 256,
+          "latency_ms": {
+            "p50": 0.053708,
+            "p99": 0.109958,
+            "p99.9": 0.254208
+          },
+          "latency_note": "direct computation only; use official subprocess check before upload"
+        }
+      }
+    }
+  ],
+  "notes": [
+    "Exact bot-folder hashes identify sources, including uncommitted edits.",
+    "Independent unit is a table, not each of four correlated copies.",
+    "Normal confidence intervals are approximate; short samples are not promotion proof.",
+    "No automatic champion changes, bot edits, learning across tables, or uploads."
+  ],
+  "sources_changed_during_run": []
+}
