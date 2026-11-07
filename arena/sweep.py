@@ -21,11 +21,14 @@ M.K.update({json.dumps(knobs)})
 Agent = M.Agent
 ''')
 results = {}
+procs = {}
 for name in variants:
     cmd = [sys.executable, 'arena/arena.py', str(root / name), str(root / name)] + args.field + ['--tables', str(args.tables), '--quiet']
-    out = subprocess.run(cmd, capture_output=True, text=True).stdout
+    procs[name] = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL, text=True)
+for name in variants:
+    out = procs[name].communicate()[0]
     pts = []
-    for line in out.splitlines():
+    for line in out.split("\nbot ")[1].splitlines() if "\nbot " in out else []:
         m = re.match(rf'^{re.escape(name)}#\d\s+([\d.]+)\s+([\d.]+)', line)
         if m: pts.append(float(m.group(1)))
     bust = re.findall(rf'^{re.escape(name)}#\d.*?\s(\d+)\s+1:', out, re.M)
