@@ -31,6 +31,8 @@ from pathlib import Path
 os.environ.setdefault("OMP_NUM_THREADS", "1")
 
 from poker_agent_protocol.game import Action  # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from history_report import Style, analyze_table  # noqa: E402
 from poker_engine.scoring import table_places, table_points  # noqa: E402
 from poker_engine.table import SitAndGo, TableRules  # noqa: E402
 from poker_engine.variant import load_variant  # noqa: E402
@@ -103,6 +105,9 @@ def run_table(agent_classes, rules: TableRules, variant, seed: str, stats, names
             failures[seat] += 1
             table.apply(None, answered=False)
     result = table.result(tuple(failures), tuple(decisions))
+    # style stats, counted exactly as history_report does for platform histories
+    fake = {"seats": names, "hands": table.log}
+    analyze_table(fake, {"seat": 0, "automatic": []}, stats["_style"], {n: n for n in names})
     points = table_points(result, table.payouts)
     places = table_places(result)
     # hand each seat busted on (None if survived)
@@ -162,6 +167,7 @@ def main():
     stats = defaultdict(lambda: {"points": [], "places": defaultdict(int), "failed": 0, "decisions": 0,
                                  "lat": [], "exceptions": 0, "illegal": 0, "timeouts": 0, "bad_memory": 0,
                                  "errors": [], "bust_hands": [], "survived": 0})
+    stats["_style"] = defaultdict(Style)
     t0 = time.time()
     order = list(range(args.players))
     for n in range(args.tables):
@@ -195,6 +201,16 @@ def main():
         first = s["places"][1] / n * 100
         top3 = sum(s["places"][p] for p in (1, 2, 3)) / n * 100
         print(f"{name:24s} {mean:6.2f} {ci:5.2f} {first:5.1f} {top3:5.1f} {s['failed']:5d} {quant[0]:6.3f} {quant[1]:6.3f} {quant[2]:6.3f} {quant[3]:6.3f} {statistics.median(bh):6.0f}  {places}")
+    print(f"\n{'bot':24s} {'VPIP':>5s} {'PFR':>5s} {'3b%':>4s} {'FtR%':>5s} {'AI%':>5s} {'cbet%':>5s} {'bet':>5s} {'call%':>5s} {'fold%':>5s} {'SD/t':>5s} {'expL/H':>8s}")
+    styles = stats["_style"]
+    for name in dict.fromkeys(names):
+        st = styles[name]
+        pc = st.pcalls + st.pfolds + st.pbets
+        def pc_(a, b):
+            return 100.0 * a / b if b else 0.0
+        print(f"{name:24s} {pc_(st.vpip, st.hands):5.1f} {pc_(st.pfr, st.hands):5.1f} {pc_(st.threebet, st.fto_ch):4.0f} {pc_(st.fto, st.fto_ch):5.1f} "
+              f"{pc_(st.allin_pre, st.hands):5.1f} {pc_(st.cbet, st.cbet_ch):5.0f} {pc_(st.pbets, pc):5.0f} {pc_(st.pcalls, pc):5.0f} {pc_(st.pfolds, pc):5.0f} "
+              f"{st.showdowns / max(1, args.tables):5.1f} {st.exp_low:4d}/{st.exp_high:<3d}")
     for name in dict.fromkeys(names):
         s = stats[name]
         if s["errors"]:
